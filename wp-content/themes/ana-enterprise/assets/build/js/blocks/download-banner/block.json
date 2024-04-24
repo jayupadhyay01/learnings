@@ -1,0 +1,75 @@
+{
+  "$schema": "https://schemas.wp.org/trunk/block.json",
+  "name": "ana-enterprise/download-banner",
+  "version": "0.1.0",
+  "title": "Download Banner Block",
+  "category": "ana-enterprise",
+  "icon": "download",
+  "description": "This block is for Download Banner section for ANA Enterprise.",
+  "keywords": [
+    "Download",
+    "Banner",
+    "Block"
+  ],
+  "supports": {
+    "html": false
+  },
+  "textdomain": "ana-enterprise",
+  "attributes": {
+    "textAlignment": {
+      "type": "string",
+      "default": ""
+    },
+    "heading": {
+      "type": "string",
+      "default": ""
+    },
+    "headingColor": {
+      "type": "string",
+      "default": ""
+    },
+    "description": {
+      "type": "string",
+      "default": ""
+    },
+    "descriptionColor": {
+      "type": "string",
+      "default": ""
+    },
+    "btnColor": {
+      "type": "string",
+      "default": ""
+    },
+    "bgColor": {
+      "type": "string",
+      "default": ""
+    },
+    "showHeading": {
+      "type": "boolean",
+      "default": true
+    },
+    "showDescription": {
+      "type": "boolean",
+      "default": true
+    },
+    "listItems": {
+      "type": "array",
+      "default": []
+    },
+    "bgImage": {
+      "type": "object",
+      "default": {
+        "id": "",
+        "url": "",
+        "alt": "",
+        "width": "",
+        "height": "",
+        "mediaMime": "",
+        "mediaType": ""
+      }
+    }
+  },
+  "editorScript": "file:./index.js",
+  "editorStyle": "file:./index.css",
+  "style": "file:./style-index.css"
+}

@@ -1,0 +1,139 @@
+/*!***********************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[3].use[1]!./node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[3].use[2]!./node_modules/sass-loader/dist/cjs.js??ruleSet[1].rules[3].use[3]!./src/js/blocks/casestudy/style.scss ***!
+  \***********************************************************************************************************************************************************************************************************************************************************/
+.wp-block-storyful-casestudy {
+  margin-top: 50px;
+}
+.wp-block-storyful-casestudy .item-slick.slick-slide.slick-current.slick-active {
+  outline: none !important;
+}
+.wp-block-storyful-casestudy .slider-for {
+  margin-bottom: 15px;
+}
+.wp-block-storyful-casestudy .slider-for img {
+  width: 100%;
+  min-height: 100%;
+}
+.wp-block-storyful-casestudy .slider-nav {
+  margin: auto;
+}
+.wp-block-storyful-casestudy .slider-nav .item-slick {
+  outline: none !important;
+}
+.wp-block-storyful-casestudy .slider-nav .item-slick {
+  max-width: 240px;
+  margin-right: 15px;
+  cursor: pointer;
+}
+.wp-block-storyful-casestudy .slider-nav .item-slick img {
+  max-width: 100%;
+  background-size: cover;
+  background-position: center;
+}
+.wp-block-storyful-casestudy .slick-arrow {
+  position: absolute;
+  top: 50%;
+  z-index: 50;
+  margin-top: -12px;
+}
+.wp-block-storyful-casestudy .slick-prev {
+  transform: rotate(0);
+  left: 10%;
+}
+.wp-block-storyful-casestudy .slick-next {
+  transform: rotate(-180deg);
+  right: 10%;
+}
+.wp-block-storyful-casestudy .title-section {
+  font-size: 75px;
+  font-weight: 700;
+  line-height: 82px;
+  letter-spacing: -0.01em;
+  font-family: arial, helvetica, sans-serif;
+  margin-bottom: 100px;
+}
+.wp-block-storyful-casestudy .title-section h2 strong {
+  color: #fffdfa;
+  -webkit-text-stroke: 1px #11152c;
+  caret-color: #11152c;
+}
+.wp-block-storyful-casestudy .detail-btn {
+  font-size: 16px;
+  line-height: 24px;
+  border: 1px solid #11152c;
+  padding: 4px 12px;
+  border-radius: 30px;
+  display: inline-block;
+}
+.wp-block-storyful-casestudy .detail-btn a {
+  color: #000;
+}
+.wp-block-storyful-casestudy .slick-arrow {
+  width: 60px;
+  height: 60px;
+  background-color: #fffdfa;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-image: url("http://training-jayu.md-staging.com/wp-content/uploads/2023/12/slick-orange-arrow.svg");
+  position: absolute;
+  padding: 0;
+  z-index: 1;
+  display: block;
+  border: 1px solid #ff4c15;
+  border-radius: 100%;
+  top: calc(100% + 20px);
+}
+.wp-block-storyful-casestudy .slick-slide {
+  margin-right: 25px;
+}
+.wp-block-storyful-casestudy .slick-slide .casestudy-tab-title {
+  border-top: 1px solid #11152c;
+  position: relative;
+  opacity: 0.5;
+  margin-top: 10px;
+}
+.wp-block-storyful-casestudy .slick-slide .casestudy-tab-title p strong {
+  color: #4ec5df;
+  font-size: 18px;
+  font-family: arial, helvetica, sans-serif;
+}
+.wp-block-storyful-casestudy .slick-slide .casestudy-tab-title::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: -10px;
+  width: 30px;
+  height: 10px;
+  background: red;
+}
+.wp-block-storyful-casestudy .slick-slide.slick-current .casestudy-tab-title {
+  opacity: 1;
+}
+.wp-block-storyful-casestudy .slick-slide .casestudy-tab-content {
+  display: flex !important;
+}
+.wp-block-storyful-casestudy .slick-slide .casestudy-tab-content {
+  align-items: center;
+  justify-content: center;
+  gap: 50px;
+}
+.wp-block-storyful-casestudy .slick-slide .casestudy-tab-content .casestudy-content-section, .wp-block-storyful-casestudy .slick-slide .casestudy-tab-content .casestudy-img-section {
+  width: 50%;
+}
+.wp-block-storyful-casestudy .slick-slide .casestudy-tab-content .casestudy-img-section img {
+  width: 100%;
+}
+.wp-block-storyful-casestudy .slick-slide .casestudy-tab-content .casestudy-content-section h3 {
+  font-size: 55px;
+  line-height: 72px;
+  font-family: "PlayfairDisplay-Medium";
+  letter-spacing: -0.01em;
+  font-weight: 500;
+  text-decoration: underline;
+  margin-bottom: 30px;
+}
+.wp-block-storyful-casestudy .slick-slide .casestudy-tab-content .casestudy-content-section p {
+  margin-bottom: 20px;
+}
+
+/*# sourceMappingURL=style-index.css.map*/

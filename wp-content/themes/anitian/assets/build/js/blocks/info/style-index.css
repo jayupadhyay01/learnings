@@ -1,0 +1,84 @@
+/*!******************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[3].use[1]!./node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[3].use[2]!./node_modules/sass-loader/dist/cjs.js??ruleSet[1].rules[3].use[3]!./src/js/blocks/info/style.scss ***!
+  \******************************************************************************************************************************************************************************************************************************************************/
+.wp-block-anitian-info {
+  padding: 60px 0;
+}
+.wp-block-anitian-info .info-block-container {
+  width: 100%;
+  max-width: 1200px;
+  margin-right: auto;
+  margin-left: auto;
+  padding: 0 15px;
+}
+.wp-block-anitian-info .info-block-container .info-block-header {
+  margin: 0 0 60px;
+}
+.wp-block-anitian-info .info-block-container .info-block-header .subheading-text {
+  font-size: 18px;
+  font-family: "Poppins", sans-serif;
+  line-height: 1.5;
+  font-weight: 500;
+  margin: 0 0 20px;
+}
+.wp-block-anitian-info .info-block-container .info-block-header .subheading-text::before {
+  display: inline-block;
+  content: "";
+  background-image: url(data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAxMTQuMzggMTE0LjM5Ij48ZGVmcz48c3R5bGU+LmNscy0xe2ZpbGw6IzE0NzFiOTt9LmNscy0ye2ZpbGw6I2YwNTMyYzt9PC9zdHlsZT48L2RlZnM+PGcgaWQ9IkxheWVyXzIiIGRhdGEtbmFtZT0iTGF5ZXIgMiI+PGcgaWQ9IkxheWVyXzEtMiIgZGF0YS1uYW1lPSJMYXllciAxIj48cmVjdCBjbGFzcz0iY2xzLTEiIHg9IjU2Ljk2IiB5PSI1Ny4xNyIgd2lkdGg9IjU3LjQxIiBoZWlnaHQ9IjU3LjIyIi8+PHJlY3QgY2xhc3M9ImNscy0yIiB3aWR0aD0iNTYuOTYiIGhlaWdodD0iNTcuMDgiLz48L2c+PC9nPjwvc3ZnPg==);
+  background-size: 18px 18px;
+  height: 18px;
+  width: 18px;
+  margin-right: 10px;
+  vertical-align: middle;
+}
+.wp-block-anitian-info .info-block-container .info-block-header .heading-text {
+  color: #000;
+  line-height: 1.4;
+  font-size: 40px;
+  margin-bottom: 10px;
+  font-weight: 500;
+  font-family: "Poppins", sans-serif;
+  margin: 0 auto 20px;
+}
+.wp-block-anitian-info .info-block-container .info-block-header .description-text {
+  font-size: 16px;
+  margin: 0 auto;
+  font-weight: 500;
+  line-height: 1.5;
+}
+.wp-block-anitian-info .info-block-container .info-with-icons-boxes {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 40px;
+  max-width: 80%;
+  margin: 0 auto;
+}
+.wp-block-anitian-info .info-block-container .info-with-icons-boxes .info-with-icons-box {
+  width: calc(33.333% - 28px);
+  position: relative;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  text-align: left;
+}
+.wp-block-anitian-info .info-block-container .info-with-icons-boxes .info-with-icons-box .info-with-icons-image {
+  width: 25%;
+  margin: 0 0 20px;
+}
+.wp-block-anitian-info .info-block-container .info-with-icons-boxes .info-with-icons-box .info-with-icons-image img {
+  max-width: 100%;
+  height: auto;
+}
+.wp-block-anitian-info .info-block-container .info-with-icons-boxes .info-with-icons-box .info-with-icons-box-content .info-with-icons-title {
+  font-size: 18px;
+  font-weight: 600;
+  margin: 0 0 10px;
+}
+.wp-block-anitian-info .info-block-container .info-with-icons-boxes .info-with-icons-box .info-with-icons-box-content .info-with-icons-description {
+  font-size: 14px;
+  line-height: 1.6em;
+  margin: 0;
+  font-weight: 500;
+}
+
+/*# sourceMappingURL=style-index.css.map*/

@@ -1,0 +1,116 @@
+{
+  "$schema": "https://schemas.wp.org/trunk/block.json",
+  "name": "storyful/social",
+  "version": "0.1.0",
+  "title": "Social Block",
+  "category": "storyful",
+  "icon": "share-alt2",
+  "description": "This block is for Social section of storyful pages.",
+  "keywords": [
+    "social",
+    "Video",
+    "Block"
+  ],
+  "supports": {
+    "html": false
+  },
+  "textdomain": "storyful",
+  "attributes": {
+    "bgColor": {
+      "type": "string",
+      "default": ""
+    },
+    "textAlignmentLeft": {
+      "type": "string",
+      "default": "left"
+    },
+    "textAlignmentRight": {
+      "type": "string",
+      "default": "left"
+    },
+    "titleLeft": {
+      "type": "string",
+      "default": ""
+    },
+    "titleColorLeft": {
+      "type": "string",
+      "default": ""
+    },
+    "titleVisiblityLeft": {
+      "type": "boolean",
+      "default": true
+    },
+    "descriptionLeft": {
+      "type": "string",
+      "default": ""
+    },
+    "descriptionColorLeft": {
+      "type": "string",
+      "default": ""
+    },
+    "descriptionVisiblityLeft": {
+      "type": "boolean",
+      "default": true
+    },
+    "btnVisiblityLeft": {
+      "type": "boolean",
+      "default": true
+    },
+    "btnTextLeft": {
+      "type": "string",
+      "default": ""
+    },
+    "listItemsLeft": {
+      "type": "array",
+      "default": []
+    },
+    "listVisiblityLeft": {
+      "type": "boolean",
+      "default": true
+    },
+    "titleRight": {
+      "type": "string",
+      "default": ""
+    },
+    "titleColorRight": {
+      "type": "string",
+      "default": ""
+    },
+    "titleVisiblityRight": {
+      "type": "boolean",
+      "default": true
+    },
+    "descriptionRight": {
+      "type": "string",
+      "default": ""
+    },
+    "descriptionColorRight": {
+      "type": "string",
+      "default": ""
+    },
+    "descriptionVisiblityRight": {
+      "type": "boolean",
+      "default": true
+    },
+    "btnVisiblityRight": {
+      "type": "boolean",
+      "default": true
+    },
+    "btnTextRight": {
+      "type": "string",
+      "default": ""
+    },
+    "listItemsRight": {
+      "type": "array",
+      "default": []
+    },
+    "listVisiblityRight": {
+      "type": "boolean",
+      "default": true
+    }
+  },
+  "editorScript": "file:./index.js",
+  "viewScript": "file:./view.js",
+  "editorStyle": "file:./index.css",
+  "style": "file:./style-index.css"
+}

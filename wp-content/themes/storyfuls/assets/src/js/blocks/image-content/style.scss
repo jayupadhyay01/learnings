@@ -1,0 +1,54 @@
+@import "../../../sass/mixins/all";
+.wp-block-storyful-image-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    // margin-top: 15px !important;
+
+    .image-content-container {
+            display: flex;
+            width: 100%;
+        }
+
+    .image-content-img {
+        flex: 1;
+    }
+
+    .image-content-cntnt {
+        flex: 1 1 0;
+        text-align: center;
+        flex-direction: column;
+        gap: 40px;
+        h3.title-item strong{
+            color: #4ec5df !important;
+        }
+        
+    }
+    .content-box {
+        padding-top: 15px;
+        border-bottom: 1px solid #000;
+        padding-bottom: 15px;
+        margin-bottom: 15px;
+        h3.title-item {
+            font-size: 38px;
+            font-family: "PlayfairDisplay-SemiBold";
+            line-height: 50px;
+            letter-spacing: -.01em;
+            font-weight: 600;
+        }
+    }
+
+    .content-box:last-child {
+        border-bottom: none;
+        padding-bottom: 0;
+        margin-bottom: 0;
+    }
+
+   .image-content-cntnt {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height: 100vh;
+    }
+}
+

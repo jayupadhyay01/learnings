@@ -1,0 +1,79 @@
+{
+  "$schema": "https://schemas.wp.org/trunk/block.json",
+  "name": "anitian/info",
+  "version": "0.1.0",
+  "title": "Info Block",
+  "category": "anitian",
+  "icon": "info-outline",
+  "description": "This block is for Info section of anitian pages.",
+  "keywords": ["info","content", "Block"],
+  "supports": {
+    "html": false
+  },
+  "textdomain": "anitian",
+  "attributes": {
+    "textAlignment": {
+      "type": "string",
+      "default": "Left"
+    },
+    "Heading": {
+      "type": "string",
+      "default": ""
+    },
+    "SubHeading": {
+      "type": "string",
+      "default": ""
+    },
+    "mainDesc": {
+      "type": "string",
+      "default": ""
+    },
+    "HeadingColor": {
+      "type": "string",
+      "default": ""
+    },
+    "SubHeadingColor": {
+      "type": "string",
+      "default": ""
+    },
+    "titleColor": {
+      "type": "string",
+      "default": ""
+    },
+    "descriptionColor": {
+      "type": "string",
+      "default": ""
+    },
+    "mainDescColor": {
+      "type": "string",
+      "default": ""
+    },
+    "titleVisiblity": {
+      "type": "boolean",
+      "default": true
+    },
+    "descriptionVisiblity": {
+      "type": "boolean",
+      "default": true
+    },
+    "headingVisiblity": {
+      "type": "boolean",
+      "default": true
+    },
+    "subHeadingVisiblity": {
+      "type": "boolean",
+      "default": true
+    },
+    "bgColor": {
+      "type": "string",
+      "default": ""
+    },
+    "listItems": {
+      "type": "array",
+      "default": []
+    }
+  },
+  "editorScript": "file:./index.js",
+  "editorStyle": "file:./index.css",
+  "style": "file:./style-index.css"
+}

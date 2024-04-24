@@ -1,0 +1,87 @@
+{
+  "$schema": "https://schemas.wp.org/trunk/block.json",
+  "name": "anitian/media-text-v2",
+  "version": "0.1.0",
+  "title": "Media Text V2 Block",
+  "category": "anitian",
+  "icon": "id",
+  "description": "This block is for Media Text V2 section of Anitian Partner Program page.",
+  "keywords": ["media","text", "V2", "Block"],
+  "supports": {
+    "html": false
+  },
+  "textdomain": "anitian",
+  "attributes": {
+    "textAlignment": {
+      "type": "string",
+      "default": "left"
+    },
+    "Heading": {
+      "type": "string",
+      "default": ""
+    },
+    "HeadingColor": {
+      "type": "string",
+      "default": ""
+    },
+    "headingVisiblity": {
+      "type": "boolean",
+      "default": true
+    },
+    "description": {
+      "type": "string",
+      "default": ""
+    },
+    "descriptionColor": {
+      "type": "string",
+      "default": ""
+    },
+    "descriptionVisiblity": {
+      "type": "boolean",
+      "default": true
+    },
+    "buttonVisiblity": {
+      "type": "boolean",
+      "default": true
+    },
+    "buttonText": {
+      "type": "string",
+      "default": ""
+    },
+    "buttonTextColor": {
+      "type": "string",
+      "default": ""
+    },
+    "bgColor": {
+      "type": "string",
+      "default": ""
+    },
+    "Image": {
+      "type": "object",
+      "default": {
+          "id": "",
+          "url": "",
+          "alt": "",
+          "width": "",
+          "height": "",
+          "mediaMime": "",
+          "mediaType": ""
+      }
+    },
+    "bgImage": {
+      "type": "object",
+      "default": {
+          "id": "",
+          "url": "",
+          "alt": "",
+          "width": "",
+          "height": "",
+          "mediaMime": "",
+          "mediaType": ""
+      }
+    }
+  },
+  "editorScript": "file:./index.js",
+  "editorStyle": "file:./index.css",
+  "style": "file:./style-index.css"
+}

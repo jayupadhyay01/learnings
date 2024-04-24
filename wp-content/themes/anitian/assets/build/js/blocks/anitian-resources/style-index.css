@@ -1,0 +1,144 @@
+/*!*******************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[3].use[1]!./node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[3].use[2]!./node_modules/sass-loader/dist/cjs.js??ruleSet[1].rules[3].use[3]!./src/js/blocks/anitian-resources/style.scss ***!
+  \*******************************************************************************************************************************************************************************************************************************************************************/
+.wp-block-anitian-anitian-resources {
+  margin-bottom: 40px;
+}
+.wp-block-anitian-anitian-resources .anitian-resources-container {
+  width: 100%;
+  max-width: 1200px;
+  margin-right: auto;
+  margin-left: auto;
+  padding: 0 15px;
+  gap: 40px;
+  position: relative;
+  z-index: 1;
+}
+.wp-block-anitian-anitian-resources .anitian-resources-container .anitian-resources-heading .container {
+  display: flex;
+  gap: 40px;
+  position: relative;
+  z-index: 1;
+  width: 100%;
+  max-width: 1200px;
+  margin-right: auto;
+  margin-left: auto;
+  padding: 0 15px;
+}
+.wp-block-anitian-anitian-resources .anitian-resources-container .anitian-resources-heading .container .anitian-resources-ttl {
+  flex: 1 1;
+}
+.wp-block-anitian-anitian-resources .anitian-resources-container .anitian-resources-slider {
+  margin-top: -175px;
+}
+.wp-block-anitian-anitian-resources .anitian-resources-container .anitian-resources-slider .resources-slider-item {
+  height: auto !important;
+}
+.wp-block-anitian-anitian-resources .anitian-resources-container .anitian-resources-slider .resources-slider-item {
+  display: flex;
+  align-self: stretch;
+  margin: 0 10px;
+  margin-bottom: 20px;
+}
+.wp-block-anitian-anitian-resources .anitian-resources-container .anitian-resources-slider .resources-slider-item .resources-slider-content {
+  width: 100%;
+  text-align: center;
+  background-color: #fff;
+  overflow: hidden;
+  box-shadow: 0px 12px 18px -6px rgba(0, 0, 0, 0.3);
+}
+.wp-block-anitian-anitian-resources .anitian-resources-container .anitian-resources-slider .resources-slider-item .resources-slider-content .resources-slider-image img {
+  max-width: 100%;
+  height: auto;
+}
+.wp-block-anitian-anitian-resources .anitian-resources-container .anitian-resources-slider .resources-slider-item .resources-slider-content .resources-slider-title {
+  padding: 20px;
+}
+.wp-block-anitian-anitian-resources .anitian-resources-container .anitian-resources-slider .resources-slider-item .resources-slider-content .resources-slider-title .content-slider-button {
+  font-size: 16px;
+  min-width: 100px;
+  text-align: center;
+  color: #fff;
+  display: inline-block;
+  border: 2px solid rgba(0, 0, 0, 0);
+  background-color: #f75227;
+  cursor: pointer;
+  letter-spacing: 0.16px;
+  word-break: break-word;
+  text-decoration: none;
+  position: relative;
+  line-height: 1.4;
+  border-radius: 50px;
+  transition: 150ms ease-out;
+  font-weight: 700;
+  padding: 10px 15px;
+  margin-top: 20px;
+}
+.wp-block-anitian-anitian-resources .anitian-resources-container .anitian-resources-slider .resources-slider-item .resources-slider-content .resources-slider-title .content-slider-button a {
+  text-decoration: none;
+  color: inherit;
+}
+.wp-block-anitian-anitian-resources .anitian-resources-container .anitian-resources-heading {
+  padding: 70px 0 250px;
+  background-color: rgba(12, 113, 195, 0.14);
+  position: relative;
+}
+.wp-block-anitian-anitian-resources .anitian-resources-container .anitian-resources-heading .subheading-text {
+  font-weight: 600;
+  margin: 0;
+  padding-bottom: 10px;
+  font-family: "Poppins", sans-serif;
+  font-size: 18px;
+  line-height: 1.5;
+  font-weight: 500;
+}
+.wp-block-anitian-anitian-resources .anitian-resources-container .anitian-resources-heading .heading-text {
+  font-weight: 600;
+  margin: 0;
+  padding-bottom: 10px;
+  line-height: 1.5em;
+  font-size: 35px;
+}
+.wp-block-anitian-anitian-resources .slick-dots {
+  bottom: 0;
+}
+.wp-block-anitian-anitian-resources .slick-arrow {
+  width: 40px;
+  height: 40px;
+  font-size: 0;
+  background: rgba(0, 0, 0, 0);
+  cursor: pointer;
+  position: relative;
+  top: 50%;
+  transform: translateY(-50%);
+  border: none;
+  position: absolute;
+  display: block;
+}
+.wp-block-anitian-anitian-resources .slick-prev {
+  left: -40px;
+  z-index: 1;
+}
+.wp-block-anitian-anitian-resources .slick-prev:before {
+  border-top: 3px solid #666;
+  border-left: 3px solid #666;
+  transform: rotate(-45deg);
+}
+.wp-block-anitian-anitian-resources .slick-next {
+  right: -50px;
+}
+.wp-block-anitian-anitian-resources .slick-next:before {
+  border-top: 3px solid #666;
+  border-left: 3px solid #666;
+  transform: rotate(135deg);
+}
+.wp-block-anitian-anitian-resources .slick-arrow:before {
+  width: 16px;
+  height: 16px;
+  content: "";
+  display: block;
+  position: absolute;
+  top: 11px;
+}
+
+/*# sourceMappingURL=style-index.css.map*/

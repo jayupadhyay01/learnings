@@ -1,0 +1,184 @@
+{
+  "$schema": "https://schemas.wp.org/trunk/block.json",
+  "name": "ana-enterprise/hero-carousel",
+  "version": "0.1.0",
+  "title": "Hero Carousel Block",
+  "category": "ana-enterprise",
+  "icon": "slides",
+  "description": "This block is for Hero Carousel for ANA Enterprise.",
+  "keywords": [
+    "hero",
+    "Block"
+  ],
+  "supports": {
+    "html": false
+  },
+  "textdomain": "ana-enterprise",
+  "attributes": {
+    "blockID": {
+      "type": "string",
+      "default": ""
+    },
+    "repeatItems": {
+      "type": "array",
+      "default": [
+        {
+          "title": "",
+          "btn": "",
+          "description": "",
+          "slideImageID": "",
+          "slideImageURL": "",
+          "slideImageAlt": ""
+        }
+      ]
+    },
+    "titleVisiblity": {
+      "type": "boolean",
+      "default": true
+    },
+    "bgColor": {
+      "type": "string",
+      "default": "#fff"
+    },
+    "descriptionVisiblity": {
+      "type": "boolean",
+      "default": true
+    },
+    "BtnColor": {
+      "type": "string",
+      "default": "#000"
+    },
+    "BtnVisiblity": {
+      "type": "boolean",
+      "default": true
+    },
+    "headingColor": {
+      "type": "string",
+      "default": "#000"
+    },
+    "decColor": {
+      "type": "string",
+      "default": "#000"
+    },
+    "autoplay": {
+      "type": "boolean",
+      "default": false
+    },
+    "arrows": {
+      "type": "boolean",
+      "default": true
+    },
+    "dots": {
+      "type": "boolean",
+      "default": true
+    },
+    "slideInfinite": {
+      "type": "boolean",
+      "default": false
+    },
+    "mediaType": {
+      "type": "string",
+      "default": ""
+    },
+    "mediaMime": {
+      "type": "string",
+      "default": ""
+    },
+    "mediaID": {
+      "type": "number",
+      "default": ""
+    },
+    "mediaURL": {
+      "type": "string",
+      "default": ""
+    },
+    "mediaAlt": {
+      "type": "string",
+      "default": ""
+    },
+    "mediaWidth": {
+      "type": "number",
+      "default": ""
+    },
+    "mediaHeight": {
+      "type": "number",
+      "default": ""
+    },
+    "videoPoster": {
+      "type": "string",
+      "default": ""
+    },
+    "videoPlayPause": {
+      "type": "boolean",
+      "default": false
+    },
+    "videoLoop": {
+      "type": "boolean",
+      "default": false
+    },
+    "videoMuted": {
+      "type": "boolean",
+      "default": true
+    },
+    "videoAutoPlay": {
+      "type": "boolean",
+      "default": true
+    },
+    "bgOverlayColor": {
+      "type": "string",
+      "default": ""
+    },
+    "overlayOpacity": {
+      "type": "number",
+      "default": 0.1
+    },
+    "showOverlay": {
+      "type": "boolean",
+      "default": true
+    },
+    "bgMediaType": {
+      "type": "string",
+      "default": ""
+    },
+    "bgMediaMime": {
+      "type": "string",
+      "default": ""
+    },
+    "bgMediaID": {
+      "type": "number",
+      "default": ""
+    },
+    "bgMediaURL": {
+      "type": "string",
+      "default": ""
+    },
+    "bgVideoPoster": {
+      "type": "string",
+      "default": ""
+    },
+    "bgVideoAutoplay": {
+      "type": "boolean",
+      "default": true
+    },
+    "bgVideoLoop": {
+      "type": "boolean",
+      "default": true
+    },
+    "bgVideoMuted": {
+      "type": "boolean",
+      "default": true
+    },
+    "showBgOverlay": {
+      "type": "boolean",
+      "default": false
+    },
+    "bgOverlayOpacity": {
+      "type": "number",
+      "default": 0.2
+    }
+  },
+  "editorScript": "file:./index.js",
+  "viewScript": "file:./view.js",
+  "editorStyle": "file:./index.css",
+  "style": "file:./style-index.css"
+}

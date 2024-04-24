@@ -1,0 +1,94 @@
+{
+  "$schema": "https://schemas.wp.org/trunk/block.json",
+  "name": "storyful/our-leadership",
+  "version": "0.1.0",
+  "title": "Storyful Leadership",
+  "category": "storyful",
+  "icon": "testimonial",
+  "description": "This block is for Storyful Leadership section of Storyful pages.",
+  "keywords": [
+    "Storyful",
+    "Leadership",
+    "block"
+  ],
+  "supports": {
+    "html": false
+  },
+  "textdomain": "storyful",
+  "attributes": {
+    "heading": {
+      "type": "string",
+      "default": "Storyful Leadership"
+    },
+    "headingColor": {
+      "type": "string",
+      "default": ""
+    },
+    "bannerTitle": {
+      "type": "string",
+      "default": "Want to come work with us?"
+    },
+    "buttonText": {
+      "type": "string",
+      "default": "Join our growing team!"
+    },
+    "buttonLink": {
+      "type": "string",
+      "default": ""
+    },
+    "bannerTitleColor": {
+      "type": "string",
+      "default": ""
+    },
+    "selectedPosts": {
+      "type": "array",
+      "default": []
+    },
+    "numberOfPosts": {
+      "type": "string",
+      "default": "10"
+    },
+    "postOrderBy": {
+      "type": "string",
+      "default": "date"
+    },
+    "postOrder": {
+      "type": "string",
+      "default": "DESC"
+    },
+    "BgColor": {
+      "type": "string",
+      "default": ""
+    },
+    "titleColor": {
+      "type": "string",
+      "default": ""
+    },
+    "subtitleColor": {
+      "type": "string",
+      "default": ""
+    },
+    "descColor": {
+      "type": "string",
+      "default": ""
+    },
+    "bgImage": {
+      "type": "object",
+      "default": {
+        "id": "",
+        "url": "",
+        "alt": "",
+        "width": "",
+        "height": "",
+        "mediaMime": "",
+        "mediaType": ""
+      }
+    }
+  },
+  "editorScript": "file:./index.js",
+  "viewScript": [
+    "file:./view.js"
+  ],
+  "editorStyle": "file:./index.css",
+  "style": "file:./style-index.css"
+}

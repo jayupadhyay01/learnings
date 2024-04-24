@@ -1,0 +1,40 @@
+@import '../../../sass/mixins/all';
+
+ .hero-carousel {
+    .add-item-wrap {
+        margin-top: 20px;
+    }
+     .slick-dots {
+         padding: 0;
+         list-style-type: none;
+         display: flex;
+         justify-content: center;
+
+         li {
+             position: relative;
+             display: inline-block;
+             width: 20px;
+             height: 20px;
+             margin: 0 5px;
+             padding: 0;
+             cursor: pointer;
+
+             button {
+                 font-size: 0;
+                 width: 10px;
+                 height: 10px;
+                 padding: 0;
+                 margin-right: 7px;
+                 margin-left: 7px;
+                 background-color: #11152c;
+                 border: 0;
+                 border-radius: 10px;
+             }
+         }
+     }
+
+     .slick-dots li.slick-active button {
+         background-color: #009cde;
+     }
+     
+ }

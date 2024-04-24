@@ -1,0 +1,108 @@
+{
+  "$schema": "https://schemas.wp.org/trunk/block.json",
+  "name": "anitian/customer-stories",
+  "version": "0.1.0",
+  "title": "Customer Stories",
+  "category": "anitian",
+  "icon": "testimonial",
+  "description": "This block is for Customer Stories section of anitian pages.",
+  "keywords": ["customer", "stories", "block"],
+  "supports": {
+    "html": false
+  },
+  "textdomain": "anitian",
+  "attributes": {
+    "heading": {
+      "type": "string",
+      "default": "This is Default Heading"
+    },
+    "selectedPosts": {
+      "type": "array",
+      "default": []
+    },
+		"numberOfPosts": {
+			"type": "string",
+			"default": "10"
+		},
+		"postOrderBy": {
+			"type": "string",
+			"default": "date"
+		},
+		"postOrder": {
+			"type": "string",
+			"default": "DESC"
+		},
+		"autoplay": {
+			"type": "boolean",
+      "default": false
+		},
+		"arrows": {
+			"type": "boolean",
+      "default": true
+		},
+		"dots": {
+			"type": "boolean",
+      "default": false
+		},
+    "slideInfinite": {
+			"type": "boolean",
+      "default": false
+		},
+    "showButton": {
+      "type": "boolean",
+      "default": true
+    },
+    "sliderBgColor": {
+      "type": "string",
+      "default": ""
+    },
+    "titleColor": {
+      "type": "string",
+      "default": ""
+    },
+    "subHeading": {
+      "type": "string",
+      "default": ""
+    },
+    "HeadingColor": {
+      "type": "string",
+      "default": ""
+    },
+    "subHeadingColor": {
+      "type": "string",
+      "default": ""
+    },
+    "subtitleColor": {
+      "type": "string",
+      "default": ""
+    },
+    "descColor": {
+      "type": "string",
+      "default": ""
+    },
+    "buttonLink": {
+      "type": "string",
+      "default": ""
+    },
+    "buttonText": {
+      "type": "string",
+      "default": ""
+    },
+    "bgImage": {
+      "type": "object",
+      "default": {
+          "id": "",
+          "url": "",
+          "alt": "",
+          "width": "",
+          "height": "",
+          "mediaMime": "",
+          "mediaType": ""
+      }
+    }
+  },
+  "editorScript": "file:./index.js",
+  "viewScript": [ "file:./view.js" ],
+	"editorStyle": "file:./index.css",
+	"style": "file:./style-index.css"
+}

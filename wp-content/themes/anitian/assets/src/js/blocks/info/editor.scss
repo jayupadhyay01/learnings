@@ -1,0 +1,26 @@
+.wp-block-anitian-info {
+    .info-with-icons-boxes{
+        display: flex;
+        flex-wrap: wrap;
+        gap: 30px;
+        .show-items-hover-wrap{
+            width: calc(33.333% - 28px);
+            position: relative;
+            display: flex;
+            flex-wrap: wrap;
+            flex-direction: column;
+            text-align: left;
+            .info-with-icons-image{
+                width: 25%;
+                margin: 0 0 20px;
+                img {
+                    max-width: 100%;
+                    height: auto;
+                }
+            }
+            .info-with-icons-box{
+                width: unset;
+            }
+        }
+    }
+}

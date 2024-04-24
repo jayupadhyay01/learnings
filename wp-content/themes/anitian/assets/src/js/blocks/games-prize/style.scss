@@ -1,0 +1,109 @@
+@import "../../../sass/mixins/all";
+
+* {
+    box-sizing: border-box;
+}
+
+.wp-block-anitian-games-prize {
+    padding: 100px;
+
+    .games-prize-bgimage {
+        background-size: cover;
+    }
+
+    .games-prize-section {
+        .subheading-text {
+            font-size: 20px;
+        }
+
+        .heading-text {
+            margin-top: 20px;
+            font-size: 50px;
+            line-height: 1.1;
+            font-family: monospace;
+            font-family: system-ui;
+        }
+
+        .description-text {
+            margin: 20px 20px 80px 20px !important;
+            font-size: 18px;
+            line-height: 1.5;
+        }
+    }
+
+    .games-prize-cards-section {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 15px;
+
+        .games-prize-card-wrap {
+            width: calc(33.33% - 10px);
+            
+            .games-prize-card-item {
+                border-radius: 20px;
+                height: 100%;
+                padding: 40px 20px;
+                
+                .games-prize-card-Subtitle {
+                    font-size: 18px;
+                    text-transform: uppercase;
+                }
+
+                .games-prize-card-title {
+                    font-size: 20px;
+                    margin-top: 20px;
+                    line-height: 1.5;
+                    text-transform: uppercase;
+                }
+
+                .games-prize-card-description {
+                    font-size: 14px;
+                    margin-top: 20px;
+                }
+            }
+            &.long-active{
+                width: 100%;
+                text-align: center;
+                margin-bottom: 20px;
+                .games-prize-card-item {
+                    width: 650px;
+                    margin: 0 auto;
+                    max-width: 100%;
+                }
+            }
+        }
+    }
+
+    .games-prize-card-button {
+
+        font-size: 18px;
+        padding: 12px 30px;
+        letter-spacing: 0.7px;
+        text-transform: uppercase;
+        min-width: 100px;
+        text-align: center;
+        display: inline-block;
+        font-weight: 600;
+        border: 2px solid rgba(0, 0, 0, 0);
+        cursor: pointer;
+        word-break: break-word;
+        text-decoration: none;
+        position: relative;
+        line-height: 1.4;
+        border-radius: 50px;
+        transition: 150ms ease-out;
+        font-family: "Poppins", sans-serif;
+        width: 100%;
+        background: #000000;
+        color: #FFF;
+
+        &:hover {
+            opacity: 0.5;
+        }
+
+        a {
+            color: inherit;
+        }
+
+    }
+}

@@ -1,0 +1,7 @@
+/**
+ * All of the CSS for your admin-specific functionality should be
+ * included in this file.
+ */
+ .select2-container--default .select2-search--inline .select2-search__field{
+    width: 100% !important;
+}

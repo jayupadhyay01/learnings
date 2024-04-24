@@ -1,0 +1,170 @@
+/*!*************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[3].use[1]!./node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[3].use[2]!./node_modules/sass-loader/dist/cjs.js??ruleSet[1].rules[3].use[3]!./src/js/blocks/cta-section/style.scss ***!
+  \*************************************************************************************************************************************************************************************************************************************************************/
+.wp-block-storyful-cta-section .container-fluid {
+  display: flex;
+  padding: 0;
+  margin: 0 auto;
+}
+.wp-block-storyful-cta-section .container-fluid .sbtn {
+  align-self: flex-start;
+}
+.wp-block-storyful-cta-section .container-fluid .sbtn-arrow-primary-v2 {
+  border: 1px solid #11152c;
+  padding: 5px 20px 5px 30px;
+  border-radius: 100px;
+  transition: all 300ms ease;
+  display: inline-block;
+  font-size: 14px;
+  font-weight: 500;
+}
+.wp-block-storyful-cta-section .container-fluid .sbtn-arrow-primary-v2:hover {
+  background-color: #ff4c15 !important;
+  color: white !important;
+}
+.wp-block-storyful-cta-section .container-fluid .sbtn-arrow-primary-v2:hover {
+  border: 2px solid #ff4c15;
+  padding-left: 45px;
+  font-size: 14px;
+  font-weight: 500;
+}
+.wp-block-storyful-cta-section .container-fluid .sbtn-arrow-primary-v2 .btn-text a {
+  color: inherit;
+}
+.wp-block-storyful-cta-section .container-fluid .cta-section__right {
+  flex: 1 0 50%;
+  display: flex;
+  align-items: flex-start;
+  overflow: hidden;
+  padding-right: 30px;
+}
+.wp-block-storyful-cta-section .container-fluid .cta-section__right .intelligence-section {
+  max-width: 560px;
+  margin-right: 0;
+  margin-left: auto;
+  display: flex;
+  align-items: center;
+  padding-left: 15px;
+  width: 100%;
+}
+.wp-block-storyful-cta-section .container-fluid .cta-section__right .intelligence-section .intelligence-section__details {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  padding-top: 90px;
+  flex: 1 0 65%;
+  padding-bottom: 90px;
+  padding-right: 20px;
+}
+.wp-block-storyful-cta-section .container-fluid .cta-section__right .intelligence-section .intelligence-section__details .section-title {
+  font-size: 57px;
+  line-height: 62px;
+  margin: 0;
+}
+.wp-block-storyful-cta-section .container-fluid .cta-section__right .intelligence-section .intelligence-section__details .section-title mark {
+  color: transparent !important;
+}
+.wp-block-storyful-cta-section .container-fluid .cta-section__right .intelligence-section .intelligence-section__details .section-title mark {
+  -webkit-text-stroke: 1px #fffdfa;
+  caret-color: #fffdfa;
+}
+.wp-block-storyful-cta-section .container-fluid .cta-section__right .intelligence-section .intelligence-section__details .cta-section-desc {
+  font-size: 19px;
+  line-height: 28px;
+  color: #fffdfa;
+  height: 168px;
+}
+.wp-block-storyful-cta-section .container-fluid .cta-section__right .intelligence-section .intelligence-section__media {
+  display: inline-block;
+  flex: 1 0 100%;
+  text-align: center;
+  max-width: 400px;
+}
+.wp-block-storyful-cta-section .container-fluid .cta-section__right .intelligence-section .intelligence-section__media figure {
+  margin: 0;
+}
+.wp-block-storyful-cta-section .container-fluid .cta-section__right .intelligence-section .intelligence-section__media figure img {
+  width: 400px;
+  height: 400px;
+  -o-object-fit: cover;
+  object-fit: cover;
+  border-radius: 100%;
+  position: relative;
+  z-index: 2;
+}
+.wp-block-storyful-cta-section .container-fluid .cta-section__left {
+  flex: 1 0 50%;
+  background-color: #fffdfa;
+  display: flex;
+  align-items: flex-start;
+  padding-left: 80px;
+  border-top: 1px solid #11152c;
+  border-bottom: 1px solid #11152c;
+}
+.wp-block-storyful-cta-section .container-fluid .cta-section__left .cta-news-section {
+  max-width: 560px;
+  margin-left: 0;
+  margin-right: auto;
+  display: flex;
+  padding-right: 15px;
+  width: 100%;
+}
+.wp-block-storyful-cta-section .container-fluid .cta-section__left .cta-news-section .cta-news-section__details {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  padding-bottom: 90px;
+  flex: 1 0 56%;
+  padding-top: 90px;
+}
+.wp-block-storyful-cta-section .container-fluid .cta-section__left .cta-news-section .cta-news-section__details .section-title {
+  font-size: 57px;
+  line-height: 62px;
+  margin: 0;
+  height: 168px;
+}
+.wp-block-storyful-cta-section .container-fluid .cta-section__left .cta-news-section .cta-news-section__details .section-title mark {
+  color: #fffdfa !important;
+}
+.wp-block-storyful-cta-section .container-fluid .cta-section__left .cta-news-section .cta-news-section__details .section-title mark {
+  -webkit-text-stroke: 1px #11152c;
+  caret-color: #11152c;
+}
+.wp-block-storyful-cta-section .container-fluid .cta-section__left .cta-news-section .cta-news-section__details .cta-section-desc {
+  font-size: 19px;
+  line-height: 28px;
+}
+.wp-block-storyful-cta-section .container-fluid .cta-section__left .cta-news-section .cta-news-section__media {
+  display: inline-block;
+  text-align: center;
+  align-self: flex-end;
+  flex-shrink: 0;
+}
+.wp-block-storyful-cta-section .container-fluid .cta-section__left .cta-news-section .cta-news-section__media .media-image-wrapper {
+  margin-bottom: 40px;
+}
+.wp-block-storyful-cta-section .container-fluid .cta-section__left .cta-news-section .cta-news-section__media .media-image-wrapper figure {
+  position: relative;
+}
+.wp-block-storyful-cta-section .container-fluid .cta-section__left .cta-news-section .cta-news-section__media .media-image-wrapper figure::before {
+  content: "";
+  display: block;
+  width: 100px;
+  height: 100px;
+  position: absolute;
+  background-color: #ff4c15;
+  border-radius: 100%;
+  right: 0;
+  top: -60px;
+}
+.wp-block-storyful-cta-section .container-fluid .cta-section__left .cta-news-section .cta-news-section__media .media-image-wrapper figure img {
+  width: 240px;
+  height: 240px;
+  -o-object-fit: cover;
+  object-fit: cover;
+  border-radius: 100%;
+  position: relative;
+  z-index: 2;
+}
+
+/*# sourceMappingURL=style-index.css.map*/

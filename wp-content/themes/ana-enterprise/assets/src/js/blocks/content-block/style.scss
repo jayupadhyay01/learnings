@@ -1,0 +1,35 @@
+@import "../../../sass/mixins/all";
+.wp-block-ana-enterprise-content-block {
+    .content-block-container {
+        padding: 10px 0px;
+        margin: 10px auto;
+        max-width: 80%;
+        .content-block-inner{
+            .content-title-text{
+                font-size: 34px;
+                line-height: 3.2;
+                letter-spacing: 0.2em;
+                font-weight: 800;
+                strong{
+                    color: #ff4c15;
+                }
+            }
+            .content-subtitle-text{
+                font-size: 30px;
+                line-height: 2.5;
+                font-family: sans-serif;
+                letter-spacing: 0.1em;
+                font-weight: 500;
+            }
+            .content-description-text{
+                font-family: sans-serif;
+                font-size: 18px;
+                font-weight: 400;
+                line-height: 1.5;
+            }
+        }
+    }
+    
+ 
+}
+

@@ -1,0 +1,95 @@
+/*!**************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[3].use[1]!./node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[3].use[2]!./node_modules/sass-loader/dist/cjs.js??ruleSet[1].rules[3].use[3]!./src/js/blocks/aws-partners/style.scss ***!
+  \**************************************************************************************************************************************************************************************************************************************************************/
+.wp-block-anitian-aws-partners {
+  padding: 60px 0;
+}
+.wp-block-anitian-aws-partners .container {
+  width: 100%;
+  max-width: 1200px;
+  margin-right: auto;
+  margin-left: auto;
+  padding: 0 15px;
+}
+.wp-block-anitian-aws-partners .container .aws-partners__bottom {
+  gap: 5%;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+}
+.wp-block-anitian-aws-partners .container .aws-partners__bottom .aws-partners__left-content {
+  width: 47.5%;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 5%;
+}
+.wp-block-anitian-aws-partners .container .aws-partners__bottom .aws-partners__left-content div {
+  width: 47%;
+}
+.wp-block-anitian-aws-partners .container .aws-partners__bottom .aws-partners__left-content div img {
+  max-width: 100%;
+  height: auto;
+}
+.wp-block-anitian-aws-partners .container .aws-partners__bottom .aws-partners__right-content {
+  width: 47.5%;
+}
+.wp-block-anitian-aws-partners .container .aws-partners__bottom .aws-partners__right-content .aws-partners__title {
+  text-align: center;
+  color: #000;
+  margin: 0 0 20px;
+  font-size: 30px;
+  line-height: 1.5em;
+}
+.wp-block-anitian-aws-partners .container .aws-partners__bottom .aws-partners__right-content .aws-partners__description {
+  text-align: center;
+  color: #000;
+  margin: 0;
+  font-family: "Poppins", sans-serif;
+  font-size: 18px;
+  line-height: 1.5;
+  font-weight: 500;
+}
+.wp-block-anitian-aws-partners .container .aws-partners__bottom .aws-partners__right-content .aws-partners__slider-main[data-slide-dots=true] {
+  margin-bottom: 40px;
+}
+.wp-block-anitian-aws-partners .container .aws-partners__bottom .aws-partners__right-content .aws-partners__slider-main {
+  position: relative;
+  margin-top: 30px;
+}
+.wp-block-anitian-aws-partners .container .aws-partners__bottom .aws-partners__right-content .aws-partners__slider-main .aws-partners__slider-item {
+  margin: 0 12px;
+  cursor: grab;
+}
+.wp-block-anitian-aws-partners .container .aws-partners__bottom .aws-partners__right-content .aws-partners__slider-main .aws-partners__slider-item img {
+  width: 100%;
+  max-width: 100%;
+  height: auto;
+}
+.wp-block-anitian-aws-partners .container .aws-partners__bottom .aws-partners__right-content .aws-partners__slider-main .slick-dots {
+  display: flex;
+  justify-content: center;
+  gap: 8px;
+  margin-top: 30px;
+  width: 100%;
+  cursor: pointer;
+  position: absolute;
+  bottom: -35px;
+  list-style: none;
+}
+.wp-block-anitian-aws-partners .container .aws-partners__bottom .aws-partners__right-content .aws-partners__slider-main .slick-dots li {
+  font-size: 0;
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  background: rgba(0, 0, 0, 0.2);
+  border: none;
+}
+.wp-block-anitian-aws-partners .container .aws-partners__bottom .aws-partners__right-content .aws-partners__slider-main .slick-dots li button {
+  display: none;
+}
+.wp-block-anitian-aws-partners .container .aws-partners__bottom .aws-partners__right-content .aws-partners__slider-main .slick-dots .slick-active {
+  background: rgba(0, 0, 0, 0.75);
+}
+
+/*# sourceMappingURL=style-index.css.map*/

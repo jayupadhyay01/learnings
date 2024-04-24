@@ -1,0 +1,1 @@
+{"version":3,"file":"js/blocks/games-header/index.css","mappings":";;;AAEQ;EACI;AADZ,C","sources":["webpack://anitian/./src/js/blocks/games-header/editor.scss"],"sourcesContent":[".wp-block-anitian-games-header {\n    .components-base-control__field {\n        label{\n            color: white;\n        }\n    }\n}"],"names":[],"sourceRoot":""}

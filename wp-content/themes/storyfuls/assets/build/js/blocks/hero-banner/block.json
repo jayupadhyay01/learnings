@@ -1,0 +1,83 @@
+{
+  "$schema": "https://schemas.wp.org/trunk/block.json",
+  "name": "storyful/hero-banner",
+  "version": "0.1.0",
+  "title": "Hero Banner",
+  "category": "storyful",
+  "icon": "format-image",
+  "description": "This block is for Hero Banner of the Storyful pages.",
+  "keywords": [
+    "Hero",
+    "Banner"
+  ],
+  "supports": {
+    "html": false
+  },
+  "textdomain": "storyful",
+  "attributes": {
+    "textAlignment": {
+      "type": "string",
+      "default": "left"
+    },
+    "title": {
+      "type": "string",
+      "default": ""
+    },
+    "titleColor": {
+      "type": "string",
+      "default": ""
+    },
+    "titleVisiblity": {
+      "type": "boolean",
+      "default": true
+    },
+    "description": {
+      "type": "string",
+      "default": ""
+    },
+    "descriptionColor": {
+      "type": "string",
+      "default": ""
+    },
+    "descriptionVisiblity": {
+      "type": "boolean",
+      "default": false
+    },
+    "btnVisiblity": {
+      "type": "boolean",
+      "default": false
+    },
+    "btnText": {
+      "type": "string",
+      "default": ""
+    },
+    "showBgOverlay": {
+      "type": "boolean",
+      "default": false
+    },
+    "bgOverlayColor": {
+      "type": "string",
+      "default": ""
+    },
+    "bgOverlayOpacity": {
+      "type": "number",
+      "default": 0.2
+    },
+    "bgImage": {
+      "type": "object",
+      "default": {
+        "id": "",
+        "url": "",
+        "alt": "",
+        "width": "",
+        "height": "",
+        "mediaMime": "",
+        "mediaType": ""
+      }
+    }
+  },
+  "editorScript": "file:./index.js",
+  "viewScript": "file:./view.js",
+  "editorStyle": "file:./index.css",
+  "style": "file:./style-index.css"
+}

@@ -1,0 +1,56 @@
+{
+  "$schema": "https://schemas.wp.org/trunk/block.json",
+  "name": "storyful/testimonial",
+  "version": "0.1.0",
+  "title": "Testimonial Block",
+  "category": "storyful",
+  "icon": "admin-users",
+  "description": "This block is for Testimonial section of storyful pages.",
+  "keywords": ["Testimonial", "Block"],
+  "supports": {
+    "html": false
+  },
+"textdomain": "storyful",
+   "attributes": {
+    "bgColor": {
+      "type": "string",
+      "default": ""
+    },
+    "textAlignment": {
+        "type": "string",
+        "default": "left"
+    },
+    "title": {
+      "type": "string",
+      "default": ""
+    },
+    "content": {
+      "type": "string",
+      "default": ""
+    },
+    "contentColor": {
+      "type": "string",
+      "default": ""
+    },
+    "name": {
+      "type": "string",
+      "default": ""
+    },
+    "nameColor": {
+      "type": "string",
+      "default": ""
+    },
+    "titleVisiblity": {
+        "type": "boolean",
+        "default": true
+    },
+    "titleColor": {
+      "type": "string",
+      "default": ""
+    }
+  },
+  "editorScript": "file:./index.js",
+  "viewScript": "file:./view.js",
+  "editorStyle": "file:./index.css",
+  "style": "file:./style-index.css"
+}

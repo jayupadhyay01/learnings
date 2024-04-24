@@ -1,0 +1,91 @@
+/*!**********************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[3].use[1]!./node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[3].use[2]!./node_modules/sass-loader/dist/cjs.js??ruleSet[1].rules[3].use[3]!./src/js/blocks/timeline/style.scss ***!
+  \**********************************************************************************************************************************************************************************************************************************************************/
+.wp-block-storyful-timeline {
+  padding-top: 93px;
+  padding-bottom: 144px;
+  background-size: 1440px;
+  background-repeat: no-repeat;
+  background-position: center 100px;
+}
+.wp-block-storyful-timeline .container {
+  max-width: 1210px;
+  margin-right: auto;
+  margin-left: auto;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+.wp-block-storyful-timeline .container .wrapper {
+  padding-top: 147px;
+  padding-bottom: 80px;
+}
+.wp-block-storyful-timeline .container .wrapper__item .wrapper__box-inner {
+  display: flex;
+  gap: 30px;
+  max-width: 650px;
+  margin: 0 auto;
+  align-items: center;
+}
+.wp-block-storyful-timeline .container .wrapper__item .wrapper__box-inner img {
+  width: 214px;
+  height: 214px;
+  -o-object-fit: cover;
+  object-fit: cover;
+  border-radius: 100%;
+}
+.wp-block-storyful-timeline .container .wrapper__item .wrapper__box-inner .timeline-details-wrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  flex: 1 1 0;
+}
+.wp-block-storyful-timeline .container .wrapper__item .wrapper__box-inner .timeline-details-wrapper .timeline-item-title {
+  font-size: 20px;
+  line-height: 26px;
+  font-family: arial, helvetica, sans-serif;
+  text-transform: uppercase;
+  font-weight: 700;
+  margin: 0;
+}
+.wp-block-storyful-timeline .container .wrapper__item .wrapper__box-inner .timeline-details-wrapper .timeline-item-subtitle {
+  font-size: 28px;
+  line-height: 36px;
+  font-family: "PlayfairDisplay-Bold";
+  margin: 0;
+}
+.wp-block-storyful-timeline .container .wrapper__item .wrapper__box-inner .timeline-details-wrapper .timeline-item-desc {
+  line-height: 24px;
+}
+.wp-block-storyful-timeline .container .year-nav {
+  position: relative;
+}
+.wp-block-storyful-timeline .container .year-nav .timeline-year {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  gap: 36px;
+  font-size: 30px;
+  line-height: 39px;
+  font-family: arial, helvetica, sans-serif;
+  font-weight: 400;
+  color: #11152c;
+  cursor: pointer;
+  margin: 0;
+}
+.wp-block-storyful-timeline .container .year-nav .timeline-year::before {
+  content: "";
+  width: 19px;
+  height: 19px;
+  display: block;
+  background-color: #11152c;
+  border-radius: 100%;
+  margin: 0 auto;
+}
+.wp-block-storyful-timeline .container .year-nav__item.slick-current .timeline-year {
+  color: #ff4c15 !important;
+}
+.wp-block-storyful-timeline .container .year-nav__item.slick-current .timeline-year::before {
+  background-color: #ff4c15;
+}
+
+/*# sourceMappingURL=style-index.css.map*/

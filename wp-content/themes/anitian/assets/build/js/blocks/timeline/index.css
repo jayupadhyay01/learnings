@@ -1,0 +1,104 @@
+/*!***********************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[3].use[1]!./node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[3].use[2]!./node_modules/sass-loader/dist/cjs.js??ruleSet[1].rules[3].use[3]!./src/js/blocks/timeline/editor.scss ***!
+  \***********************************************************************************************************************************************************************************************************************************************************/
+@charset "UTF-8";
+.wp-block-anitian-timeline .content-wrapped {
+  width: 100%;
+  display: block;
+  margin-left: 30%;
+}
+.wp-block-anitian-timeline .content-wrapped select {
+  width: 100%;
+  display: block;
+  border: 2px solid;
+}
+.wp-block-anitian-timeline .content-wrapped button {
+  margin-left: 10%;
+}
+.wp-block-anitian-timeline .timeline-slider .slick-slide {
+  margin: 0 !important;
+  cursor: pointer !important;
+}
+.wp-block-anitian-timeline .timeline-slider .timeline-slide-1-wrap {
+  display: flex !important;
+  position: relative !important;
+}
+.wp-block-anitian-timeline .timeline-slider .timeline-slide-1-wrap .timeline-slider-image {
+  width: 20%;
+  display: flex;
+  justify-content: center;
+  height: -moz-fit-content;
+  height: fit-content;
+  padding: 5% 6% 10% 2%;
+  background-color: #1ca5ff;
+  border-radius: 0 0 100% 0;
+}
+.wp-block-anitian-timeline .timeline-slider .timeline-slide-1-wrap .timeline-slider-image img {
+  max-width: 64px;
+  height: auto;
+}
+.wp-block-anitian-timeline .timeline-slider .timeline-slide-1-wrap .timeline-slide-1-content {
+  width: 80%;
+  padding: 60px 30px 80px 10px;
+}
+.wp-block-anitian-timeline .timeline-slider .timeline-slide-1-wrap .click-here {
+  color: #f47528;
+  position: absolute;
+  max-width: 137px;
+  right: 57px;
+  bottom: 25px;
+  height: 64px;
+}
+.wp-block-anitian-timeline .timeline-slider .timeline-slide-1-wrap .click-here svg {
+  width: 137px;
+  height: 64px;
+}
+.wp-block-anitian-timeline .timeline-slider .timeline-slide-1-wrap .timeline-slide-icon {
+  position: absolute;
+  right: 15px;
+  bottom: 25px;
+  height: 40px;
+  width: 40px;
+  border-radius: 40px;
+  font-size: 40px;
+  line-height: 40px;
+  cursor: pointer;
+  box-shadow: 5px 5px 5px 1px rgba(0, 0, 0, 0.06);
+  animation: iconScale 1s infinite alternate ease-in-out;
+  display: inline-block;
+  font-family: "ElegantIcons";
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-feature-settings: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
+}
+.wp-block-anitian-timeline .timeline-slider .timeline-slide-1-wrap .timeline-slide-icon::before {
+  content: "+";
+}
+.wp-block-anitian-timeline .timeline-slider .timeline-slide-2-wrap {
+  border-top: 20px solid #1ca5ff;
+  background: #fff;
+  padding: 60px 40px 80px;
+}
+.wp-block-anitian-timeline .timeline-slider .timeline-slide-2-wrap .timeline-slide-icon {
+  position: absolute;
+  right: 15px;
+  bottom: 25px;
+  height: 40px;
+  width: 40px;
+  border-radius: 40px;
+  font-size: 40px;
+  line-height: 40px;
+  cursor: pointer;
+  box-shadow: 5px 5px 5px 1px rgba(0, 0, 0, 0.06);
+  animation: iconScale 1s infinite alternate ease-in-out;
+}
+.wp-block-anitian-timeline .timeline-slider .timeline-slide-2-wrap .timeline-slide-icon::before {
+  content: "×";
+}
+
+/*# sourceMappingURL=index.css.map*/

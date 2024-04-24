@@ -1,0 +1,83 @@
+{
+  "$schema": "https://schemas.wp.org/trunk/block.json",
+  "name": "anitian/games-header",
+  "version": "0.1.0",
+  "title": "Games Header Block",
+  "category": "games",
+  "icon": "heading",
+  "description": "This block is for Header section of Trader Games pages.",
+  "keywords": ["Games", "Header", "Block"],
+  "supports": {
+    "html": false
+  },
+  "textdomain": "anitian",
+  "attributes": {
+    "textAlignment": {
+      "type": "string",
+      "default": "center"
+    },
+    "Heading": {
+      "type": "string",
+      "default": ""
+    },
+    "HeadingColor": {
+      "type": "string",
+      "default": "#FFFFFF"
+    },
+    "headingVisiblity": {
+      "type": "boolean",
+      "default": true
+    },
+    "description": {
+      "type": "string",
+      "default": ""
+    },
+    "descriptionColor": {
+      "type": "string",
+      "default": "#FFFFFF"
+    },
+    "descriptionVisiblity": {
+      "type": "boolean",
+      "default": true
+    },
+    "videoURL": {
+      "type": "string",
+      "default": ""
+    },
+    "videoVisiblity": {
+      "type": "boolean",
+      "default": true
+    },
+    "BgGradientColor": {
+      "type": "string",
+      "default": "linear-gradient(85deg, rgba(231,171,61,1) 0%, rgba(0,0,0,1) 19%, rgba(0,0,0,1) 79%, rgba(231,171,61,1) 100%)"
+    },
+    "Image": {
+      "type": "object",
+      "default": {
+          "id": "",
+          "url": "",
+          "alt": "",
+          "width": "",
+          "height": "",
+          "mediaMime": "",
+          "mediaType": ""
+      }
+    },
+    "bgImage": {
+      "type": "object",
+      "default": {
+          "id": "",
+          "url": "",
+          "alt": "",
+          "width": "",
+          "height": "",
+          "mediaMime": "",
+          "mediaType": ""
+      }
+    }
+  },
+  "editorScript": "file:./index.js",
+  "editorStyle": "file:./index.css",
+  "style": "file:./style-index.css"
+}

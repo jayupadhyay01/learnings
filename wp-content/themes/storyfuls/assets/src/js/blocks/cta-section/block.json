@@ -1,0 +1,112 @@
+{
+  "$schema": "https://schemas.wp.org/trunk/block.json",
+  "name": "storyful/cta-section",
+  "version": "0.1.0",
+  "title": "CTA Section Block",
+  "category": "storyful",
+  "icon": "pressthis",
+  "description": "This Block is for CTA section of the storyful pages.",
+  "keywords": ["CTA", "Section", "Block"],
+  "supports": {
+    "html": false
+  },
+"textdomain": "storyful",
+   "attributes": {
+    "bgLeftColor": {
+      "type": "string",
+      "default": "linear-gradient(90.9deg,#11152c .77%,#145980 130.71%)"
+    },
+    "bgRightColor": {
+      "type": "string",
+      "default": "linear-gradient(90deg, rgba(255,255,255,1) 18%, rgba(255,255,255,1) 130%)"
+    },
+    "textAlignment": {
+        "type": "string",
+        "default": "left"
+    },
+    "leftTitle": {
+      "type": "string",
+      "default": ""
+    },
+    "rightTitle": {
+      "type": "string",
+      "default": ""
+    },
+    "leftDescription": {
+      "type": "string",
+      "default": ""
+    },
+    "rightDescription": {
+      "type": "string",
+      "default": ""
+    },
+    "rightTitleColor": {
+      "type": "string",
+      "default": ""
+    },
+    "leftTitleColor": {
+      "type": "string",
+      "default": "#ffffff"
+    },
+    "leftDescriptionColor": {
+      "type": "string",
+      "default": "#ffffff"
+    },
+    "rightDescriptionColor": {
+      "type": "string",
+      "default": ""
+    },
+    "leftButtonText": {
+      "type": "string",
+      "default": ""
+    },
+    "rightButtonText": {
+      "type": "string",
+      "default": ""
+    },
+    "ButtonBgColor": {
+      "type": "string",
+      "default": ""
+    },
+    "ButtonTextColor": {
+      "type": "string",
+      "default": ""
+    },
+    "leftBtnVisiblity": {
+      "type": "boolean",
+      "default": true
+    },
+    "rightBtnVisiblity": {
+      "type": "boolean",
+      "default": true
+    },
+    "leftImage": {
+      "type": "object",
+      "default": {
+          "id": "",
+          "url": "",
+          "alt": "",
+          "width": "",
+          "height": "",
+          "mediaMime": "",
+          "mediaType": ""
+      }
+    },
+    "rightImage": {
+      "type": "object",
+      "default": {
+          "id": "",
+          "url": "",
+          "alt": "",
+          "width": "",
+          "height": "",
+          "mediaMime": "",
+          "mediaType": ""
+      }
+    }
+  },
+  "editorScript": "file:./index.js",
+  "viewScript": "file:./view.js",
+  "editorStyle": "file:./index.css",
+  "style": "file:./style-index.css"
+}

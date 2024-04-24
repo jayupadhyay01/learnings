@@ -1,0 +1,90 @@
+{
+  "$schema": "https://schemas.wp.org/trunk/block.json",
+  "name": "storyful/newswire",
+  "version": "0.1.0",
+  "title": "Newswire",
+  "category": "storyful",
+  "icon": "layout",
+  "description": "This block is for Newswire section of the storyful pages.",
+  "keywords": ["newswire", "Block"],
+  "supports": {
+    "html": false
+  },
+  "textdomain": "storyful",
+   "attributes": {
+    "textAlignment": {
+        "type": "string",
+        "default": "left"
+    },
+    "title": {
+      "type": "string",
+      "default": ""
+    },
+    "titleColor": {
+      "type": "string",
+      "default": ""
+    },
+    "titleVisiblity": {
+        "type": "boolean",
+        "default": true
+    },
+    "description": {
+      "type": "string",
+      "default": ""
+    },
+    "descriptionColor": {
+      "type": "string",
+      "default": ""
+    },
+    "descriptionVisiblity": {
+        "type": "boolean",
+        "default": true
+    },
+    "btnTextColor": {
+      "type": "string",
+      "default": ""
+    },
+    "boxTitleColor": {
+      "type": "string",
+      "default": ""
+    },
+    "boxDescColor": {
+      "type": "string",
+      "default": ""
+    },
+    "boxVisiblity": {
+        "type": "boolean",
+        "default": true
+    },
+    "bgColor": {
+      "type": "string",
+      "default": ""
+    },
+    "btnVisiblity": {
+        "type": "boolean",
+        "default": true
+    },
+    "btnText": {
+      "type": "string",
+      "default": ""
+    },
+    "listItems": {
+      "type": "array",
+      "default": []
+    },
+    "Image": {
+        "type": "object",
+        "default": {
+            "id": "",
+            "url": "",
+            "alt": "",
+            "width": "",
+            "height": ""
+        }
+    }
+  },
+  "editorScript": "file:./index.js",
+  "viewScript": "file:./view.js",
+  "editorStyle": "file:./index.css",
+  "style": "file:./style-index.css"
+}

@@ -1,0 +1,116 @@
+@import "../../../sass/mixins/all";
+
+* {
+    box-sizing: border-box;
+}
+
+.wp-block-anitian-approach {
+    padding: 60px 0;
+    display: flex;
+    flex-wrap: wrap;
+    .anitian-approach__left {
+        width: 50%;
+        padding: 0;
+        .anitian-approach__left__inner {
+            max-width: 600px;
+            margin: 0 0 0 auto;
+            padding: 5% 5% 5% 0;
+            .anitian-approach__heading {
+                font-size: 30px;
+                color: #000;
+                margin: 0 0 30px;
+                font-weight: 600;
+                &::before{
+                    display: inline-block;
+                    content: "";
+                    background-image: url(data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAxMTQuMzggMTE0LjM5Ij48ZGVmcz48c3R5bGU+LmNscy0xe2ZpbGw6IzE0NzFiOTt9LmNscy0ye2ZpbGw6I2YwNTMyYzt9PC9zdHlsZT48L2RlZnM+PGcgaWQ9IkxheWVyXzIiIGRhdGEtbmFtZT0iTGF5ZXIgMiI+PGcgaWQ9IkxheWVyXzEtMiIgZGF0YS1uYW1lPSJMYXllciAxIj48cmVjdCBjbGFzcz0iY2xzLTEiIHg9IjU2Ljk2IiB5PSI1Ny4xNyIgd2lkdGg9IjU3LjQxIiBoZWlnaHQ9IjU3LjIyIi8+PHJlY3QgY2xhc3M9ImNscy0yIiB3aWR0aD0iNTYuOTYiIGhlaWdodD0iNTcuMDgiLz48L2c+PC9nPjwvc3ZnPg==);
+                    background-size: 28px 28px;
+                    height: 28px;
+                    width: 28px;
+                    margin-right: 10px;
+                    vertical-align: middle;
+                }
+            }
+            .anitian-approach__desc {
+                font-size: 16px;
+                line-height: 1.6em;
+                margin: 0;
+                font-weight: 500;
+            }
+            .hubspot-btn {
+                margin: 40px 0 0;
+                p{
+                    border-radius: 50px;
+                    padding-left: 25px;
+                    padding-right: 25px;
+                    padding-top: 10px;
+                    padding-bottom: 10px;
+                    color: #fff;
+                    font-size: 18px;
+                    font-weight: 500;
+                    background: #f75227;
+                    cursor: pointer;
+                    display: block;
+                    position: relative;
+                    border: 2px solid #f75227;
+                    transition: all .4s cubic-bezier(.42,0,.58,1);
+                    width: max-content;
+                    a{
+                        color: inherit;
+                        text-decoration: none !important
+                    }
+                    &:hover{
+                        background-color: #fff !important;
+                        color: #f75227 !important;
+                    }
+                }
+            }
+        }
+    }
+    .anitian-approach__right{
+        width: 50%;
+        padding: 0;
+        background-color: #0b3354;
+        border-radius: 100px 0 0 100px;
+        .anitian-approach__right__inner {
+            max-width: 600px;
+            padding: 5%;
+            .anitian-approach__items {
+                display: flex;
+                flex-wrap: wrap;
+                gap: 40px;
+                margin: 0;
+                padding: 0;
+                list-style: none;
+                .anitian-approach__item {
+                    width: calc(100% - 20px);
+                    position: relative;
+                    display: flex;
+                    flex-wrap: wrap;
+                    align-items: flex-start;
+                    gap: 10px;
+                    .anitian-approach__title {
+                        font-size: 16px;
+                        color: #fff;
+                        width: calc(100% - 44px);
+                    }
+                }
+                .anitian-approach__icon.is-small {
+                    width: 25px;
+                    height: 25px;
+                    line-height: 25px;
+                    font-size: 12px;
+                }
+                .fa-check:before {
+                    content: "\2714";
+                }
+                .anitian-approach__icon {
+                    text-align: center;
+                    background-color: #7cda24;
+                    color: #0b3354;
+                    border-radius: 100%;
+                }
+            }
+        }
+    }
+}

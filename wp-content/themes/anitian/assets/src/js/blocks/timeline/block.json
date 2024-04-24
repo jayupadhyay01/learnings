@@ -1,0 +1,96 @@
+{
+  "$schema": "https://schemas.wp.org/trunk/block.json",
+  "name": "anitian/timeline",
+  "version": "0.1.0",
+  "title": "Timeline Block",
+  "category": "anitian",
+  "icon": "chart-line",
+  "description": "This block is for Timeline Block of the Anitian Real Fact pages.",
+  "keywords": ["timeline", "Block"],
+  "supports": {
+    "html": false
+  },
+  "textdomain": "anitian",
+  "attributes": {
+    "textAlignment": {
+        "type": "string",
+        "default": "center"
+    },
+    "title": {
+      "type": "string",
+      "default": ""
+    },
+    "titleColor": {
+      "type": "string",
+      "default": ""
+    },
+    "titleVisiblity": {
+        "type": "boolean",
+        "default": true
+    },
+    "finishTitle": {
+      "type": "string",
+      "default": ""
+    },
+    "finishTitleColor": {
+      "type": "string",
+      "default": ""
+    },
+    "finishSubTitle": {
+      "type": "string",
+      "default": ""
+    },
+    "finishSubTitleColor": {
+      "type": "string",
+      "default": ""
+    },
+    "slideTitleColor": {
+      "type": "string",
+      "default": ""
+    },
+    "slideDescColor": {
+      "type": "string",
+      "default": ""
+    },
+    "boxTitleColor": {
+      "type": "string",
+      "default": ""
+    },
+    "boxDescColor": {
+      "type": "string",
+      "default": ""
+    },
+    "bgImage": {
+      "type": "object",
+      "default": {
+          "id": "",
+          "url": "",
+          "alt": "",
+          "width": "",
+          "height": "",
+          "mediaMime": "",
+          "mediaType": ""
+      }
+    },
+    "Image": {
+      "type": "object",
+      "default": {
+          "id": "",
+          "url": "",
+          "alt": "",
+          "width": "",
+          "height": "",
+          "mediaMime": "",
+          "mediaType": ""
+      }
+    },
+    "repeatItems": {
+      "type": "array",
+      "default": []
+    }
+  },
+  "editorScript": "file:./index.js",
+  "viewScript": [ "file:./view.js" ],
+  "editorStyle": "file:./index.css",
+  "style": "file:./style-index.css"
+}

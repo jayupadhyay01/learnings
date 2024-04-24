@@ -1,0 +1,30 @@
+/*!*******************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[3].use[1]!./node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[3].use[2]!./node_modules/sass-loader/dist/cjs.js??ruleSet[1].rules[3].use[3]!./src/js/blocks/info/editor.scss ***!
+  \*******************************************************************************************************************************************************************************************************************************************************/
+.wp-block-anitian-info .info-with-icons-boxes {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 30px;
+}
+.wp-block-anitian-info .info-with-icons-boxes .show-items-hover-wrap {
+  width: calc(33.333% - 28px);
+  position: relative;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  text-align: left;
+}
+.wp-block-anitian-info .info-with-icons-boxes .show-items-hover-wrap .info-with-icons-image {
+  width: 25%;
+  margin: 0 0 20px;
+}
+.wp-block-anitian-info .info-with-icons-boxes .show-items-hover-wrap .info-with-icons-image img {
+  max-width: 100%;
+  height: auto;
+}
+.wp-block-anitian-info .info-with-icons-boxes .show-items-hover-wrap .info-with-icons-box {
+  width: auto;
+  width: initial;
+}
+
+/*# sourceMappingURL=index.css.map*/

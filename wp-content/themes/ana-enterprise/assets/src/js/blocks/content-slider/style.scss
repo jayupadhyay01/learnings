@@ -1,0 +1,133 @@
+@import '../../../sass/mixins/all';
+.wp-block-ana-enterprise-content-slider{
+    padding: 50px 0px;
+    margin: 0 auto;
+    max-width: 80%;
+    h2{
+        font-size: 32px;
+        font-family: sans-serif;
+        margin-bottom: 15px;
+        line-height: 1.2;
+    }
+    .content-slider-inner{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        .box-columns {
+            width: 33.33%;
+            .content-section {
+                h3{
+                    font-size: 28px;
+                    font-family: sans-serif;
+                    line-height: 1.2;
+                }
+                p{
+                    font-size: 20px;
+                    font-family: sans-serif;
+                    letter-spacing: 0.1em;
+                    line-height: 1.2em;
+                }
+            }
+            .img-section {
+                text-align: center;
+                img{
+                    display: inline-block;
+                }
+            }
+
+        }
+
+    }
+    .slick-arrow {
+        top: calc(100% - 10px);
+        width: auto;
+        height: auto;
+        z-index: 1;
+
+        &.slick-next {
+            right: calc(50% - 130px);
+        }
+
+        &.slick-prev {
+            left: calc(50% - 130px);
+        }
+
+        &.slick-next::before {
+            content: '\2192';
+            display: inline-block;
+            color: #009cde;
+            font-size: 50px;
+            font-family: system-ui;
+        }
+
+        &.slick-prev:before {
+            content: '\2190';
+            display: inline-block;
+            color: #009cde;
+            font-size: 50px;
+            font-family: system-ui;
+        }
+
+        &:hover {
+            background: transparent;
+
+            &.slick-prev:before,
+            &.slick-next:before {
+                color: #000;
+            }
+
+            &:focus {
+                background: transparent;
+
+                &.slick-prev:before,
+                &.slick-next:before {
+                    color: #000;
+                }
+            }
+        }
+
+        &:focus {
+
+            &.slick-prev:before,
+            &.slick-next:before {
+                color: #000;
+            }
+        }
+    }
+    .slick-dots {
+        padding: 0 !important;
+        list-style-type: none;
+        display: flex;
+        justify-content: center;
+        left: 0;
+        width: 100%;
+        bottom: 0;
+
+        li {
+            position: relative;
+            display: inline-block;
+            width: 20px;
+            height: 20px;
+            margin: 0 5px;
+            padding: 0;
+            cursor: pointer;
+
+            button {
+                font-size: 0;
+                width: 20px;
+                height: 20px;
+                padding: 0;
+                margin-right: 7px;
+                margin-left: 7px;
+                background-color: transparent;
+                border: 1px solid #000;
+                border-radius: 50%;
+            }
+        }
+    }
+
+    .slick-dots li.slick-active button {
+        background-color: #009cde;
+        border: 1px solid #009cde;
+    }
+}

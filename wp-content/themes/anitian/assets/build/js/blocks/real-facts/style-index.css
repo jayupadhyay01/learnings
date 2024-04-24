@@ -1,0 +1,1125 @@
+/*!************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[3].use[1]!./node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[3].use[2]!./node_modules/sass-loader/dist/cjs.js??ruleSet[1].rules[3].use[3]!./src/js/blocks/real-facts/style.scss ***!
+  \************************************************************************************************************************************************************************************************************************************************************/
+@charset "UTF-8";
+* {
+  box-sizing: border-box;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+.wp-block-anitian-real-facts {
+  font-family: "Poppins", sans-serif;
+  font-size: 18px;
+  line-height: 1.5;
+  font-weight: 500;
+  -webkit-font-smoothing: antialiased;
+  padding: 0 0 60px;
+  position: relative;
+}
+.wp-block-anitian-real-facts .active {
+  display: block !important;
+}
+.wp-block-anitian-real-facts .real-facts-line {
+  height: 76px;
+  border: 6px solid #1ca5ff;
+  border-bottom: none;
+}
+.wp-block-anitian-real-facts .real-facts-header .title-text {
+  padding: 0 20px;
+  margin: 0 0 10px;
+  font-size: 40px;
+}
+.wp-block-anitian-real-facts .real-facts-header .real-facts-desc {
+  padding: 20px;
+  margin: 0;
+  font-size: 18px;
+  line-height: 1.5;
+  font-weight: 500;
+}
+.wp-block-anitian-real-facts .real-facts-header .btn-main {
+  font-size: 16px;
+  min-width: 100px;
+  text-align: center;
+  display: inline-block;
+  font-weight: 600;
+  border: 2px solid rgba(0, 0, 0, 0);
+  cursor: pointer;
+  letter-spacing: 0.16px;
+  word-break: break-word;
+  text-decoration: none;
+  position: relative;
+  padding: 8px 20px;
+  margin: 0;
+  line-height: 1.4;
+  border-radius: 50px;
+  transition: 150ms ease-out;
+}
+.wp-block-anitian-real-facts .one-col-click-wrap {
+  text-align: left;
+}
+.wp-block-anitian-real-facts .real-facts-item-content {
+  display: none;
+}
+.wp-block-anitian-real-facts .real-facts-item-content .real-facts-item {
+  margin-top: 50px;
+}
+.wp-block-anitian-real-facts .real-facts-item-content .real-facts-item .real-facts-item-title {
+  font-size: 36px;
+  line-height: 1.2em;
+  font-weight: 500;
+  padding-top: 50px;
+  padding-bottom: 10px;
+  position: relative;
+}
+.wp-block-anitian-real-facts .real-facts-item-content .real-facts-item .real-facts-item-title::before {
+  content: "";
+  display: block;
+  position: absolute;
+  width: 100%;
+  height: 17px;
+  background-color: #1ca5ff;
+  top: 0;
+  left: 50%;
+  transform: translateX(-50%);
+}
+.wp-block-anitian-real-facts .real-facts-item-content .real-facts-item .real-facts-item-desc {
+  font-size: 18px;
+  line-height: 1.5;
+  font-weight: 500;
+}
+.wp-block-anitian-real-facts .slider-main .real-fact-slides {
+  text-align: center;
+  background: linear-gradient(to right bottom, #2f87db, #3d83e9, #577df4, #7774fc, #9867fe);
+  border: none;
+  box-shadow: none;
+  min-height: 510px;
+  padding: 20px;
+  margin: 20px auto 0;
+  border-radius: 10px;
+  align-content: center;
+  flex-wrap: wrap;
+  cursor: grab;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+.wp-block-anitian-real-facts .slider-main .real-fact-slides h4 {
+  text-transform: uppercase;
+  font-size: 22px;
+  line-height: 1.5;
+  font-weight: bold;
+  width: 80%;
+  margin: 0 auto;
+}
+.wp-block-anitian-real-facts .slider-main .real-fact-slides h3 {
+  font-size: 39px;
+  line-height: 1.5;
+  font-weight: bold;
+  width: 80%;
+  margin: 0 auto 30px;
+}
+.wp-block-anitian-real-facts .slider-main .real-fact-slides p {
+  font-size: 21px;
+  line-height: normal;
+  width: 80%;
+  margin: 0 auto;
+}
+.wp-block-anitian-real-facts .slider-main .slick-prev {
+  left: 0;
+}
+.wp-block-anitian-real-facts .slider-main .slick-prev,
+.wp-block-anitian-real-facts .slider-main .slick-next {
+  cursor: pointer;
+  height: 72px;
+  width: 72px;
+  z-index: 50;
+  font-size: 0;
+  background: none;
+  border: none;
+  position: absolute;
+  right: 0;
+  top: 50%;
+  padding: 0;
+  transform: translateY(calc(-50% + 10px));
+}
+.wp-block-anitian-real-facts .slider-main .slick-next::before {
+  content: "→";
+  font-family: "ElegantIcons";
+  display: block;
+  color: #fff;
+  background: linear-gradient(to right, #5E39C1 50%, black 50%);
+  background-size: 200% 100%;
+  background-position: right bottom;
+  opacity: 0.7;
+  font-size: 35px;
+  line-height: 72px;
+  height: 72px;
+  width: 72px;
+  transition: all 0.3s ease-in;
+}
+.wp-block-anitian-real-facts .slider-main .slick-prev::before {
+  content: "←";
+  background-position: left bottom;
+  background: linear-gradient(to right, black 50%, #5E39C1 50%);
+  background-size: 200% 100%;
+  font-family: "ElegantIcons";
+  display: block;
+  color: #fff;
+  opacity: 0.7;
+  font-size: 35px;
+  line-height: 72px;
+  height: 72px;
+  width: 72px;
+  transition: all 0.3s ease-in;
+}
+.wp-block-anitian-real-facts .slider-main .slick-dots {
+  display: flex;
+  position: absolute;
+  bottom: 25px;
+  left: 50%;
+  transform: translateX(-50%);
+  height: 10px;
+  width: -moz-fit-content;
+  width: fit-content;
+}
+.wp-block-anitian-real-facts .slider-main .slick-dots li {
+  width: auto;
+}
+.wp-block-anitian-real-facts .slider-main .slick-dots li button {
+  height: 10px;
+  width: 10px;
+  font-size: 0;
+  opacity: 0.15;
+  background: #fff;
+  transition: ease-in 0.4s opacity;
+  border: none;
+  padding: 5px;
+  border-radius: 50%;
+  cursor: pointer;
+}
+.wp-block-anitian-real-facts .slider-main .slick-dots li.slick-active {
+  opacity: 0.5;
+}
+.wp-block-anitian-real-facts .two-col-click .slider-2-col .two-col-click-wrap {
+  display: flex;
+  max-width: 926px;
+  margin: 0 auto;
+}
+.wp-block-anitian-real-facts .two-col-click .slider-2-col .two-col-click-wrap .click_slider {
+  width: 50%;
+}
+.wp-block-anitian-real-facts .two-col-click .slider-2-col .two-col-click-wrap .slider-1 > .slick-list {
+  margin: 20px;
+}
+.wp-block-anitian-real-facts .two-col-click .slider-2-col .two-col-click-wrap .slider-1 .real-facts-slide-1 {
+  background-size: 100% 100% !important;
+}
+.wp-block-anitian-real-facts .two-col-click .slider-2-col .two-col-click-wrap .slider-1 .real-facts-slide-1 {
+  background: linear-gradient(to right bottom, #fac534, #ffa549, #ff8966, #ff7482, #e46a99);
+  text-align: left;
+  box-shadow: rgba(0, 0, 0, 0.3) 6px 2px 12px, rgba(0, 0, 0, 0.2) -1px 0px 5px;
+  border-radius: 10px;
+  min-height: 418px;
+  cursor: zoom-in;
+}
+.wp-block-anitian-real-facts .two-col-click .slider-2-col .two-col-click-wrap .slider-1 .real-facts-slide-1 .real-facts__slide-1-wrap {
+  padding: 70px 30px;
+  position: relative;
+  min-height: 418px;
+}
+.wp-block-anitian-real-facts .two-col-click .slider-2-col .two-col-click-wrap .slider-1 .real-facts-slide-1 .real-facts__slide-1-wrap h3 {
+  color: #ffffff !important;
+}
+.wp-block-anitian-real-facts .two-col-click .slider-2-col .two-col-click-wrap .slider-1 .real-facts-slide-1 .real-facts__slide-1-wrap h3 {
+  font-size: 27px;
+  line-height: 1.2;
+  font-weight: 700;
+}
+.wp-block-anitian-real-facts .two-col-click .slider-2-col .two-col-click-wrap .slider-1 .real-facts-slide-1 .real-facts__slide-1-wrap p {
+  color: #ffffff !important;
+}
+.wp-block-anitian-real-facts .two-col-click .slider-2-col .two-col-click-wrap .slider-1 .real-facts-slide-1 .real-facts__slide-1-wrap p {
+  font-size: 20px;
+  margin: 20px 0 0;
+  font-weight: 400;
+  line-height: 1.5;
+}
+.wp-block-anitian-real-facts .two-col-click .slider-2-col .two-col-click-wrap .slider-1 .real-facts-slide-2 {
+  border-top: 20px solid #9967fe;
+  border-color: #f75227;
+  background: #fff;
+  text-align: left;
+  background-color: #f7f7f7;
+  box-shadow: rgba(0, 0, 0, 0.3) 6px 2px 12px, rgba(0, 0, 0, 0.2) -1px 0px 5px;
+  border-radius: 10px;
+  min-height: 418px;
+  cursor: zoom-in;
+}
+.wp-block-anitian-real-facts .two-col-click .slider-2-col .two-col-click-wrap .slider-1 .real-facts-slide-2 .real-facts__slide-2-wrap {
+  padding: 50px 30px 70px;
+  position: relative;
+  min-height: 418px;
+}
+.wp-block-anitian-real-facts .two-col-click .slider-2-col .two-col-click-wrap .slider-1 .real-facts-slide-2 .real-facts__slide-2-wrap h3 {
+  font-size: 27px;
+  line-height: 1.2;
+  font-weight: 700;
+}
+.wp-block-anitian-real-facts .two-col-click .slider-2-col .two-col-click-wrap .slider-1 .real-facts-slide-2 .real-facts__slide-2-wrap p {
+  font-size: 20px;
+  margin: 20px 0 0;
+  font-weight: 400;
+  line-height: 1.5;
+}
+.wp-block-anitian-real-facts .two-col-click .slider-2-col .two-col-click-wrap .slider-1 .real-facts-slide-2 .real-facts__slide-2-wrap .real-facts-quote {
+  background-color: #f7f7f7;
+  padding: 12px;
+  color: #666;
+  font-size: 16px;
+  border-radius: 15px;
+  font-weight: 500;
+  line-height: 1.2;
+}
+.wp-block-anitian-real-facts .two-col-click .slider-2-col .two-col-click-wrap .slider-1 .real-facts-slide-2 .real-facts__slide-2-wrap .real-facts-slide-icon {
+  position: absolute;
+  right: 15px;
+  bottom: 25px;
+  height: 40px;
+  width: 40px;
+  border-radius: 40px;
+  font-size: 40px;
+  line-height: 40px;
+  cursor: pointer;
+  box-shadow: 5px 5px 5px 1px rgba(0, 0, 0, 0.06);
+  animation: iconScale 1s infinite alternate ease-in-out;
+  display: inline-block;
+  font-family: "ElegantIcons";
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-feature-settings: normal;
+  font-variant: normal;
+  text-transform: none;
+  -webkit-font-smoothing: antialiased;
+}
+.wp-block-anitian-real-facts .two-col-click .slider-2-col .two-col-click-wrap .slider-2 > .slick-list {
+  margin: 20px;
+}
+.wp-block-anitian-real-facts .two-col-click .slider-2-col .two-col-click-wrap .slider-2 .real-facts-slide-1 {
+  background-size: 100% 100% !important;
+}
+.wp-block-anitian-real-facts .two-col-click .slider-2-col .two-col-click-wrap .slider-2 .real-facts-slide-1 {
+  background: rgba(0, 0, 0, 0);
+  text-align: left;
+}
+.wp-block-anitian-real-facts .two-col-click .slider-2-col .two-col-click-wrap .slider-2 .real-facts-slide-1 .real-facts__slide-1-wrap {
+  padding: 70px 30px !important;
+}
+.wp-block-anitian-real-facts .two-col-click .slider-2-col .two-col-click-wrap .slider-2 .real-facts-slide-1 .real-facts__slide-1-wrap {
+  position: relative;
+  min-height: 418px;
+  width: 100%;
+  padding: 0;
+}
+.wp-block-anitian-real-facts .two-col-click .slider-2-col .two-col-click-wrap .slider-2 .real-facts-slide-1 .real-facts__slide-1-wrap .real-facts-slider-image {
+  width: 100%;
+  display: block;
+  padding: 0;
+  padding-bottom: 25px;
+  border-radius: 0;
+  background-color: rgba(0, 0, 0, 0);
+}
+.wp-block-anitian-real-facts .two-col-click .slider-2-col .two-col-click-wrap .slider-2 .real-facts-slide-1 .real-facts__slide-1-wrap .real-facts-slider-image img {
+  max-width: 100%;
+  height: auto;
+}
+.wp-block-anitian-real-facts .two-col-click .slider-2-col .two-col-click-wrap .slider-2 .real-facts-slide-1 .real-facts__slide-1-wrap h3 {
+  font-size: 27px;
+  line-height: 1.2;
+  font-weight: 700;
+}
+.wp-block-anitian-real-facts .two-col-click .slider-2-col .two-col-click-wrap .slider-2 .real-facts-slide-1 .real-facts__slide-1-wrap p {
+  margin: 20px 0 0;
+  font-weight: 400;
+  line-height: 1.5;
+}
+.wp-block-anitian-real-facts .two-col-click .slider-2-col .two-col-click-wrap .slider-2 .real-facts-slide-1 .real-facts__slide-1-wrap p a {
+  background-color: rgba(0, 0, 0, 0);
+  color: #9966ff;
+}
+.wp-block-anitian-real-facts .two-col-click .slider-2-col .two-col-click-wrap .slider-2 .real-facts-slide-1 .real-facts__slide-1-wrap .real-facts-slide-icon {
+  position: absolute;
+  right: 15px;
+  bottom: 25px;
+  height: 40px;
+  width: 40px;
+  border-radius: 40px;
+  font-size: 40px;
+  line-height: 40px;
+  cursor: pointer;
+  box-shadow: 5px 5px 5px 1px rgba(0, 0, 0, 0.06);
+  animation: iconScale 1s infinite alternate ease-in-out;
+  display: inline-block;
+  font-family: "ElegantIcons";
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-feature-settings: normal;
+  font-variant: normal;
+  text-transform: none;
+  -webkit-font-smoothing: antialiased;
+}
+.wp-block-anitian-real-facts .two-col-click .slider-2-col .two-col-click-wrap .slider-2 .real-facts-slide-2 {
+  border-top: 20px solid #9967fe;
+  background: #fff;
+  text-align: left;
+  background-color: #f7f7f7;
+  box-shadow: rgba(0, 0, 0, 0.3) 6px 2px 12px, rgba(0, 0, 0, 0.2) -1px 0px 5px;
+  border-radius: 10px;
+  min-height: 418px;
+  cursor: zoom-in;
+}
+.wp-block-anitian-real-facts .two-col-click .slider-2-col .two-col-click-wrap .slider-2 .real-facts-slide-2 .real-facts__slide-2-wrap {
+  padding: 50px 30px 70px;
+  position: relative;
+  min-height: 418px;
+}
+.wp-block-anitian-real-facts .two-col-click .slider-2-col .two-col-click-wrap .slider-2 .real-facts-slide-2 .real-facts__slide-2-wrap h3 {
+  font-size: 27px;
+  line-height: 1.2;
+  font-weight: 700;
+}
+.wp-block-anitian-real-facts .two-col-click .slider-2-col .two-col-click-wrap .slider-2 .real-facts-slide-2 .real-facts__slide-2-wrap p {
+  margin: 20px 0 0;
+  font-weight: 400;
+  line-height: 1.5;
+}
+.wp-block-anitian-real-facts .two-col-click .slider-2-col .two-col-click-wrap .slider-2 .real-facts-slide-2 .real-facts__slide-2-wrap .real-facts-quote {
+  background-color: #f7f7f7;
+  padding: 12px;
+  color: #666;
+  font-size: 16px;
+  border-radius: 15px;
+  font-weight: 500;
+  line-height: 1.2;
+}
+.wp-block-anitian-real-facts .two-col-click .slider-2-col .two-col-click-wrap .slider-2 .real-facts-slide-2 .real-facts__slide-2-wrap .real-facts-slide-icon {
+  position: absolute;
+  right: 15px;
+  bottom: 25px;
+  height: 40px;
+  width: 40px;
+  border-radius: 40px;
+  font-size: 40px;
+  line-height: 40px;
+  cursor: pointer;
+  box-shadow: 5px 5px 5px 1px rgba(0, 0, 0, 0.06);
+  animation: iconScale 1s infinite alternate ease-in-out;
+  display: inline-block;
+  font-family: "ElegantIcons";
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-feature-settings: normal;
+  font-variant: normal;
+  text-transform: none;
+  -webkit-font-smoothing: antialiased;
+}
+.wp-block-anitian-real-facts .real-facts__video .real-facts__video-img {
+  position: relative;
+  min-height: 400px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.wp-block-anitian-real-facts .real-facts__video .real-facts__video-img img {
+  z-index: 30;
+  cursor: pointer;
+  max-width: 100%;
+  width: 100px;
+  height: auto;
+}
+.wp-block-anitian-real-facts .real-facts__video .real-facts__video-modal.active {
+  visibility: visible;
+  opacity: 1;
+}
+.wp-block-anitian-real-facts .real-facts__video .real-facts__video-modal {
+  position: fixed;
+  z-index: 201;
+  visibility: hidden;
+  opacity: 0;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  background: rgba(0, 0, 0, 0.8);
+  transition: ease-in-out 0.4s opacity;
+}
+.wp-block-anitian-real-facts .real-facts__video .real-facts__video-modal .real-facts__video-modal-content {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  width: 80%;
+  max-width: 782px;
+}
+.wp-block-anitian-real-facts .real-facts__video .real-facts__video-modal .real-facts__video-modal-content .real-facts__video-modal-wrap {
+  position: relative;
+}
+.wp-block-anitian-real-facts .real-facts__video .real-facts__video-modal .real-facts__video-modal-content .real-facts__video-modal-wrap .close-modal {
+  height: 35px;
+  width: 35px;
+  position: absolute;
+  cursor: pointer;
+  left: -38px;
+  top: -9px;
+}
+.wp-block-anitian-real-facts .real-facts__video .real-facts__video-modal .real-facts__video-modal-content .real-facts__video-modal-wrap .close-modal::before {
+  content: "x";
+  font-family: "ElegantIcons";
+  color: #fff;
+  opacity: 0.8;
+  font-size: 35px;
+  line-height: 35px;
+}
+.wp-block-anitian-real-facts .real-facts__video .real-facts__video-modal .real-facts__video-modal-content .real-facts__video-modal-wrap iframe {
+  width: 100% !important;
+}
+.wp-block-anitian-real-facts .real-facts__video .real-facts__video-modal .real-facts__video-modal-content .real-facts__video-modal-wrap iframe {
+  border: 5px solid #fff;
+  border-radius: 3px;
+  max-width: 100%;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+.wp-block-anitian-real-facts {
+  font-family: "Poppins", sans-serif;
+  font-size: 18px;
+  line-height: 1.5;
+  font-weight: 500;
+  -webkit-font-smoothing: antialiased;
+  padding: 0 0 60px;
+  position: relative;
+}
+.wp-block-anitian-real-facts .active {
+  display: block !important;
+}
+.wp-block-anitian-real-facts .real-facts-line {
+  height: 76px;
+  border: 6px solid #1ca5ff;
+  border-bottom: none;
+}
+.wp-block-anitian-real-facts .real-facts-header .title-text {
+  padding: 0 20px;
+  margin: 0 0 10px;
+  font-size: 40px;
+}
+.wp-block-anitian-real-facts .real-facts-header .real-facts-desc {
+  padding: 20px;
+  margin: 0;
+  font-size: 18px;
+  line-height: 1.5;
+  font-weight: 500;
+}
+.wp-block-anitian-real-facts .real-facts-header .btn-main {
+  font-size: 16px;
+  min-width: 100px;
+  text-align: center;
+  display: inline-block;
+  font-weight: 600;
+  border: 2px solid rgba(0, 0, 0, 0);
+  cursor: pointer;
+  letter-spacing: 0.16px;
+  word-break: break-word;
+  text-decoration: none;
+  position: relative;
+  padding: 8px 20px;
+  margin: 0;
+  line-height: 1.4;
+  border-radius: 50px;
+  transition: 150ms ease-out;
+}
+.wp-block-anitian-real-facts .one-col-click-wrap {
+  text-align: left;
+}
+.wp-block-anitian-real-facts .real-facts-item-content {
+  display: none;
+}
+.wp-block-anitian-real-facts .real-facts-item-content .real-facts-item {
+  margin-top: 50px;
+}
+.wp-block-anitian-real-facts .real-facts-item-content .real-facts-item .real-facts-item-title {
+  font-size: 36px;
+  line-height: 1.2em;
+  font-weight: 500;
+  padding-top: 50px;
+  padding-bottom: 10px;
+  position: relative;
+}
+.wp-block-anitian-real-facts .real-facts-item-content .real-facts-item .real-facts-item-title::before {
+  content: "";
+  display: block;
+  position: absolute;
+  width: 100%;
+  height: 17px;
+  background-color: #1ca5ff;
+  top: 0;
+  left: 50%;
+  transform: translateX(-50%);
+}
+.wp-block-anitian-real-facts .real-facts-item-content .real-facts-item .real-facts-item-desc {
+  font-size: 18px;
+  line-height: 1.5;
+  font-weight: 500;
+}
+.wp-block-anitian-real-facts .slider-1-col .real-facts-slide-2-wrap {
+  border-top: 20px solid #9967fe;
+  margin-right: 170px;
+  text-align: left;
+  background-color: #f7f7f7;
+  box-shadow: rgba(0, 0, 0, 0.3) 6px 2px 12px, rgba(0, 0, 0, 0.2) -1px 0px 5px;
+  border-radius: 10px;
+  min-height: 418px;
+  padding: 18px 40px 80px;
+  position: relative;
+  min-height: 418px;
+  cursor: zoom-in;
+}
+.wp-block-anitian-real-facts .slider-1-col .real-facts-slide-2-wrap h3 {
+  font-size: 34px;
+  line-height: 1.2;
+  font-weight: 700;
+}
+.wp-block-anitian-real-facts .slider-1-col .real-facts-slide-2-wrap p {
+  margin: 20px 0 0;
+  font-weight: 400;
+  line-height: 1.5;
+  font-size: 22px;
+  font-family: "Poppins", sans-serif;
+}
+.wp-block-anitian-real-facts .slider-1-col .real-facts-slide-2-wrap .real-facts-slide-icon {
+  position: absolute;
+  right: 15px;
+  bottom: 25px;
+  height: 40px;
+  width: 40px;
+  border-radius: 40px;
+  font-size: 40px;
+  line-height: 40px;
+  cursor: pointer;
+  box-shadow: 5px 5px 5px 1px rgba(0, 0, 0, 0.06);
+  animation: iconScale 1s infinite alternate ease-in-out;
+  display: inline-block;
+  font-family: "ElegantIcons";
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-feature-settings: normal;
+  font-variant: normal;
+  text-transform: none;
+  -webkit-font-smoothing: antialiased;
+}
+.wp-block-anitian-real-facts .slider-1-col .real-facts-slide-2-wrap .real-facts-slide-icon::before {
+  content: "\e051";
+}
+.wp-block-anitian-real-facts .slider-1-col .real-facts-slide-1-wrap {
+  margin: 0px 100px;
+  text-align: left;
+  background-color: #f7f7f7;
+  box-shadow: rgba(0, 0, 0, 0.3) 6px 2px 12px, rgba(0, 0, 0, 0.2) -1px 0px 5px;
+  border-radius: 10px;
+  min-height: 418px;
+  cursor: zoom-in;
+  display: flex;
+  position: relative;
+  min-height: 418px;
+}
+.wp-block-anitian-real-facts .slider-1-col .real-facts-slide-1-wrap .real-facts-slider-image {
+  width: 20%;
+  display: flex;
+  justify-content: center;
+  height: -moz-fit-content;
+  height: fit-content;
+  padding: 5% 6% 10% 2%;
+  border-radius: 0 0 100% 0;
+  background-color: #9967fe;
+}
+.wp-block-anitian-real-facts .slider-1-col .real-facts-slide-1-wrap .real-facts-slide-1-content {
+  width: 80%;
+  padding: 60px 30px 80px;
+}
+.wp-block-anitian-real-facts .slider-1-col .real-facts-slide-1-wrap .real-facts-slide-1-content h3 {
+  font-size: 34px;
+  line-height: 1.2;
+  font-weight: 700;
+}
+.wp-block-anitian-real-facts .slider-1-col .real-facts-slide-1-wrap .real-facts-slide-1-content p {
+  margin: 20px 0 0;
+  font-weight: 400;
+  line-height: 1.5;
+  font-size: 22px;
+}
+.wp-block-anitian-real-facts .slider-1-col .real-facts-slide-1-wrap .click-here {
+  color: #f47528;
+  position: absolute;
+  max-width: 137px;
+  right: 57px;
+  bottom: 25px;
+  height: 64px;
+}
+.wp-block-anitian-real-facts .slider-1-col .real-facts-slide-1-wrap .click-here svg {
+  width: 137px;
+  height: 64px;
+}
+.wp-block-anitian-real-facts .slider-1-col .real-facts-slide-1-wrap .real-facts-slide-icon {
+  position: absolute;
+  right: 15px;
+  bottom: 25px;
+  height: 40px;
+  width: 40px;
+  border-radius: 40px;
+  font-size: 40px;
+  line-height: 40px;
+  cursor: pointer;
+  box-shadow: 5px 5px 5px 1px rgba(0, 0, 0, 0.06);
+  animation: iconScale 1s infinite alternate ease-in-out;
+  display: inline-block;
+  font-family: "ElegantIcons";
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-feature-settings: normal;
+  font-variant: normal;
+  text-transform: none;
+  -webkit-font-smoothing: antialiased;
+}
+.wp-block-anitian-real-facts .slider-1-col .real-facts-slide-1-wrap .real-facts-slide-icon::before {
+  content: "\e050";
+}
+.wp-block-anitian-real-facts .slider-main .real-fact-slides {
+  text-align: center;
+  background: linear-gradient(to right bottom, #2f87db, #3d83e9, #577df4, #7774fc, #9867fe);
+  border: none;
+  box-shadow: none;
+  min-height: 510px;
+  padding: 20px;
+  margin: 20px auto 0;
+  border-radius: 10px;
+  align-content: center;
+  flex-wrap: wrap;
+  cursor: grab;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+.wp-block-anitian-real-facts .slider-main .real-fact-slides h4 {
+  text-transform: uppercase;
+  font-size: 22px;
+  line-height: 1.5;
+  font-weight: bold;
+  width: 80%;
+  margin: 0 auto;
+}
+.wp-block-anitian-real-facts .slider-main .real-fact-slides h3 {
+  font-size: 39px;
+  line-height: 1.5;
+  font-weight: bold;
+  width: 80%;
+  margin: 0 auto 30px;
+}
+.wp-block-anitian-real-facts .slider-main .real-fact-slides p {
+  font-size: 21px;
+  line-height: normal;
+  width: 80%;
+  margin: 0 auto;
+}
+.wp-block-anitian-real-facts .slider-main .slick-prev {
+  left: 0;
+}
+.wp-block-anitian-real-facts .slider-main .slick-prev,
+.wp-block-anitian-real-facts .slider-main .slick-next {
+  cursor: pointer;
+  height: 72px;
+  width: 72px;
+  z-index: 50;
+  font-size: 0;
+  background: none;
+  border: none;
+  position: absolute;
+  right: 0;
+  top: 50%;
+  padding: 0;
+  transform: translateY(calc(-50% + 10px));
+}
+.wp-block-anitian-real-facts .slider-main .slick-next::before {
+  content: "→";
+  font-family: "ElegantIcons";
+  display: block;
+  color: #fff;
+  background: linear-gradient(to right, #5E39C1 50%, black 50%);
+  background-size: 200% 100%;
+  background-position: right bottom;
+  opacity: 0.7;
+  font-size: 35px;
+  line-height: 72px;
+  height: 72px;
+  width: 72px;
+  transition: all 0.3s ease-in;
+}
+.wp-block-anitian-real-facts .slider-main .slick-prev::before {
+  content: "←";
+  background-position: left bottom;
+  background: linear-gradient(to right, black 50%, #5E39C1 50%);
+  background-size: 200% 100%;
+  font-family: "ElegantIcons";
+  display: block;
+  color: #fff;
+  opacity: 0.7;
+  font-size: 35px;
+  line-height: 72px;
+  height: 72px;
+  width: 72px;
+  transition: all 0.3s ease-in;
+}
+.wp-block-anitian-real-facts .slider-main .slick-dots {
+  display: flex;
+  position: absolute;
+  bottom: 25px;
+  left: 50%;
+  transform: translateX(-50%);
+  height: 10px;
+  width: -moz-fit-content;
+  width: fit-content;
+}
+.wp-block-anitian-real-facts .slider-main .slick-dots li {
+  width: auto;
+}
+.wp-block-anitian-real-facts .slider-main .slick-dots li button {
+  height: 10px;
+  width: 10px;
+  font-size: 0;
+  opacity: 0.15;
+  background: #fff;
+  transition: ease-in 0.4s opacity;
+  border: none;
+  padding: 5px;
+  border-radius: 50%;
+  cursor: pointer;
+}
+.wp-block-anitian-real-facts .slider-main .slick-dots li.slick-active {
+  opacity: 0.5;
+}
+.wp-block-anitian-real-facts .two-col-click .slider-2-col .two-col-click-wrap {
+  display: flex;
+  max-width: 926px;
+  margin: 0 auto;
+}
+.wp-block-anitian-real-facts .two-col-click .slider-2-col .two-col-click-wrap .click_slider {
+  width: 50%;
+}
+.wp-block-anitian-real-facts .two-col-click .slider-2-col .two-col-click-wrap .slider-1 > .slick-list {
+  margin: 20px;
+}
+.wp-block-anitian-real-facts .two-col-click .slider-2-col .two-col-click-wrap .slider-1 .real-facts-slide-1 {
+  background-size: 100% 100% !important;
+}
+.wp-block-anitian-real-facts .two-col-click .slider-2-col .two-col-click-wrap .slider-1 .real-facts-slide-1 {
+  background: linear-gradient(to right bottom, #fac534, #ffa549, #ff8966, #ff7482, #e46a99);
+  text-align: left;
+  box-shadow: rgba(0, 0, 0, 0.3) 6px 2px 12px, rgba(0, 0, 0, 0.2) -1px 0px 5px;
+  border-radius: 10px;
+  min-height: 418px;
+  cursor: zoom-in;
+}
+.wp-block-anitian-real-facts .two-col-click .slider-2-col .two-col-click-wrap .slider-1 .real-facts-slide-1 .real-facts__slide-1-wrap {
+  padding: 70px 30px;
+  position: relative;
+  min-height: 418px;
+}
+.wp-block-anitian-real-facts .two-col-click .slider-2-col .two-col-click-wrap .slider-1 .real-facts-slide-1 .real-facts__slide-1-wrap h3 {
+  color: #ffffff !important;
+}
+.wp-block-anitian-real-facts .two-col-click .slider-2-col .two-col-click-wrap .slider-1 .real-facts-slide-1 .real-facts__slide-1-wrap h3 {
+  font-size: 27px;
+  line-height: 1.2;
+  font-weight: 700;
+}
+.wp-block-anitian-real-facts .two-col-click .slider-2-col .two-col-click-wrap .slider-1 .real-facts-slide-1 .real-facts__slide-1-wrap p {
+  color: #ffffff !important;
+}
+.wp-block-anitian-real-facts .two-col-click .slider-2-col .two-col-click-wrap .slider-1 .real-facts-slide-1 .real-facts__slide-1-wrap p {
+  font-size: 20px;
+  margin: 20px 0 0;
+  font-weight: 400;
+  line-height: 1.5;
+}
+.wp-block-anitian-real-facts .two-col-click .slider-2-col .two-col-click-wrap .slider-1 .real-facts-slide-2 {
+  border-top: 20px solid #9967fe;
+  border-color: #f75227;
+  background: #fff;
+  text-align: left;
+  background-color: #f7f7f7;
+  box-shadow: rgba(0, 0, 0, 0.3) 6px 2px 12px, rgba(0, 0, 0, 0.2) -1px 0px 5px;
+  border-radius: 10px;
+  min-height: 418px;
+  cursor: zoom-in;
+}
+.wp-block-anitian-real-facts .two-col-click .slider-2-col .two-col-click-wrap .slider-1 .real-facts-slide-2 .real-facts__slide-2-wrap {
+  padding: 50px 30px 70px;
+  position: relative;
+  min-height: 418px;
+}
+.wp-block-anitian-real-facts .two-col-click .slider-2-col .two-col-click-wrap .slider-1 .real-facts-slide-2 .real-facts__slide-2-wrap h3 {
+  font-size: 27px;
+  line-height: 1.2;
+  font-weight: 700;
+}
+.wp-block-anitian-real-facts .two-col-click .slider-2-col .two-col-click-wrap .slider-1 .real-facts-slide-2 .real-facts__slide-2-wrap p {
+  font-size: 20px;
+  margin: 20px 0 0;
+  font-weight: 400;
+  line-height: 1.5;
+}
+.wp-block-anitian-real-facts .two-col-click .slider-2-col .two-col-click-wrap .slider-1 .real-facts-slide-2 .real-facts__slide-2-wrap .real-facts-quote {
+  background-color: #f7f7f7;
+  padding: 12px;
+  color: #666;
+  font-size: 16px;
+  border-radius: 15px;
+  font-weight: 500;
+  line-height: 1.2;
+}
+.wp-block-anitian-real-facts .two-col-click .slider-2-col .two-col-click-wrap .slider-1 .real-facts-slide-2 .real-facts__slide-2-wrap .real-facts-slide-icon {
+  position: absolute;
+  right: 15px;
+  bottom: 25px;
+  height: 40px;
+  width: 40px;
+  border-radius: 40px;
+  font-size: 40px;
+  line-height: 40px;
+  cursor: pointer;
+  box-shadow: 5px 5px 5px 1px rgba(0, 0, 0, 0.06);
+  animation: iconScale 1s infinite alternate ease-in-out;
+  display: inline-block;
+  font-family: "ElegantIcons";
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-feature-settings: normal;
+  font-variant: normal;
+  text-transform: none;
+  -webkit-font-smoothing: antialiased;
+}
+.wp-block-anitian-real-facts .two-col-click .slider-2-col .two-col-click-wrap .slider-2 > .slick-list {
+  margin: 20px;
+}
+.wp-block-anitian-real-facts .two-col-click .slider-2-col .two-col-click-wrap .slider-2 .real-facts-slide-1 {
+  background-size: 100% 100% !important;
+}
+.wp-block-anitian-real-facts .two-col-click .slider-2-col .two-col-click-wrap .slider-2 .real-facts-slide-1 {
+  background: rgba(0, 0, 0, 0);
+  text-align: left;
+}
+.wp-block-anitian-real-facts .two-col-click .slider-2-col .two-col-click-wrap .slider-2 .real-facts-slide-1 .real-facts__slide-1-wrap {
+  padding: 70px 30px !important;
+}
+.wp-block-anitian-real-facts .two-col-click .slider-2-col .two-col-click-wrap .slider-2 .real-facts-slide-1 .real-facts__slide-1-wrap {
+  position: relative;
+  min-height: 418px;
+  width: 100%;
+  padding: 0;
+}
+.wp-block-anitian-real-facts .two-col-click .slider-2-col .two-col-click-wrap .slider-2 .real-facts-slide-1 .real-facts__slide-1-wrap .real-facts-slider-image {
+  width: 100%;
+  display: block;
+  padding: 0;
+  padding-bottom: 25px;
+  border-radius: 0;
+  background-color: rgba(0, 0, 0, 0);
+}
+.wp-block-anitian-real-facts .two-col-click .slider-2-col .two-col-click-wrap .slider-2 .real-facts-slide-1 .real-facts__slide-1-wrap .real-facts-slider-image img {
+  max-width: 100%;
+  height: auto;
+}
+.wp-block-anitian-real-facts .two-col-click .slider-2-col .two-col-click-wrap .slider-2 .real-facts-slide-1 .real-facts__slide-1-wrap h3 {
+  font-size: 27px;
+  line-height: 1.2;
+  font-weight: 700;
+}
+.wp-block-anitian-real-facts .two-col-click .slider-2-col .two-col-click-wrap .slider-2 .real-facts-slide-1 .real-facts__slide-1-wrap p {
+  margin: 20px 0 0;
+  font-weight: 400;
+  line-height: 1.5;
+}
+.wp-block-anitian-real-facts .two-col-click .slider-2-col .two-col-click-wrap .slider-2 .real-facts-slide-1 .real-facts__slide-1-wrap p a {
+  background-color: rgba(0, 0, 0, 0);
+  color: #9966ff;
+}
+.wp-block-anitian-real-facts .two-col-click .slider-2-col .two-col-click-wrap .slider-2 .real-facts-slide-1 .real-facts__slide-1-wrap .real-facts-slide-icon {
+  position: absolute;
+  right: 15px;
+  bottom: 25px;
+  height: 40px;
+  width: 40px;
+  border-radius: 40px;
+  font-size: 40px;
+  line-height: 40px;
+  cursor: pointer;
+  box-shadow: 5px 5px 5px 1px rgba(0, 0, 0, 0.06);
+  animation: iconScale 1s infinite alternate ease-in-out;
+  display: inline-block;
+  font-family: "ElegantIcons";
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-feature-settings: normal;
+  font-variant: normal;
+  text-transform: none;
+  -webkit-font-smoothing: antialiased;
+}
+.wp-block-anitian-real-facts .two-col-click .slider-2-col .two-col-click-wrap .slider-2 .real-facts-slide-2 {
+  border-top: 20px solid #9967fe;
+  background: #fff;
+  text-align: left;
+  background-color: #f7f7f7;
+  box-shadow: rgba(0, 0, 0, 0.3) 6px 2px 12px, rgba(0, 0, 0, 0.2) -1px 0px 5px;
+  border-radius: 10px;
+  min-height: 418px;
+  cursor: zoom-in;
+}
+.wp-block-anitian-real-facts .two-col-click .slider-2-col .two-col-click-wrap .slider-2 .real-facts-slide-2 .real-facts__slide-2-wrap {
+  padding: 50px 30px 70px;
+  position: relative;
+  min-height: 418px;
+}
+.wp-block-anitian-real-facts .two-col-click .slider-2-col .two-col-click-wrap .slider-2 .real-facts-slide-2 .real-facts__slide-2-wrap h3 {
+  font-size: 27px;
+  line-height: 1.2;
+  font-weight: 700;
+}
+.wp-block-anitian-real-facts .two-col-click .slider-2-col .two-col-click-wrap .slider-2 .real-facts-slide-2 .real-facts__slide-2-wrap p {
+  margin: 20px 0 0;
+  font-weight: 400;
+  line-height: 1.5;
+}
+.wp-block-anitian-real-facts .two-col-click .slider-2-col .two-col-click-wrap .slider-2 .real-facts-slide-2 .real-facts__slide-2-wrap .real-facts-quote {
+  background-color: #f7f7f7;
+  padding: 12px;
+  color: #666;
+  font-size: 16px;
+  border-radius: 15px;
+  font-weight: 500;
+  line-height: 1.2;
+}
+.wp-block-anitian-real-facts .two-col-click .slider-2-col .two-col-click-wrap .slider-2 .real-facts-slide-2 .real-facts__slide-2-wrap .real-facts-slide-icon {
+  position: absolute;
+  right: 15px;
+  bottom: 25px;
+  height: 40px;
+  width: 40px;
+  border-radius: 40px;
+  font-size: 40px;
+  line-height: 40px;
+  cursor: pointer;
+  box-shadow: 5px 5px 5px 1px rgba(0, 0, 0, 0.06);
+  animation: iconScale 1s infinite alternate ease-in-out;
+  display: inline-block;
+  font-family: "ElegantIcons";
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-feature-settings: normal;
+  font-variant: normal;
+  text-transform: none;
+  -webkit-font-smoothing: antialiased;
+}
+.wp-block-anitian-real-facts .real-facts__video .real-facts__video-img {
+  position: relative;
+  min-height: 400px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.wp-block-anitian-real-facts .real-facts__video .real-facts__video-img img {
+  z-index: 30;
+  cursor: pointer;
+  max-width: 100%;
+  width: 100px;
+  height: auto;
+}
+.wp-block-anitian-real-facts .real-facts__video .video-text {
+  cursor: pointer;
+}
+.wp-block-anitian-real-facts .real-facts__video .video-text a {
+  color: #000;
+}
+.wp-block-anitian-real-facts .real-facts__video .real-facts__video-modal.active {
+  visibility: visible;
+  opacity: 1;
+}
+.wp-block-anitian-real-facts .real-facts__video .real-facts__video-modal {
+  position: fixed;
+  z-index: 201;
+  visibility: hidden;
+  opacity: 0;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  background: rgba(0, 0, 0, 0.8);
+  transition: ease-in-out 0.4s opacity;
+}
+.wp-block-anitian-real-facts .real-facts__video .real-facts__video-modal .real-facts__video-modal-content {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  width: 80%;
+  max-width: 782px;
+}
+.wp-block-anitian-real-facts .real-facts__video .real-facts__video-modal .real-facts__video-modal-content .real-facts__video-modal-wrap {
+  position: relative;
+}
+.wp-block-anitian-real-facts .real-facts__video .real-facts__video-modal .real-facts__video-modal-content .real-facts__video-modal-wrap .close-modal {
+  height: 35px;
+  width: 35px;
+  position: absolute;
+  cursor: pointer;
+  left: -38px;
+  top: -9px;
+}
+.wp-block-anitian-real-facts .real-facts__video .real-facts__video-modal .real-facts__video-modal-content .real-facts__video-modal-wrap .close-modal::before {
+  content: "x";
+  font-family: "ElegantIcons";
+  color: #fff;
+  opacity: 0.8;
+  font-size: 35px;
+  line-height: 35px;
+}
+.wp-block-anitian-real-facts .real-facts__video .real-facts__video-modal .real-facts__video-modal-content .real-facts__video-modal-wrap iframe {
+  width: 100% !important;
+}
+.wp-block-anitian-real-facts .real-facts__video .real-facts__video-modal .real-facts__video-modal-content .real-facts__video-modal-wrap iframe {
+  border: 5px solid #fff;
+  border-radius: 3px;
+  max-width: 100%;
+}
+
+/*# sourceMappingURL=style-index.css.map*/

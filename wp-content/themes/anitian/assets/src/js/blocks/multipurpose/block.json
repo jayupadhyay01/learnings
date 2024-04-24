@@ -1,0 +1,75 @@
+{
+  "$schema": "https://schemas.wp.org/trunk/block.json",
+  "name": "anitian/multipurpose",
+  "version": "0.1.0",
+  "title": "Multipurpose Block",
+  "category": "anitian",
+  "icon": "admin-multisite",
+  "description": "This block is for Multipurpose Block of the Anitian Real Fact pages.",
+  "keywords": ["multipurpose", "Block"],
+  "supports": {
+    "html": false
+  },
+  "textdomain": "anitian",
+  "attributes": {
+    "textAlignment": {
+        "type": "string",
+        "default": "center"
+    },
+    "title": {
+      "type": "string",
+      "default": ""
+    },
+    "titleColor": {
+      "type": "string",
+      "default": ""
+    },
+    "titleVisiblity": {
+        "type": "boolean",
+        "default": false
+    },
+    "description": {
+      "type": "string",
+      "default": ""
+    },
+    "descriptionColor": {
+      "type": "string",
+      "default": ""
+    },
+    "descriptionVisiblity": {
+        "type": "boolean",
+        "default": true
+    },
+    "bgColor": {
+      "type": "string",
+      "default": ""
+    },
+    "bgImage": {
+      "type": "object",
+      "default": {
+          "id": "",
+          "url": "",
+          "alt": "",
+          "width": "",
+          "height": "",
+          "mediaMime": "",
+          "mediaType": ""
+      }
+    },
+    "Image": {
+      "type": "object",
+      "default": {
+          "id": "",
+          "url": "",
+          "alt": "",
+          "width": "",
+          "height": "",
+          "mediaMime": "",
+          "mediaType": ""
+      }
+    }
+  },
+  "editorScript": "file:./index.js",
+  "editorStyle": "file:./index.css",
+  "style": "file:./style-index.css"
+}

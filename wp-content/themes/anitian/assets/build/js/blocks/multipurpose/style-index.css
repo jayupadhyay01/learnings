@@ -1,0 +1,15 @@
+/*!**************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[3].use[1]!./node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[3].use[2]!./node_modules/sass-loader/dist/cjs.js??ruleSet[1].rules[3].use[3]!./src/js/blocks/multipurpose/style.scss ***!
+  \**************************************************************************************************************************************************************************************************************************************************************/
+.wp-block-anitian-multipurpose .multipurpose__content-inner-main {
+  padding-top: 60px;
+  padding-bottom: 40px;
+}
+.wp-block-anitian-multipurpose .multipurpose__content-inner-main .description-text {
+  font-size: 22px;
+  margin-bottom: 1em;
+  font-weight: 500;
+  line-height: 1.5;
+}
+
+/*# sourceMappingURL=style-index.css.map*/

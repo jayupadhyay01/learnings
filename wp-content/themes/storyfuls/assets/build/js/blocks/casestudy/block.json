@@ -1,0 +1,46 @@
+{
+  "$schema": "https://schemas.wp.org/trunk/block.json",
+  "name": "storyful/casestudy",
+  "version": "0.1.0",
+  "title": "CaseStudy",
+  "category": "storyful",
+  "icon": "admin-users",
+  "description": "This block is for CaseStudy section of storyful pages.",
+  "keywords": [
+    "CaseStudy",
+    "Dynamic",
+    "block"
+  ],
+  "supports": {
+    "html": false
+  },
+  "textdomain": "storyful",
+  "attributes": {
+    "heading": {
+      "type": "string",
+      "default": "This is Default Heading"
+    },
+    "selectedPosts": {
+      "type": "array",
+      "default": []
+    },
+    "numberOfPosts": {
+      "type": "string",
+      "default": "10"
+    },
+    "postOrderBy": {
+      "type": "string",
+      "default": "date"
+    },
+    "postOrder": {
+      "type": "string",
+      "default": "DESC"
+    }
+  },
+  "editorScript": "file:./index.js",
+  "viewScript": [
+    "file:./view.js"
+  ],
+  "editorStyle": "file:./index.css",
+  "style": "file:./style-index.css"
+}

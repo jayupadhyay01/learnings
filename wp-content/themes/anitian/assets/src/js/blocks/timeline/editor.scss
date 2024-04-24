@@ -1,0 +1,104 @@
+.wp-block-anitian-timeline {
+    .content-wrapped{
+        width: 100%;
+        display: block;
+        margin-left: 30%;
+        select{
+            width: 100%;
+            display: block;
+            border: 2px solid;
+        }
+        button{
+            margin-left: 10%;
+        }
+    }
+    .timeline-slider {
+        .slick-slide {
+            margin: 0 !important;
+            cursor: pointer !important;
+        }
+        .timeline-slide-1-wrap {
+            display: flex !important;
+            position: relative !important;
+
+            .timeline-slider-image {
+                width: 20%;
+                display: flex;
+                justify-content: center;
+                height: -moz-fit-content;
+                height: fit-content;
+                padding: 5% 6% 10% 2%;
+                background-color: #1ca5ff;
+                border-radius: 0 0 100% 0;
+
+                img {
+                    max-width: 64px;
+                    height: auto;
+                }
+            }
+
+            .timeline-slide-1-content {
+                width: 80%;
+                padding: 60px 30px 80px 10px;
+            }
+            .click-here{
+                color: #f47528;
+                position: absolute;
+                max-width: 137px;
+                right: 57px;
+                bottom: 25px;
+                height: 64px;
+                svg{
+                    width: 137px;
+                    height: 64px;
+                }
+            }
+            .timeline-slide-icon{
+                position: absolute;
+                right: 15px;
+                bottom: 25px;
+                height: 40px;
+                width: 40px;
+                border-radius: 40px;
+                font-size: 40px;
+                line-height: 40px;
+                cursor: pointer;
+                box-shadow: 5px 5px 5px 1px rgba(0,0,0,.06);
+                animation: iconScale 1s infinite alternate ease-in-out;
+                display: inline-block;
+                font-family: 'ElegantIcons';
+                speak: none;
+                font-style: normal;
+                font-weight: normal;
+                font-variant: normal;
+                text-transform: none;
+                line-height: 1;
+                -webkit-font-smoothing: antialiased;
+                &::before{
+                    content: "\002B";
+                }
+            }
+        }
+        .timeline-slide-2-wrap {
+            border-top: 20px solid #1ca5ff;
+            background: #fff;
+            padding: 60px 40px 80px;
+            .timeline-slide-icon{
+                position: absolute;
+                right: 15px;
+                bottom: 25px;
+                height: 40px;
+                width: 40px;
+                border-radius: 40px;
+                font-size: 40px;
+                line-height: 40px;
+                cursor: pointer;
+                box-shadow: 5px 5px 5px 1px rgba(0,0,0,.06);
+                animation: iconScale 1s infinite alternate ease-in-out;
+                &::before{
+                    content: "\00D7";
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,96 @@
+@import "../../../sass/mixins/all";
+
+* {
+    box-sizing: border-box;
+}
+
+.wp-block-anitian-games-steps {
+    padding: 100px;
+
+    .games-steps-bgimage {
+        background-size: cover;
+    }
+
+    .games-steps-section {
+        .subheading-text {
+            text-transform: uppercase;
+            font-size: 20px;
+        }
+
+        .heading-text {
+            margin-top: 20px;
+            font-size: 50px;
+            line-height: 1.1;
+            font-family: monospace;
+            font-family: system-ui;
+        }
+
+        .description-text {
+            margin: 20px 20px 80px 20px !important;
+            font-size: 18px;
+            line-height: 1.5;
+        }
+    }
+
+    .games-steps-cards-section {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 15px;
+
+        .games-steps-card-item {
+            width: calc(33.33% - 10px);
+            border-radius: 20px;
+            padding: 20px;
+
+            .games-steps-card-Subtitle {
+                font-size: 18px;
+                text-transform: uppercase;
+            }
+
+            .games-steps-card-title {
+                font-size: 20px;
+                margin-top: 20px;
+                line-height: 1.5;
+                text-transform: uppercase;
+            }
+
+            .games-steps-card-description {
+                font-size: 14px;
+                margin-top: 20px;
+            }
+        }
+    }
+
+    .games-steps-card-button {
+
+        font-size: 18px;
+        padding: 12px 30px;
+        letter-spacing: 0.7px;
+        text-transform: uppercase;
+        min-width: 100px;
+        text-align: center;
+        display: inline-block;
+        font-weight: 600;
+        border: 2px solid rgba(0, 0, 0, 0);
+        cursor: pointer;
+        word-break: break-word;
+        text-decoration: none;
+        position: relative;
+        line-height: 1.4;
+        border-radius: 50px;
+        transition: 150ms ease-out;
+        font-family: "Poppins", sans-serif;
+        width: 100%;
+        background: #000000;
+        color: #FFF;
+
+        &:hover {
+            opacity: 0.5;
+        }
+
+        a {
+            color: inherit;
+        }
+
+    }
+}

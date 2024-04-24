@@ -1,0 +1,173 @@
+{
+  "$schema": "https://schemas.wp.org/trunk/block.json",
+  "name": "anitian/games-trader",
+  "version": "0.1.0",
+  "title": "Games Trader Block",
+  "category": "games",
+  "icon": "embed-generic",
+  "description": "This block is for Trader section of Trader Games pages.",
+  "keywords": [
+    "Games",
+    "Trader",
+    "Block"
+  ],
+  "supports": {
+    "html": false
+  },
+  "textdomain": "anitian",
+  "attributes": {
+    "textAlignment": {
+      "type": "string",
+      "default": "left"
+    },
+    "Heading": {
+      "type": "string",
+      "default": ""
+    },
+    "HeadingColor": {
+      "type": "string",
+      "default": "#FFFFFF"
+    },
+    "headingVisiblity": {
+      "type": "boolean",
+      "default": true
+    },
+    "subHeading": {
+      "type": "string",
+      "default": ""
+    },
+    "subHeadingColor": {
+      "type": "string",
+      "default": "#E1A142"
+    },
+    "subHeadingVisiblity": {
+      "type": "boolean",
+      "default": true
+    },
+    "description": {
+      "type": "string",
+      "default": ""
+    },
+    "descriptionColor": {
+      "type": "string",
+      "default": "#FFFFFF"
+    },
+    "descriptionVisiblity": {
+      "type": "boolean",
+      "default": true
+    },
+    "cardHeading": {
+      "type": "string",
+      "default": ""
+    },
+    "cardHeadingColor": {
+      "type": "string",
+      "default": "#00000"
+    },
+    "cardHeadingVisiblity": {
+      "type": "boolean",
+      "default": true
+    },
+    "cardSubHeading": {
+      "type": "string",
+      "default": ""
+    },
+    "cardSubHeadingColor": {
+      "type": "string",
+      "default": "#00000"
+    },
+    "cardSubHeadingVisiblity": {
+      "type": "boolean",
+      "default": true
+    },
+    "cardDescription": {
+      "type": "string",
+      "default": ""
+    },
+    "cardDescriptionColor": {
+      "type": "string",
+      "default": "#00000"
+    },
+    "cardDescriptionVisiblity": {
+      "type": "boolean",
+      "default": true
+    },
+    "buttonText": {
+      "type": "string",
+      "default": "I Want to Know How"
+    },
+    "buttonTextColor": {
+      "type": "string",
+      "default": "#FFFFFF"
+    },
+    "buttonBgColor": {
+      "type": "string",
+      "default": "#000000"
+    },
+    "buttonVisiblity": {
+      "type": "boolean",
+      "default": true
+    },
+    "bgColor": {
+      "type": "string",
+      "default": "#000000"
+    },
+    "cardBgColor": {
+      "type": "string",
+      "default": "#E1A142"
+    },
+    "BgGradientColor": {
+      "type": "string",
+      "default": "radial-gradient(circle, rgba(231,171,61,1) 4%, rgba(0,0,0,1) 25%, rgba(0,0,0,1) 79%, rgba(231,171,61,1) 100%)"
+    },
+    "bgImage": {
+      "type": "object",
+      "default": {
+        "id": "",
+        "url": "",
+        "alt": "",
+        "width": "",
+        "height": "",
+        "mediaMime": "",
+        "mediaType": ""
+      }
+    },
+    "Image": {
+      "type": "object",
+      "default": {
+        "id": "",
+        "url": "",
+        "alt": "",
+        "width": "",
+        "height": "",
+        "mediaMime": "",
+        "mediaType": "",
+        "cardID": "",
+        "cardUrl": "",
+        "cardAlt": "",
+        "cardWidth": "",
+        "cardHeight": ""
+      }
+    },
+    "cardImage": {
+      "type": "object",
+      "default": {
+        "id": "",
+        "url": "",
+        "alt": "",
+        "width": "",
+        "height": "",
+        "mediaMime": "",
+        "mediaType": "",
+        "cardID": "",
+        "cardUrl": "",
+        "cardAlt": "",
+        "cardWidth": "",
+        "cardHeight": ""
+      }
+    }
+  },
+  "editorScript": "file:./index.js",
+  "editorStyle": "file:./index.css",
+  "style": "file:./style-index.css"
+}

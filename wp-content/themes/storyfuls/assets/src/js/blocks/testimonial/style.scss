@@ -1,0 +1,45 @@
+@import "../../../sass/mixins/all";
+.wp-block-storyful-testimonial {
+
+    .testimonial-container {
+        padding-top: 10px
+    }
+    .testimonial-title-text{
+        font-size: 26px;
+        color: #ff4c15;
+        font-family: arial, helvetica, sans-serif;
+    }
+    .testimonial-content-text{
+        font-size: 34px;
+        line-height: 44px;
+        font-family: "PlayfairDisplay-SemiBold";
+        margin: 0
+    }
+    .testimonial-name-text{
+            padding-top: 10px;
+    }
+    .testimonial-content-text {
+        position: relative;
+        font-style: italic;
+        padding: 20px;
+        margin: 20px 0;
+    }
+
+    .testimonial-content-text:before {
+        content: "\201C";
+        font-size: 36px;
+        color: #333;
+        position: absolute;
+        top: 10px;
+        left: 50px;
+    }
+    .testimonial-content-text:after {
+        content: "\201D";
+        font-size: 36px;
+        color: #333;
+        position: absolute;
+        bottom: 30px;
+        right: 50px;
+    }
+}
+

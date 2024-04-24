@@ -1,0 +1,87 @@
+{
+  "$schema": "https://schemas.wp.org/trunk/block.json",
+  "name": "anitian/hero-realfact",
+  "version": "0.1.0",
+  "title": "Realfact Hero Banner",
+  "category": "anitian",
+  "icon": "cover-image",
+  "description": "This block is for Realfact Hero block of the Anitian Real Fact pages.",
+  "keywords": ["Hero", "Realfact", "Banner"],
+  "supports": {
+    "html": false
+  },
+  "textdomain": "anitian",
+  "attributes": {
+    "textAlignment": {
+        "type": "string",
+        "default": "left"
+    },
+    "title": {
+      "type": "string",
+      "default": ""
+    },
+    "titleColor": {
+      "type": "string",
+      "default": ""
+    },
+    "titleVisiblity": {
+        "type": "boolean",
+        "default": true
+    },
+    "description": {
+      "type": "string",
+      "default": ""
+    },
+    "descriptionColor": {
+      "type": "string",
+      "default": ""
+    },
+    "descriptionVisiblity": {
+        "type": "boolean",
+        "default": true
+    },
+    "btnVisiblity": {
+        "type": "boolean",
+        "default": true
+    },
+    "btnText": {
+      "type": "string",
+      "default": ""
+    },
+    "btnBgColor": {
+      "type": "string",
+      "default": ""
+    },
+    "btnTxtColor": {
+      "type": "string",
+      "default": ""
+    },
+    "bgImage": {
+      "type": "object",
+      "default": {
+          "id": "",
+          "url": "",
+          "alt": "",
+          "width": "",
+          "height": "",
+          "mediaMime": "",
+          "mediaType": ""
+      }
+    },
+    "Image": {
+      "type": "object",
+      "default": {
+          "id": "",
+          "url": "",
+          "alt": "",
+          "width": "",
+          "height": "",
+          "mediaMime": "",
+          "mediaType": ""
+      }
+    }
+  },
+  "editorScript": "file:./index.js",
+  "editorStyle": "file:./index.css",
+  "style": "file:./style-index.css"
+}

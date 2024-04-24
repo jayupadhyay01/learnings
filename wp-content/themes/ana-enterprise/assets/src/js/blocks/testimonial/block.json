@@ -1,0 +1,84 @@
+{
+  "$schema": "https://schemas.wp.org/trunk/block.json",
+  "name": "ana-enterprise/testimonial",
+  "version": "0.1.0",
+  "title": "Testimonial",
+  "category": "ana-enterprise",
+  "icon": "testimonial",
+  "description": "This block is for Testimonial section of ANA Enterprise.",
+  "keywords": ["Testimonial", "Dynamic", "block"],
+  "supports": {
+    "html": false
+  },
+  "textdomain": "ana-enterprise",
+  "attributes": {
+    "heading": {
+      "type": "string",
+      "default": "This is Default Heading"
+    },
+    "selectedPosts": {
+      "type": "array",
+      "default": []
+    },
+		"numberOfPosts": {
+			"type": "string",
+			"default": "10"
+		},
+		"postOrderBy": {
+			"type": "string",
+			"default": "date"
+		},
+		"postOrder": {
+			"type": "string",
+			"default": "DESC"
+		},
+		"autoplay": {
+			"type": "boolean",
+      "default": false
+		},
+		"arrows": {
+			"type": "boolean",
+      "default": true
+		},
+		"dots": {
+			"type": "boolean",
+      "default": false
+		},
+    "slideInfinite": {
+			"type": "boolean",
+      "default": false
+		},
+    "sliderBgColor": {
+      "type": "string",
+      "default": ""
+    },
+    "titleColor": {
+      "type": "string",
+      "default": ""
+    },
+    "subtitleColor": {
+      "type": "string",
+      "default": ""
+    },
+    "descColor": {
+      "type": "string",
+      "default": ""
+    },
+    "bgImage": {
+      "type": "object",
+      "default": {
+          "id": "",
+          "url": "",
+          "alt": "",
+          "width": "",
+          "height": "",
+          "mediaMime": "",
+          "mediaType": ""
+      }
+    }
+  },
+  "editorScript": "file:./index.js",
+  "viewScript": [ "file:./view.js" ],
+	"editorStyle": "file:./index.css",
+	"style": "file:./style-index.css"
+}

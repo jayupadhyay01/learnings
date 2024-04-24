@@ -1,0 +1,87 @@
+{
+  "$schema": "https://schemas.wp.org/trunk/block.json",
+  "name": "anitian/approach",
+  "version": "0.1.0",
+  "title": "Approach Block",
+  "category": "anitian",
+  "icon": "money-alt",
+  "description": "This block is for Approach section of Anitian Partner Program page.",
+  "keywords": ["Approach", "Block"],
+  "supports": {
+    "html": false
+  },
+  "textdomain": "anitian",
+  "attributes": {
+    "textAlignment": {
+      "type": "string",
+      "default": "left"
+    },
+    "Heading": {
+      "type": "string",
+      "default": ""
+    },
+    "HeadingColor": {
+      "type": "string",
+      "default": ""
+    },
+    "headingVisiblity": {
+      "type": "boolean",
+      "default": true
+    },
+    "description": {
+      "type": "string",
+      "default": ""
+    },
+    "descriptionColor": {
+      "type": "string",
+      "default": ""
+    },
+    "descriptionVisiblity": {
+      "type": "boolean",
+      "default": true
+    },
+    "buttonVisiblity": {
+      "type": "boolean",
+      "default": true
+    },
+    "buttonText": {
+      "type": "string",
+      "default": ""
+    },
+    "buttonTextColor": {
+      "type": "string",
+      "default": ""
+    },
+    "buttonBgColor": {
+      "type": "string",
+      "default": ""
+    },
+    "listColor": {
+      "type": "string",
+      "default": ""
+    },
+		"listItems": {
+			"type": "array",
+			"default": []
+		},
+    "bgColor": {
+      "type": "string",
+      "default": ""
+    },
+    "bgImage": {
+      "type": "object",
+      "default": {
+          "id": "",
+          "url": "",
+          "alt": "",
+          "width": "",
+          "height": "",
+          "mediaMime": "",
+          "mediaType": ""
+      }
+    }
+  },
+  "editorScript": "file:./index.js",
+  "editorStyle": "file:./index.css",
+  "style": "file:./style-index.css"
+}

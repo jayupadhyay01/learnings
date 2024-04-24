@@ -1,0 +1,118 @@
+/*!****************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[3].use[1]!./node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[3].use[2]!./node_modules/sass-loader/dist/cjs.js??ruleSet[1].rules[3].use[3]!./src/js/blocks/content-slider/style.scss ***!
+  \****************************************************************************************************************************************************************************************************************************************************************/
+@charset "UTF-8";
+.wp-block-ana-enterprise-content-slider {
+  padding: 50px 0px;
+  margin: 0 auto;
+  max-width: 80%;
+}
+.wp-block-ana-enterprise-content-slider h2 {
+  font-size: 32px;
+  font-family: sans-serif;
+  margin-bottom: 15px;
+  line-height: 1.2;
+}
+.wp-block-ana-enterprise-content-slider .content-slider-inner {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.wp-block-ana-enterprise-content-slider .content-slider-inner .box-columns {
+  width: 33.33%;
+}
+.wp-block-ana-enterprise-content-slider .content-slider-inner .box-columns .content-section h3 {
+  font-size: 28px;
+  font-family: sans-serif;
+  line-height: 1.2;
+}
+.wp-block-ana-enterprise-content-slider .content-slider-inner .box-columns .content-section p {
+  font-size: 20px;
+  font-family: sans-serif;
+  letter-spacing: 0.1em;
+  line-height: 1.2em;
+}
+.wp-block-ana-enterprise-content-slider .content-slider-inner .box-columns .img-section {
+  text-align: center;
+}
+.wp-block-ana-enterprise-content-slider .content-slider-inner .box-columns .img-section img {
+  display: inline-block;
+}
+.wp-block-ana-enterprise-content-slider .slick-arrow {
+  top: calc(100% - 10px);
+  width: auto;
+  height: auto;
+  z-index: 1;
+}
+.wp-block-ana-enterprise-content-slider .slick-arrow.slick-next {
+  right: calc(50% - 130px);
+}
+.wp-block-ana-enterprise-content-slider .slick-arrow.slick-prev {
+  left: calc(50% - 130px);
+}
+.wp-block-ana-enterprise-content-slider .slick-arrow.slick-next::before {
+  content: "→";
+  display: inline-block;
+  color: #009cde;
+  font-size: 50px;
+  font-family: system-ui, -apple-system, Segoe UI, Roboto, Ubuntu, Cantarell, Noto Sans, sans-serif;
+}
+.wp-block-ana-enterprise-content-slider .slick-arrow.slick-prev:before {
+  content: "←";
+  display: inline-block;
+  color: #009cde;
+  font-size: 50px;
+  font-family: system-ui, -apple-system, Segoe UI, Roboto, Ubuntu, Cantarell, Noto Sans, sans-serif;
+}
+.wp-block-ana-enterprise-content-slider .slick-arrow:hover {
+  background: transparent;
+}
+.wp-block-ana-enterprise-content-slider .slick-arrow:hover.slick-prev:before, .wp-block-ana-enterprise-content-slider .slick-arrow:hover.slick-next:before {
+  color: #000;
+}
+.wp-block-ana-enterprise-content-slider .slick-arrow:hover:focus {
+  background: transparent;
+}
+.wp-block-ana-enterprise-content-slider .slick-arrow:hover:focus.slick-prev:before, .wp-block-ana-enterprise-content-slider .slick-arrow:hover:focus.slick-next:before {
+  color: #000;
+}
+.wp-block-ana-enterprise-content-slider .slick-arrow:focus.slick-prev:before, .wp-block-ana-enterprise-content-slider .slick-arrow:focus.slick-next:before {
+  color: #000;
+}
+.wp-block-ana-enterprise-content-slider .slick-dots {
+  padding: 0 !important;
+}
+.wp-block-ana-enterprise-content-slider .slick-dots {
+  list-style-type: none;
+  display: flex;
+  justify-content: center;
+  left: 0;
+  width: 100%;
+  bottom: 0;
+}
+.wp-block-ana-enterprise-content-slider .slick-dots li {
+  position: relative;
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+  margin: 0 5px;
+  padding: 0;
+  cursor: pointer;
+}
+.wp-block-ana-enterprise-content-slider .slick-dots li button {
+  font-size: 0;
+  width: 20px;
+  height: 20px;
+  padding: 0;
+  margin-right: 7px;
+  margin-left: 7px;
+  background-color: transparent;
+  border: 1px solid #000;
+  border-radius: 50%;
+}
+.wp-block-ana-enterprise-content-slider .slick-dots li.slick-active button {
+  background-color: #009cde;
+  border: 1px solid #009cde;
+}
+
+/*# sourceMappingURL=style-index.css.map*/

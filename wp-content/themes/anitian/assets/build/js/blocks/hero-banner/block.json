@@ -1,0 +1,102 @@
+{
+  "$schema": "https://schemas.wp.org/trunk/block.json",
+  "name": "anitian/hero-banner",
+  "version": "0.1.0",
+  "title": "Hero Banner",
+  "category": "anitian",
+  "icon": "format-image",
+  "description": "This block is for Hero Banner of the Anitian pages.",
+  "keywords": [
+    "Hero",
+    "Banner"
+  ],
+  "supports": {
+    "html": false
+  },
+  "textdomain": "anitian",
+  "attributes": {
+    "textAlignment": {
+      "type": "string",
+      "default": "left"
+    },
+    "title": {
+      "type": "string",
+      "default": ""
+    },
+    "titleColor": {
+      "type": "string",
+      "default": ""
+    },
+    "titleVisiblity": {
+      "type": "boolean",
+      "default": true
+    },
+    "description": {
+      "type": "string",
+      "default": ""
+    },
+    "descriptionColor": {
+      "type": "string",
+      "default": ""
+    },
+    "descriptionVisiblity": {
+      "type": "boolean",
+      "default": true
+    },
+    "btnVisiblity": {
+      "type": "boolean",
+      "default": true
+    },
+    "btnText": {
+      "type": "string",
+      "default": ""
+    },
+    "btn2Text": {
+      "type": "string",
+      "default": ""
+    },
+    "btn1BgColor": {
+      "type": "string",
+      "default": ""
+    },
+    "btn2BgColor": {
+      "type": "string",
+      "default": ""
+    },
+    "btn1TxtColor": {
+      "type": "string",
+      "default": ""
+    },
+    "btn2TxtColor": {
+      "type": "string",
+      "default": ""
+    },
+    "Image": {
+      "type": "object",
+      "default": {
+        "id": "",
+        "url": "",
+        "alt": "",
+        "width": "",
+        "height": "",
+        "mediaMime": "",
+        "mediaType": ""
+      }
+    },
+    "bgImage": {
+      "type": "object",
+      "default": {
+        "id": "",
+        "url": "",
+        "alt": "",
+        "width": "",
+        "height": "",
+        "mediaMime": "",
+        "mediaType": ""
+      }
+    }
+  },
+  "editorScript": "file:./index.js",
+  "editorStyle": "file:./index.css",
+  "style": "file:./style-index.css"
+}

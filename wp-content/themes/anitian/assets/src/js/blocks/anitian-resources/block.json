@@ -1,0 +1,84 @@
+{
+  "$schema": "https://schemas.wp.org/trunk/block.json",
+  "name": "anitian/anitian-resources",
+  "version": "0.1.0",
+  "title": "Anitian Resources",
+  "category": "anitian",
+  "icon": "excerpt-view",
+  "description": "This block is for Anitian Resources section of the Anitian pages.",
+  "keywords": ["Resources", "Anitian", "Block"],
+  "supports": {
+    "html": false
+  },
+  "textdomain": "anitian",
+  "attributes": {
+    "textAlignment": {
+      "type": "string",
+      "default": "Left"
+    },
+    "heading": {
+      "type": "string",
+      "default": ""
+    },
+    "HeadingColor": {
+      "type": "string",
+      "default": ""
+    },
+    "Subheading": {
+      "type": "string",
+      "default": ""
+    },
+    "subheadingColor": {
+      "type": "string",
+      "default": ""
+    },
+    "titleColor": {
+      "type": "string",
+      "default": ""
+    },
+    "bgColor": {
+      "type": "string",
+      "default": ""
+    },
+    "buttonColor": {
+      "type": "string",
+      "default": ""
+    },
+    "buttonTextColor": {
+      "type": "string",
+      "default": ""
+    },
+    "headingVisiblity": {
+      "type": "boolean",
+      "default": true
+    },
+    "subheadingVisiblity": {
+      "type": "boolean",
+      "default": true
+    },
+		"autoplay": {
+			"type": "boolean",
+      "default": false
+		},
+		"arrows": {
+			"type": "boolean",
+      "default": true
+		},
+		"dots": {
+			"type": "boolean",
+      "default": true
+		},
+    "slideInfinite": {
+			"type": "boolean",
+      "default": true
+		},
+    "repeatItems": {
+      "type": "array",
+      "default": []
+    }
+  },
+  "editorScript": "file:./index.js",
+  "viewScript": "file:./view.js",
+  "editorStyle": "file:./index.css",
+  "style": "file:./style-index.css"
+}

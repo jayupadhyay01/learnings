@@ -1,0 +1,36 @@
+/*!**********************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[3].use[1]!./node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[3].use[2]!./node_modules/sass-loader/dist/cjs.js??ruleSet[1].rules[3].use[3]!./src/js/blocks/counter/editor.scss ***!
+  \**********************************************************************************************************************************************************************************************************************************************************/
+.conter-onelayout__title-section {
+  width: 30%;
+  max-width: 100%;
+}
+.conter-onelayout__title-section h2 {
+  line-height: 40px;
+  font-size: 50px;
+}
+.conter-onelayout__counter-section {
+  width: 100%;
+  max-width: 100%;
+}
+.conter-onelayout__counter-boxes {
+  margin: 0;
+}
+.conter-onelayout__counter-box {
+  margin: 50px 0 0 0;
+}
+.conter-onelayout__counter-description {
+  margin: 20px 0 0 0;
+}
+.conter-onelayout__counter-title span {
+  font-size: 25px !important;
+  line-height: 25px !important;
+}
+.conter-onelayout__counter-title span {
+  margin: 0 3px;
+}
+.conter-onelayout__counter-title span span {
+  font-size: 18px;
+}
+
+/*# sourceMappingURL=index.css.map*/

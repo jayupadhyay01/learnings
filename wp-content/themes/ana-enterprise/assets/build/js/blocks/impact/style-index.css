@@ -1,0 +1,42 @@
+/*!********************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[3].use[1]!./node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[3].use[2]!./node_modules/sass-loader/dist/cjs.js??ruleSet[1].rules[3].use[3]!./src/js/blocks/impact/style.scss ***!
+  \********************************************************************************************************************************************************************************************************************************************************/
+.wp-block-ana-enterprise-impact {
+  margin-bottom: 50px;
+}
+.wp-block-ana-enterprise-impact .impact-main-container {
+  padding: 10px 0px;
+  margin: 0 auto;
+  max-width: 80%;
+}
+.wp-block-ana-enterprise-impact .impact-main-container h2 {
+  font-size: 40px;
+  margin-bottom: 30px;
+  margin-top: 20px;
+}
+.wp-block-ana-enterprise-impact .impact-main-container .impact-main-inner {
+  padding: 50px 10%;
+}
+.wp-block-ana-enterprise-impact .impact-main-container .impact-main-inner .impact-items {
+  display: flex;
+  gap: 50px;
+  margin-bottom: 20px;
+}
+.wp-block-ana-enterprise-impact .impact-main-container .impact-main-inner .impact-items:last-child {
+  margin-bottom: 0;
+}
+.wp-block-ana-enterprise-impact .impact-main-container .impact-main-inner .impact-items .impact-item-img {
+  width: 350px;
+}
+.wp-block-ana-enterprise-impact .impact-main-container .impact-main-inner .impact-items .impact-item-text {
+  width: calc(100% - 400px);
+}
+.wp-block-ana-enterprise-impact .impact-main-container .impact-main-inner .impact-items .impact-item-text p {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+.wp-block-ana-enterprise-impact .impact-main-container .impact-main-inner .impact-items.right-thumbnail {
+  flex-direction: row-reverse;
+}
+
+/*# sourceMappingURL=style-index.css.map*/

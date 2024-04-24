@@ -1,0 +1,75 @@
+{
+  "$schema": "https://schemas.wp.org/trunk/block.json",
+  "name": "anitian/partner-type",
+  "version": "0.1.0",
+  "title": "Partner Type Block",
+  "category": "anitian",
+  "icon": "money",
+  "description": "This block is for partner-type section of Anitian Partner Program page.",
+  "keywords": ["partner","type", "Block"],
+  "supports": {
+    "html": false
+  },
+  "textdomain": "anitian",
+  "attributes": {
+    "textAlignment": {
+      "type": "string",
+      "default": "left"
+    },
+    "Heading": {
+      "type": "string",
+      "default": ""
+    },
+    "HeadingColor": {
+      "type": "string",
+      "default": ""
+    },
+    "headingVisiblity": {
+      "type": "boolean",
+      "default": true
+    },
+    "titleColor": {
+      "type": "string",
+      "default": ""
+    },
+    "descriptionColor": {
+      "type": "string",
+      "default": ""
+    },
+    "buttonVisiblity": {
+      "type": "boolean",
+      "default": true
+    },
+    "buttonTextColor": {
+      "type": "string",
+      "default": ""
+    },
+    "listColor": {
+      "type": "string",
+      "default": ""
+    },
+		"listItems": {
+			"type": "array",
+			"default": []
+		},
+    "bgColor": {
+      "type": "string",
+      "default": ""
+    },
+    "bgImage": {
+      "type": "object",
+      "default": {
+          "id": "",
+          "url": "",
+          "alt": "",
+          "width": "",
+          "height": "",
+          "mediaMime": "",
+          "mediaType": ""
+      }
+    }
+  },
+  "editorScript": "file:./index.js",
+  "editorStyle": "file:./index.css",
+  "style": "file:./style-index.css"
+}

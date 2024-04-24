@@ -1,0 +1,122 @@
+@import "../../../sass/mixins/all";
+.storyful-newswire{
+    .newswire-upper-section {
+        display: flex;
+    }
+
+    .newswire-upper-left {
+        flex: 1;
+        padding: 20px;
+        box-sizing: border-box;
+    }
+
+    .newswire-upper-right {
+        flex: 1;
+        padding: 20px;
+        box-sizing: border-box;
+    }
+
+    .newswire-upper-right img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+    }
+
+    .newswire-lower-section {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        .newswire-inner-title{
+            a {
+                color: inherit !important;
+            }
+        }
+    }
+
+    .newswire-tab-section-main {
+        display: flex;
+    }
+
+    .newswire-tab-box {
+        border: 1px solid #000;
+        border-radius: 8px;
+        padding: 20px;
+        margin-right: 20px;
+        position: relative;
+        flex-shrink: 0;
+        visibility: visible;
+        animation-delay: 0s;
+        border-top: solid rgba(17, 21, 44, .5);
+        padding-top: 30px;
+        position: relative;
+        flex: 1 1 0;
+    }
+
+    .newswire-tab-box::before {
+        content: "";
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 4px;
+        background-color: #000;
+        border-radius: 4px;
+    }
+
+    .newswire-tab-title {
+        display: flex;
+        align-items: center;
+    }
+
+    .newswire-inner-title {
+        color: #000;
+        margin-right: 8px;
+    }
+
+    .newswire-inner-title a {
+        position: relative;
+    }
+
+    .newswire-inner-title a::after {
+        content: "\2192";
+        position: absolute;
+        margin-left: 25px;
+    }
+
+    .btn.btn-arrow {
+        background-color: #ff4c15;
+        border: 1px solid #ff4c15;
+        color: #11152c;
+        border-radius: 100px;
+        background-color: #fffdfa;
+        padding: 5px 15px 5px 20px;
+        position: relative;
+        transition: all .3s ease;
+        display: inline-block;
+        a {
+            color: inherit !important;
+        }
+    }
+    .newswire-upper-left{
+        .main-title{
+            h1 {
+            font-family: arial, helvetica, sans-serif;
+            font-size: 90px !important;
+            line-height: 99px !important;
+                strong {
+                    color: #fffdfa;
+                    -webkit-text-stroke: 1px #11152c;
+                    caret-color: #11152c;
+                }    
+            }
+
+        }
+    .description-text{
+            font-size: 38px;
+            font-family: "PlayfairDisplay-SemiBold";
+            line-height: 50px;
+            letter-spacing: -.01em;
+            font-weight: 600;
+        }
+    }
+}

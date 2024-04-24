@@ -1,0 +1,64 @@
+/*!****************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[3].use[1]!./node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[3].use[2]!./node_modules/sass-loader/dist/cjs.js??ruleSet[1].rules[3].use[3]!./src/js/blocks/content-banner/style.scss ***!
+  \****************************************************************************************************************************************************************************************************************************************************************/
+.wp-block-storyful-content-banner span.storyful__overlay {
+  z-index: 2;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  left: 0;
+  right: 0;
+}
+.wp-block-storyful-content-banner .content-banner-container {
+  padding: 45px 0;
+}
+.wp-block-storyful-content-banner .content-banner-btn:before {
+  content: "";
+  display: block;
+  width: 45px;
+  height: 45px;
+  background-image: url(data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTEiIGhlaWdodD0iMTEiIHZpZXdCb3g9IjAgMCAxMSAxMSIgZmlsbD0ibm9uZSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KPHBhdGggZD0iTTEwLjk5NDcgMi4wNjYzNUMxMS4wMzEzIDEuNjQ3NDkgMTAuNzIxNSAxLjI3ODIzIDEwLjMwMjYgMS4yNDE1OUwzLjQ3Njk0IDAuNjQ0NDE3QzMuMDU4MDggMC42MDc3NzIgMi42ODg4MiAwLjkxNzYxNyAyLjY1MjE4IDEuMzM2NDhDMi42MTU1MyAxLjc1NTMzIDIuOTI1MzggMi4xMjQ1OSAzLjM0NDIzIDIuMTYxMjRMOS40MTE1MiAyLjY5MjA2TDguODgwNyA4Ljc1OTM0QzguODQ0MDYgOS4xNzgyIDkuMTUzOSA5LjU0NzQ2IDkuNTcyNzYgOS41ODQxQzkuOTkxNjIgOS42MjA3NSAxMC4zNjA5IDkuMzEwOTEgMTAuMzk3NSA4Ljg5MjA1TDEwLjk5NDcgMi4wNjYzNVpNMS40ODkzNiAxMC4zMzM0TDEwLjcyNTYgMi41ODMxOUw5Ljc0NjkyIDEuNDE2OEwwLjUxMDY0MSA5LjE2Njk2TDEuNDg5MzYgMTAuMzMzNFoiIGZpbGw9IiNGRkZERkEiLz4KPC9zdmc+Cg==);
+  background-repeat: no-repeat;
+  background-position: center center;
+  position: absolute;
+  left: -1px;
+  top: 1px;
+  transition: all 0.3s ease-in-out;
+  background-color: #ff4c15;
+  border-radius: 55px;
+}
+.wp-block-storyful-content-banner .content-banner-btn {
+  margin-top: 20px !important;
+  margin-bottom: 20px !important;
+  margin-bottom: 50px !important;
+}
+.wp-block-storyful-content-banner .content-banner-btn {
+  color: #11152c;
+  border-radius: 100px;
+  background-color: #fffdfa;
+  padding: 5px 20px 0px 55px;
+  position: relative;
+  transition: all 0.3s ease;
+  display: inline-block;
+  font-family: arial, helvetica, sans-serif;
+}
+.wp-block-storyful-content-banner .content-banner-btn a {
+  color: #11152c !important;
+}
+.wp-block-storyful-content-banner .content-banner-btn a {
+  display: inline-block;
+  position: relative;
+  text-decoration: none;
+  font-size: 15px;
+  font-weight: 600;
+  font-family: arial, helvetica, sans-serif;
+}
+.wp-block-storyful-content-banner .content-title-text {
+  font-size: 55px;
+  line-height: 72px;
+  font-family: "PlayfairDisplay-Medium";
+  letter-spacing: -0.01em;
+  font-weight: 500;
+}
+
+/*# sourceMappingURL=style-index.css.map*/

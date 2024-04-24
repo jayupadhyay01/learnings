@@ -1,0 +1,45 @@
+@import '../../../sass/mixins/all';
+
+.wp-block-ana-enterprise-download-banner{
+    background-size: cover;
+    .download-banner-container {
+        padding: 20px 0px;
+        margin: 0 auto;
+        max-width: 80%;
+        font-family: sans-serif;
+    }
+    .download-banner-heading {
+        margin-bottom: 10px;
+        font-size: 28px;
+        line-height: 1.5;
+    }
+    .download-banner-description{
+        margin-bottom: 20px;
+        font-size: 18px;
+        line-height: 1.5;
+    }
+    .btn-section {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 100px;
+        flex-wrap: wrap;
+        .download-banner-btn{
+           a{
+            color: inherit;
+            text-transform: uppercase;
+            font-size: 24px;
+           } 
+        }
+        .btn-grp{
+            display: flex;
+            img{
+                height: auto;
+                width: 50px;
+                margin-right: 10px;
+                filter: brightness(0) invert(1);
+            }
+        }
+    }
+
+}

@@ -1,0 +1,33 @@
+.anitian-block-sidebar{
+    .image-preview.vid-wrapper {
+        width: 100%;
+        video{
+            height: 100%;
+            width: 100%;
+            top: 0;
+            left: 0;
+        }
+    }
+}
+.anitian-hero-banner {
+    .hero-banner {
+        &__background-image {
+            right: 0;
+            bottom: 0;
+            background-repeat: no-repeat;
+            width: 100%;
+            background-position: right top;
+            height: 100%;
+            z-index: 1;
+            background-size: cover;
+            video {
+                width: 100%;
+                height: 100%;
+                object-fit: cover;
+                object-position: center;
+            }
+        }
+
+    }
+
+}

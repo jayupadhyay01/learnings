@@ -1,0 +1,97 @@
+@import "../../../sass/mixins/all";
+.main-title {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.video-slider-block .video-section .video-slider-container {
+    position: relative;
+}
+
+.video-slider-block .video-section .video-slider-container .slick-arrow {
+    width: 60px;
+    height: 60px;
+    background-color: #fffdfa;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-image: url('http://training-jayu.md-staging.com/wp-content/uploads/2023/12/slick-orange-arrow.svg');
+    position: absolute;
+    padding: 0;
+    z-index: 1;
+    display: block;
+    border: 1px solid #ff4c15;
+    border-radius: 100%;
+    top: 45%;
+}
+
+.video-slider-block .video-section .video-slider-container .slick-arrow.slick-next {
+    -webkit-transform: rotate(-180deg);
+    transform: rotate(-180deg);
+    right: 10%;
+}
+
+.video-slider-block .video-section .video-slider-container .slick-arrow.slick-prev {
+    -webkit-transform: rotate(0);
+    transform: rotate(0);
+    left: 10%;
+}
+
+.video-slider-block .video-section .video-slider-container .slick-list .slick-track .video-wrapped .video-inner .detail-video {
+    overflow: hidden;
+    background-color: #fffdfa;
+    padding-top: 35.6%;
+    height: 0;
+    position: relative;
+}
+.video-slider-block .video-section .video-slider-container .slick-list .slick-track .video-wrapped .video-inner .detail-video video{
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+.video-slider-block .video-section .video-slider-container .slick-list .slick-track .video-wrapped .video-inner .detail-video iframe {
+    -o-object-fit: cover;
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.video-section .slick-dots {
+    padding: 0;
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+    bottom: -50px;
+}
+
+.slick-dots li {
+    position: relative;
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    margin: 0 5px;
+    padding: 0;
+    cursor: pointer;
+}
+
+.video-section .slick-dots li button {
+    font-size: 0;
+    width: 10px;
+    height: 10px;
+    padding: 0;
+    margin-right: 7px;
+    margin-left: 7px;
+    background-color: #11152c;
+    border: 0;
+    border-radius: 10px;
+}
+
+.video-section .slick-dots li.slick-active button {
+    background-color: #ff4c15;
+}
+

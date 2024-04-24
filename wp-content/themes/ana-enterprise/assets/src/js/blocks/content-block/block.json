@@ -1,0 +1,63 @@
+{
+  "$schema": "https://schemas.wp.org/trunk/block.json",
+  "name": "ana-enterprise/content-block",
+  "version": "0.1.0",
+  "title": "Content Block",
+  "category": "ana-enterprise",
+  "icon": "editor-paragraph",
+  "description": "This block is for Content block for ANA Enterprise.",
+  "keywords": ["Content", "Block"],
+  "supports": {
+    "html": false
+  },
+"textdomain": "ana-enterprise",
+   "attributes": {
+    "bgColor": {
+      "type": "string",
+      "default": ""
+    },
+    "textAlignment": {
+        "type": "string",
+        "default": "center"
+    },
+    "title": {
+      "type": "string",
+      "default": ""
+    },
+    "titleVisiblity": {
+        "type": "boolean",
+        "default": true
+    },
+    "subTitle": {
+      "type": "string",
+      "default": ""
+    },
+    "subTitleVisiblity": {
+        "type": "boolean",
+        "default": true
+    },
+    "description": {
+      "type": "string",
+      "default": ""
+    },
+    "descriptionVisiblity": {
+        "type": "boolean",
+        "default": true
+    },
+    "titleColor": {
+      "type": "string",
+      "default": ""
+    },
+    "subTitleColor": {
+      "type": "string",
+      "default": ""
+    },
+    "descriptionColor": {
+      "type": "string",
+      "default": ""
+    }
+  },
+  "editorScript": "file:./index.js",
+  "editorStyle": "file:./index.css",
+  "style": "file:./style-index.css"
+}

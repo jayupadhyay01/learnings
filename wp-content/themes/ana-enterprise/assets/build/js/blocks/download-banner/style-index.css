@@ -1,0 +1,45 @@
+/*!*****************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[3].use[1]!./node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[3].use[2]!./node_modules/sass-loader/dist/cjs.js??ruleSet[1].rules[3].use[3]!./src/js/blocks/download-banner/style.scss ***!
+  \*****************************************************************************************************************************************************************************************************************************************************************/
+.wp-block-ana-enterprise-download-banner {
+  background-size: cover;
+}
+.wp-block-ana-enterprise-download-banner .download-banner-container {
+  padding: 20px 0px;
+  margin: 0 auto;
+  max-width: 80%;
+  font-family: sans-serif;
+}
+.wp-block-ana-enterprise-download-banner .download-banner-heading {
+  margin-bottom: 10px;
+  font-size: 28px;
+  line-height: 1.5;
+}
+.wp-block-ana-enterprise-download-banner .download-banner-description {
+  margin-bottom: 20px;
+  font-size: 18px;
+  line-height: 1.5;
+}
+.wp-block-ana-enterprise-download-banner .btn-section {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 100px;
+  flex-wrap: wrap;
+}
+.wp-block-ana-enterprise-download-banner .btn-section .download-banner-btn a {
+  color: inherit;
+  text-transform: uppercase;
+  font-size: 24px;
+}
+.wp-block-ana-enterprise-download-banner .btn-section .btn-grp {
+  display: flex;
+}
+.wp-block-ana-enterprise-download-banner .btn-section .btn-grp img {
+  height: auto;
+  width: 50px;
+  margin-right: 10px;
+  filter: brightness(0) invert(1);
+}
+
+/*# sourceMappingURL=style-index.css.map*/

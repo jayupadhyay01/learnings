@@ -1,0 +1,43 @@
+// Display properties
+$displayProps: ("block", "inline-block", "inline", "flex", "grid", "inline-flex", "inline-grid", "table", "inline-table", "list-item", "none", "contents");
+
+@each $disp in $displayProps {
+  .u-#{$disp} {
+    display: #{$disp};
+  }
+}
+
+// Alignment properties
+$alignments: ("center", "stretch", "space-between", "space-around", "space-evenly", "flex-start", "flex-end");
+
+@each $align in $alignments {
+  .u-justify-content-#{$align} {
+    justify-content: #{$align};
+  }
+
+  .u-align-items-#{$align} {
+    align-items: #{$align};
+  }
+
+  .u-justify-items-#{$align} {
+    justify-items: #{$align};
+  }
+
+  .u-content-#{$align} {
+    align-content: #{$align};
+  }
+}
+
+// Flex direction properties
+$directionsProps: ("wrap", "nowrap", "column", "column-reverse", "row", "row-reverse");
+
+@each $directions in $directionsProps {
+	.u-flex-wrap-#{$directions} {
+		flex-wrap: #{$directions};
+	}
+	.u-flex-direction-#{$directions} {
+		flex-direction: #{$directions};
+	}
+}
+
+

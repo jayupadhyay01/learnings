@@ -1,0 +1,71 @@
+{
+  "$schema": "https://schemas.wp.org/trunk/block.json",
+  "name": "storyful/timeline",
+  "version": "0.1.0",
+  "title": "Timeline Block",
+  "category": "storyful",
+  "icon": "chart-line",
+  "description": "This Block is for timeline section of the storyful pages.",
+  "keywords": [
+    "timeline",
+    "Block"
+  ],
+  "supports": {
+    "html": false
+  },
+  "textdomain": "storyful",
+  "attributes": {
+    "bgColor": {
+      "type": "string",
+      "default": ""
+    },
+    "textAlignment": {
+      "type": "string",
+      "default": "left"
+    },
+    "subtitleColor": {
+      "type": "string",
+      "default": ""
+    },
+    "titleColor": {
+      "type": "string",
+      "default": ""
+    },
+    "descriptionColor": {
+      "type": "string",
+      "default": ""
+    },
+    "titleVisiblity": {
+      "type": "boolean",
+      "default": true
+    },
+    "subtitleVisiblity": {
+      "type": "boolean",
+      "default": true
+    },
+    "navTitleColor": {
+      "type": "string",
+      "default": ""
+    },
+    "listItems": {
+      "type": "array",
+      "default": []
+    },
+    "bgImage": {
+      "type": "object",
+      "default": {
+        "id": "",
+        "url": "",
+        "alt": "",
+        "width": "",
+        "height": "",
+        "mediaMime": "",
+        "mediaType": ""
+      }
+    }
+  },
+  "editorScript": "file:./index.js",
+  "viewScript": "file:./view.js",
+  "editorStyle": "file:./index.css",
+  "style": "file:./style-index.css"
+}

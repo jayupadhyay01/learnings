@@ -1,0 +1,15 @@
+@import "../../../sass/mixins/all";
+
+.wp-block-anitian-multipurpose {
+    .multipurpose__content-inner-main{
+        padding-top: 60px;
+        padding-bottom: 40px;
+        .description-text{
+            font-size:  22px;
+            margin-bottom: 1em;
+            font-weight: 500;
+            line-height: 1.5;
+        }
+    }
+
+}

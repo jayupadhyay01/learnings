@@ -1,0 +1,62 @@
+@import "../../../sass/mixins/all";
+.wp-block-storyful-content-banner {
+    span.storyful__overlay {
+        z-index: 2;
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        left: 0;
+        right: 0;
+    }
+    .content-banner-container{
+        padding: 45px 0;
+
+    }
+    .content-banner-btn:before {
+        content: "";
+        display: block;
+        width: 45px;
+        height: 45px;
+        background-image: url('/Users/jayupadhyay/Local Sites/storyful/app/public/wp-content/themes/storyful/assets/src/images/button-v2-arrow-white.svg');
+        background-repeat: no-repeat;
+        background-position: center center;
+        position: absolute;
+        left: -1px;
+        top: 1px;
+        transition: all .3s ease-in-out;
+        background-color: #ff4c15;
+        border-radius: 55px;
+    }
+    .content-banner-btn{
+        margin-top: 20px !important;
+        margin-bottom: 20px !important;
+        color: #11152c;
+        border-radius: 100px;
+        background-color: #fffdfa;
+        padding: 5px 20px 0px 55px;
+        position: relative;
+        transition: all .3s ease;
+        display: inline-block;
+        margin-bottom: 50px !important;
+        font-family: arial, helvetica, sans-serif;
+        a{
+            display: inline-block;
+            color: #11152c !important;
+            position: relative;
+            text-decoration: none;
+            font-size: 15px;
+            font-weight: 600;
+            font-family: arial, helvetica, sans-serif;
+        }
+    }
+    .content-title-text {
+        font-size: 55px;
+        line-height: 72px;
+        font-family: "PlayfairDisplay-Medium";
+        letter-spacing: -.01em;
+        font-weight: 500;
+    }
+    
+
+}
+

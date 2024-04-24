@@ -1,0 +1,1 @@
+{"version":3,"sources":["webpack:///src/sass/blocks/_sample.scss"],"names":[],"mappings":"AAAA;EACI,cAAc","file":"css/blocks.css","sourcesContent":[".blocks-sample-scss {\n    display: block;\n}"],"sourceRoot":""}

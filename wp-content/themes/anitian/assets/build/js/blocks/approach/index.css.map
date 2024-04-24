@@ -1,0 +1,1 @@
+{"version":3,"file":"js/blocks/approach/index.css","mappings":";;;AAAA;EAAG;AAEH,C","sources":["webpack://anitian/./src/js/blocks/approach/editor.scss"],"sourcesContent":["* {box-sizing: border-box;}\n.wp-block-anitian-approach {\n\n}"],"names":[],"sourceRoot":""}

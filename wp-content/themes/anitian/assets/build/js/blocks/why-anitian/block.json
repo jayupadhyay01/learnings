@@ -1,0 +1,60 @@
+{
+  "$schema": "https://schemas.wp.org/trunk/block.json",
+  "name": "anitian/why-anitian",
+  "version": "0.1.0",
+  "title": "Why Anitian",
+  "category": "anitian",
+  "icon": "format-aside",
+  "description": "This block is for Why Anitian section of the Anitian pages.",
+  "keywords": [
+    "Why",
+    "Anitian",
+    "Block"
+  ],
+  "supports": {
+    "html": false
+  },
+  "textdomain": "anitian",
+  "attributes": {
+    "textAlignment": {
+      "type": "string",
+      "default": "Left"
+    },
+    "heading": {
+      "type": "string",
+      "default": ""
+    },
+    "HeadingColor": {
+      "type": "string",
+      "default": ""
+    },
+    "titleColor": {
+      "type": "string",
+      "default": ""
+    },
+    "descriptionColor": {
+      "type": "string",
+      "default": ""
+    },
+    "bgColor": {
+      "type": "string",
+      "default": ""
+    },
+    "boxColor": {
+      "type": "string",
+      "default": ""
+    },
+    "headingVisiblity": {
+      "type": "boolean",
+      "default": true
+    },
+    "listItems": {
+      "type": "array",
+      "default": []
+    }
+  },
+  "editorScript": "file:./index.js",
+  "viewScript": "file:./view.js",
+  "editorStyle": "file:./index.css",
+  "style": "file:./style-index.css"
+}

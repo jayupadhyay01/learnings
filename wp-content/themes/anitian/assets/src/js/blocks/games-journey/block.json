@@ -1,0 +1,107 @@
+{
+  "$schema": "https://schemas.wp.org/trunk/block.json",
+  "name": "anitian/games-journey",
+  "version": "0.1.0",
+  "title": "Games Journey Block",
+  "category": "games",
+  "icon": "car",
+  "description": "This block is for Journey section of Trader Games pages.",
+  "keywords": ["Games", "Journey", "Block"],
+  "supports": {
+    "html": false
+  },
+  "textdomain": "anitian",
+  "attributes": {
+    "textAlignment": {
+      "type": "string",
+      "default": "center"
+    },
+    "Heading": {
+      "type": "string",
+      "default": ""
+    },
+    "HeadingColor": {
+      "type": "string",
+      "default": "#FFFFFF"
+    },
+    "headingVisiblity": {
+      "type": "boolean",
+      "default": true
+    },
+    "description": {
+      "type": "string",
+      "default": ""
+    },
+    "descriptionColor": {
+      "type": "string",
+      "default": "#888888"
+    },
+    "descriptionVisiblity": {
+      "type": "boolean",
+      "default": true
+    },
+    "buttonText": {
+      "type": "string",
+      "default": "Button"
+    },
+    "buttonTextColor": {
+      "type": "string",
+      "default": "#000000"
+    },
+    "buttonBgColor": {
+      "type": "string",
+      "default": "linear-gradient(106deg, rgba(252,228,99,1) 0%, rgba(248,187,55,1) 65%);"
+    },
+    "buttonVisiblity": {
+      "type": "boolean",
+      "default": true
+    },
+    "button2Text": {
+      "type": "string",
+      "default": "Button"
+    },
+    "button2TextColor": {
+      "type": "string",
+      "default": "#FFFFFF"
+    },
+    "button2BgColor": {
+      "type": "string",
+      "default": "#000000"
+    },
+    "button2Visiblity": {
+      "type": "boolean",
+      "default": true
+    },
+    "BgGradientColor": {
+      "type": "string",
+      "default": "radial-gradient(circle, rgba(231,171,61,1) 0%, rgba(0,0,0,1) 0%, rgba(0,0,0,1) 100%, rgba(231,171,61,1) 100%)"
+    },
+    "subHeading": {
+      "type": "string",
+      "default": ""
+    },
+    "subHeadingColor": {
+      "type": "string",
+      "default": "#E1A142"
+    },
+    "subHeadingVisiblity": {
+      "type": "boolean",
+      "default": false
+    },
+    "bgImage": {
+      "type": "object",
+      "default": {
+          "id": "",
+          "url": "",
+          "alt": "",
+          "width": "",
+          "height": "",
+          "mediaMime": "",
+          "mediaType": ""
+      }
+    }
+  },
+  "editorScript": "file:./index.js",
+  "editorStyle": "file:./index.css",
+  "style": "file:./style-index.css"
+}

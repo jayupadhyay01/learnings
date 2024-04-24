@@ -1,0 +1,62 @@
+{
+  "$schema": "https://schemas.wp.org/trunk/block.json",
+  "name": "ana-enterprise/impact",
+  "version": "0.1.0",
+  "title": "Impact Block",
+  "category": "ana-enterprise",
+  "icon": "shield-alt",
+  "description": "This block is for Impact section for ANA Enterprise.",
+  "keywords": [
+    "impact",
+    "Block"
+  ],
+  "supports": {
+    "html": false
+  },
+  "textdomain": "ana-enterprise",
+  "attributes": {
+    "heading": {
+      "type": "string",
+      "default": ""
+    },
+    "headingColor": {
+      "type": "string",
+      "default": ""
+    },
+    "showHeading": {
+      "type": "boolean",
+      "default": true
+    },
+    "listItems": {
+      "type": "array",
+      "default": []
+    },
+    "textAlignment": {
+      "type": "string",
+      "default": ""
+    },
+    "bgColor": {
+      "type": "string",
+      "default": ""
+    },
+    "descriptionColor": {
+      "type": "string",
+      "default": ""
+    },
+    "bgImage": {
+      "type": "object",
+      "default": {
+        "id": "",
+        "url": "",
+        "alt": "",
+        "width": "",
+        "height": "",
+        "mediaMime": "",
+        "mediaType": ""
+      }
+    }
+  },
+  "editorScript": "file:./index.js",
+  "editorStyle": "file:./index.css",
+  "style": "file:./style-index.css"
+}

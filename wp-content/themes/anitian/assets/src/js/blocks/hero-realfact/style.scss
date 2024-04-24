@@ -1,0 +1,75 @@
+@import "../../../sass/mixins/all";
+.wp-block-anitian-hero-realfact {
+    .realfact-hero__background-image{
+        background-blend-mode: normal;
+        background-position: center bottom;
+        background-color: #6f4fff;
+        padding: 70px 0px;
+        background-size: cover;
+        position: relative;
+    }
+
+
+    .realfact-hero__content-inner{
+        display: flex;
+        .realfact-hero__content-inner-main{
+            width: 50%;
+            .title-text{
+                font-weight: 500;
+                line-height: 1em;
+                font-size: 40px;
+                margin-bottom: 10px;
+                font-family: "Poppins",sans-serif;
+            }
+            .description-text{
+                font-size: 18px;
+                font-weight: 500;
+                margin-bottom: 1em;
+                font-family: "Poppins",sans-serif;
+            }
+            .btn-wrap{
+                margin: 30px 0 0;
+                .btn-main{
+                    background: rgba(0,0,0,0);
+                    border: 2px solid #fff;
+                    border-radius: 0;
+                    position: relative;
+                    font-size: 18px;
+                    min-width: 100px;
+                    text-align: center;
+                    color: #fff;
+                    display: inline-block;
+                    font-weight: 600;
+                    cursor: pointer;
+                    letter-spacing: .16px;
+                    word-break: break-word;
+                    text-decoration: none;
+                    padding: 8px 20px;
+                    margin: 0;
+                    line-height: 1.4;
+                    transition: 150ms ease-out;
+                    &:hover{
+                        padding: 8px 32px 8px 20px;
+                        border: 2px solid rgba(0,0,0,0);
+                        background-color: rgba(0,0,0,.05);
+                    }
+                    a{
+                        color: inherit;
+                        &::after{
+                            content: ">";
+                            display: inline-block;
+                            font-family: "fontawesome";
+                            position: absolute;
+                            right: 0;
+                            opacity: 0;
+                        }
+                    }
+                }
+                
+            }
+        }
+        .realfact-hero-image{
+            width: 50%;
+        }
+    }
+}

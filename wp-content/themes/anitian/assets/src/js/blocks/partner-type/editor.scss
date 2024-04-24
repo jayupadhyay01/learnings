@@ -1,0 +1,10 @@
+* {box-sizing: border-box;}
+.wp-block-anitian-partner-type {
+    .show-items-hover-wrap {
+        width: calc(33.3333333333% - 40px);
+        border-radius: 5px 0 0 0;
+    }
+    .partner-type__box-wrap {
+        width: 100% !important;
+    }
+}

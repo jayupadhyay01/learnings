@@ -1,0 +1,150 @@
+@import "../../../sass/mixins/all";
+
+.wp-block-anitian-anitian-resources {
+    margin-bottom: 40px;
+    .anitian-resources-container {
+        width: 100%;
+        max-width: 1200px;
+        margin-right: auto;
+        margin-left: auto;
+        padding: 0 15px;
+        gap: 40px;
+        position: relative;
+        z-index: 1;
+
+        .anitian-resources-heading{
+            .container{
+                display: flex;
+                gap: 40px;
+                position: relative;
+                z-index: 1;
+                width: 100%;
+                max-width: 1200px;
+                margin-right: auto;
+                margin-left: auto;
+                padding: 0 15px;
+                .anitian-resources-ttl{
+                    flex: 1 1;
+                }
+            }
+        }
+
+        .anitian-resources-slider {
+            margin-top: -175px;
+            .resources-slider-item {
+                display: flex;
+                align-self: stretch;
+                margin: 0 10px;
+                margin-bottom: 20px;
+                height: auto !important;
+                .resources-slider-content {
+                    width: 100%;
+                    text-align: center;
+                    background-color: #fff;
+                    overflow: hidden;
+                    box-shadow: 0px 12px 18px -6px rgba(0, 0, 0, .3);
+                    .resources-slider-image{
+                        img{
+                            max-width: 100%;
+                            height: auto;
+                        }
+                    }
+                    .resources-slider-title {
+                        padding: 20px;
+
+                        .content-slider-button {
+                            font-size: 16px;
+                            min-width: 100px;
+                            text-align: center;
+                            color: #fff;
+                            display: inline-block;
+                            border: 2px solid rgba(0, 0, 0, 0);
+                            background-color: #f75227;
+                            cursor: pointer;
+                            letter-spacing: .16px;
+                            word-break: break-word;
+                            text-decoration: none;
+                            position: relative;
+                            line-height: 1.4;
+                            border-radius: 50px;
+                            transition: 150ms ease-out;
+                            font-weight: 700;
+                            padding: 10px 15px;
+                            margin-top: 20px;
+                            a {
+                                text-decoration: none;
+                                color: inherit;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+
+        .anitian-resources-heading {
+            padding: 70px 0 250px;
+            background-color: rgba(12, 113, 195, .14);
+            position: relative;
+
+            .subheading-text {
+                font-weight: 600;
+                margin: 0;
+                padding-bottom: 10px;
+                font-family: "Poppins",sans-serif;
+                font-size: 18px;
+                line-height: 1.5;
+                font-weight: 500;
+            }
+
+            .heading-text {
+                font-weight: 600;
+                margin: 0;
+                padding-bottom: 10px;
+                line-height: 1.5em;
+                font-size: 35px;
+            }
+        }
+    }
+    .slick-dots{
+        bottom: 0;
+    }   
+    .slick-arrow {
+        width: 40px;
+        height: 40px;
+        font-size: 0;
+        background: rgba(0,0,0,0);
+        cursor: pointer;
+        position: relative;
+        top: 50%;
+        transform: translateY(-50%);
+        border: none;
+        position: absolute;
+        display: block;
+    }
+    
+    .slick-prev {
+        left: -40px;
+        z-index: 1;
+    }
+    .slick-prev:before {
+        border-top: 3px solid #666;
+        border-left: 3px solid #666;
+        transform: rotate(-45deg);
+    }
+    .slick-next {
+        right: -50px;
+    }
+    .slick-next:before {
+        border-top: 3px solid #666;
+        border-left: 3px solid #666;
+        transform: rotate(135deg);
+    }
+    .slick-arrow:before {
+        width: 16px;
+        height: 16px;
+        content: "";
+        display: block;
+        position: absolute;
+        top: 11px;
+    }
+}

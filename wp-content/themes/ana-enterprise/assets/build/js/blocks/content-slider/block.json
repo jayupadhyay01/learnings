@@ -1,0 +1,98 @@
+{
+  "$schema": "https://schemas.wp.org/trunk/block.json",
+  "name": "ana-enterprise/content-slider",
+  "version": "0.1.0",
+  "title": "Content Slider Block",
+  "category": "ana-enterprise",
+  "icon": "embed-photo",
+  "description": "This block is for Content Slider section for ANA Enterprise.",
+  "keywords": [
+    "Content",
+    "Slider",
+    "Block"
+  ],
+  "supports": {
+    "html": false
+  },
+  "textdomain": "ana-enterprise",
+  "attributes": {
+    "textAlignment": {
+      "type": "string",
+      "default": ""
+    },
+    "heading": {
+      "type": "string",
+      "default": ""
+    },
+    "headingColor": {
+      "type": "string",
+      "default": ""
+    },
+    "showHeading": {
+      "type": "boolean",
+      "default": true
+    },
+    "TitleColor": {
+      "type": "string",
+      "default": ""
+    },
+    "showTitle": {
+      "type": "boolean",
+      "default": true
+    },
+    "DescColor": {
+      "type": "string",
+      "default": ""
+    },
+    "showDesc": {
+      "type": "boolean",
+      "default": true
+    },
+    "autoplay": {
+      "type": "boolean",
+      "default": false
+    },
+    "arrows": {
+      "type": "boolean",
+      "default": true
+    },
+    "dots": {
+      "type": "boolean",
+      "default": true
+    },
+    "slideInfinite": {
+      "type": "boolean",
+      "default": true
+    },
+    "bgColor": {
+      "type": "string",
+      "default": ""
+    },
+    "repeatItems": {
+      "type": "array",
+      "default": [
+        {
+          "title1": "",
+          "description1": "",
+          "title2": "",
+          "description2": "",
+          "title3": "",
+          "description3": "",
+          "slideImageID1": "",
+          "slideImageURL1": "",
+          "slideImageAlt1": "",
+          "slideImageID2": "",
+          "slideImageURL2": "",
+          "slideImageAlt2": "",
+          "slideImageID3": "",
+          "slideImageURL3": "",
+          "slideImageAlt3": ""
+        }
+      ]
+    }
+  },
+  "editorScript": "file:./index.js",
+  "editorStyle": "file:./index.css",
+  "style": "file:./style-index.css",
+  "viewScript": "file:./view.js"
+}

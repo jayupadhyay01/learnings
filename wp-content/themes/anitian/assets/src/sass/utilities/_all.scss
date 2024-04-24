@@ -1,0 +1,15 @@
+@import './u-flex-common-inline';
+@import './u-flex-column';
+@import './u-background-colors';
+@import './u-colors';
+@import './u-padding';
+@import './u-margin';
+@import './u-wrapper';
+.block-container {
+    width: 100%;
+    max-width: 1200px;
+    margin-right: auto;
+    margin-left: auto;
+    padding: 0 15px;
+    font-family: "Poppins",sans-serif;
+}

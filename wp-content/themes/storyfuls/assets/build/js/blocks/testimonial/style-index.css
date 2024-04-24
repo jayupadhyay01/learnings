@@ -1,0 +1,45 @@
+/*!*************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[3].use[1]!./node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[3].use[2]!./node_modules/sass-loader/dist/cjs.js??ruleSet[1].rules[3].use[3]!./src/js/blocks/testimonial/style.scss ***!
+  \*************************************************************************************************************************************************************************************************************************************************************/
+@charset "UTF-8";
+.wp-block-storyful-testimonial .testimonial-container {
+  padding-top: 10px;
+}
+.wp-block-storyful-testimonial .testimonial-title-text {
+  font-size: 26px;
+  color: #ff4c15;
+  font-family: arial, helvetica, sans-serif;
+}
+.wp-block-storyful-testimonial .testimonial-content-text {
+  font-size: 34px;
+  line-height: 44px;
+  font-family: "PlayfairDisplay-SemiBold";
+  margin: 0;
+}
+.wp-block-storyful-testimonial .testimonial-name-text {
+  padding-top: 10px;
+}
+.wp-block-storyful-testimonial .testimonial-content-text {
+  position: relative;
+  font-style: italic;
+  padding: 20px;
+  margin: 20px 0;
+}
+.wp-block-storyful-testimonial .testimonial-content-text:before {
+  content: "“";
+  font-size: 36px;
+  color: #333;
+  position: absolute;
+  top: 10px;
+  left: 50px;
+}
+.wp-block-storyful-testimonial .testimonial-content-text:after {
+  content: "”";
+  font-size: 36px;
+  color: #333;
+  position: absolute;
+  bottom: 30px;
+  right: 50px;
+}
+
+/*# sourceMappingURL=style-index.css.map*/

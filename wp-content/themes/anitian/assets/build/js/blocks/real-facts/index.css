@@ -1,0 +1,139 @@
+/*!*************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[3].use[1]!./node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[3].use[2]!./node_modules/sass-loader/dist/cjs.js??ruleSet[1].rules[3].use[3]!./src/js/blocks/real-facts/editor.scss ***!
+  \*************************************************************************************************************************************************************************************************************************************************************/
+@charset "UTF-8";
+.wp-block-anitian-real-facts {
+  padding: 0 0 60px;
+  position: relative;
+}
+.wp-block-anitian-real-facts .real-facts-item-content {
+  display: block;
+}
+.wp-block-anitian-real-facts .real-facts__video img {
+  position: static !important;
+  position: initial !important;
+  transform: none !important;
+}
+.wp-block-anitian-real-facts .real-facts__video img {
+  height: 100px;
+  width: 100px;
+}
+.wp-block-anitian-real-facts .slider-1-col .one-col-click-wrap .real-facts-slide-1-wrap {
+  display: flex !important;
+}
+.wp-block-anitian-real-facts .main-slider-wrap .real-fact-slides {
+  text-align: center;
+  background: linear-gradient(to right bottom, #2f87db, #3d83e9, #577df4, #7774fc, #9867fe);
+  border: none;
+  box-shadow: none;
+  min-height: 510px;
+  padding: 20px;
+  margin: 20px auto 0;
+  border-radius: 10px;
+  align-content: center;
+  flex-wrap: wrap;
+  cursor: grab;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+.wp-block-anitian-real-facts .main-slider-wrap .real-fact-slides h4 {
+  text-transform: uppercase;
+  font-size: 22px;
+  line-height: 1.5;
+  font-weight: bold;
+  width: 80%;
+  margin: 0 auto;
+}
+.wp-block-anitian-real-facts .main-slider-wrap .real-fact-slides h3 {
+  font-size: 39px;
+  line-height: 1.5;
+  font-weight: bold;
+  width: 80%;
+  margin: 0 auto 30px;
+}
+.wp-block-anitian-real-facts .main-slider-wrap .real-fact-slides p {
+  font-size: 21px;
+  line-height: normal;
+  width: 80%;
+  margin: 0 auto;
+}
+.wp-block-anitian-real-facts .main-slider-wrap .slick-prev {
+  left: 0;
+}
+.wp-block-anitian-real-facts .main-slider-wrap .slick-prev,
+.wp-block-anitian-real-facts .main-slider-wrap .slick-next {
+  cursor: pointer;
+  height: 72px;
+  width: 72px;
+  z-index: 50;
+  font-size: 0;
+  background: none;
+  border: none;
+  position: absolute;
+  right: 0;
+  top: 50%;
+  padding: 0;
+  transform: translateY(calc(-50% + 10px));
+}
+.wp-block-anitian-real-facts .main-slider-wrap .slick-next::before {
+  content: "→";
+  font-family: "ElegantIcons";
+  display: block;
+  color: #fff;
+  background: linear-gradient(to right, #5E39C1 50%, black 50%);
+  background-size: 200% 100%;
+  background-position: right bottom;
+  opacity: 0.7;
+  font-size: 35px;
+  line-height: 72px;
+  height: 72px;
+  width: 72px;
+  transition: all 0.3s ease-in;
+}
+.wp-block-anitian-real-facts .main-slider-wrap .slick-prev::before {
+  content: "←";
+  background-position: left bottom;
+  background: linear-gradient(to right, black 50%, #5E39C1 50%);
+  background-size: 200% 100%;
+  font-family: "ElegantIcons";
+  display: block;
+  color: #fff;
+  opacity: 0.7;
+  font-size: 35px;
+  line-height: 72px;
+  height: 72px;
+  width: 72px;
+  transition: all 0.3s ease-in;
+}
+.wp-block-anitian-real-facts .main-slider-wrap .slick-dots {
+  display: flex;
+  position: absolute;
+  bottom: 25px;
+  left: 50%;
+  transform: translateX(-50%);
+  height: 10px;
+  width: -moz-fit-content;
+  width: fit-content;
+}
+.wp-block-anitian-real-facts .main-slider-wrap .slick-dots li {
+  width: auto;
+}
+.wp-block-anitian-real-facts .main-slider-wrap .slick-dots li button {
+  height: 10px;
+  width: 10px;
+  font-size: 0;
+  opacity: 0.15;
+  background: #fff;
+  transition: ease-in 0.4s opacity;
+  border: none;
+  padding: 5px;
+  border-radius: 50%;
+  cursor: pointer;
+}
+.wp-block-anitian-real-facts .main-slider-wrap .slick-dots li.slick-active {
+  opacity: 0.5;
+}
+
+/*# sourceMappingURL=index.css.map*/

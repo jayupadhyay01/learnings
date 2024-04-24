@@ -1,0 +1,90 @@
+{
+  "$schema": "https://schemas.wp.org/trunk/block.json",
+  "name": "anitian/partners-logo",
+  "version": "0.1.0",
+  "title": "Partners Logo",
+  "category": "anitian",
+  "icon": "images-alt2",
+  "description": "This block is for Partners Logo section of anitian pages.",
+  "keywords": [
+    "customer",
+    "stories",
+    "block"
+  ],
+  "supports": {
+    "html": false
+  },
+  "textdomain": "anitian",
+  "attributes": {
+    "heading": {
+      "type": "string",
+      "default": "This is Default Heading"
+    },
+    "selectedPosts": {
+      "type": "array",
+      "default": []
+    },
+    "numberOfPosts": {
+      "type": "string",
+      "default": "10"
+    },
+    "postOrderBy": {
+      "type": "string",
+      "default": "date"
+    },
+    "postOrder": {
+      "type": "string",
+      "default": "DESC"
+    },
+    "autoplay": {
+      "type": "boolean",
+      "default": false
+    },
+    "arrows": {
+      "type": "boolean",
+      "default": true
+    },
+    "dots": {
+      "type": "boolean",
+      "default": false
+    },
+    "slideInfinite": {
+      "type": "boolean",
+      "default": false
+    },
+    "sliderBgColor": {
+      "type": "string",
+      "default": ""
+    },
+    "HeadingColor": {
+      "type": "string",
+      "default": ""
+    },
+    "buttonLink": {
+      "type": "string",
+      "default": ""
+    },
+    "buttonText": {
+      "type": "string",
+      "default": ""
+    },
+    "bgImage": {
+      "type": "object",
+      "default": {
+        "id": "",
+        "url": "",
+        "alt": "",
+        "width": "",
+        "height": "",
+        "mediaMime": "",
+        "mediaType": ""
+      }
+    }
+  },
+  "editorScript": "file:./index.js",
+  "viewScript": [
+    "file:./view.js"
+  ],
+  "editorStyle": "file:./index.css",
+  "style": "file:./style-index.css"
+}

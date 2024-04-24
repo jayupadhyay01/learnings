@@ -1,0 +1,114 @@
+{
+  "$schema": "https://schemas.wp.org/trunk/block.json",
+  "name": "anitian/aws-partners",
+  "version": "0.1.0",
+  "title": "AWS Partners",
+  "category": "anitian",
+  "icon": "awards",
+  "description": "This block is for AWS Partners section of anitian pages.",
+  "keywords": [
+    "aws",
+    "partners",
+    "block"
+  ],
+  "supports": {
+    "html": false
+  },
+  "textdomain": "anitian",
+  "attributes": {
+    "heading": {
+      "type": "string",
+      "default": "This is Default Heading"
+    },
+    "selectedPosts": {
+      "type": "array",
+      "default": []
+    },
+    "numberOfPosts": {
+      "type": "string",
+      "default": "10"
+    },
+    "postOrderBy": {
+      "type": "string",
+      "default": "date"
+    },
+    "postOrder": {
+      "type": "string",
+      "default": "DESC"
+    },
+    "autoplay": {
+      "type": "boolean",
+      "default": false
+    },
+    "arrows": {
+      "type": "boolean",
+      "default": false
+    },
+    "dots": {
+      "type": "boolean",
+      "default": true
+    },
+    "slideInfinite": {
+      "type": "boolean",
+      "default": true
+    },
+    "sliderBgColor": {
+      "type": "string",
+      "default": ""
+    },
+    "HeadingColor": {
+      "type": "string",
+      "default": ""
+    },
+    "TitleColor": {
+      "type": "string",
+      "default": ""
+    },
+    "description": {
+      "type": "string",
+      "default": ""
+    },
+    "Image1": {
+      "type": "object",
+      "default": {
+        "id": "",
+        "url": "",
+        "alt": "",
+        "width": "",
+        "height": "",
+        "mediaMime": "",
+        "mediaType": ""
+      }
+    },
+    "Image2": {
+      "type": "object",
+      "default": {
+        "id": "",
+        "url": "",
+        "alt": "",
+        "width": "",
+        "height": "",
+        "mediaMime": "",
+        "mediaType": ""
+      }
+    },
+    "bgImage": {
+      "type": "object",
+      "default": {
+        "id": "",
+        "url": "",
+        "alt": "",
+        "width": "",
+        "height": "",
+        "mediaMime": "",
+        "mediaType": ""
+      }
+    }
+  },
+  "editorScript": "file:./index.js",
+  "viewScript": [
+    "file:./view.js"
+  ],
+  "editorStyle": "file:./index.css",
+  "style": "file:./style-index.css"
+}

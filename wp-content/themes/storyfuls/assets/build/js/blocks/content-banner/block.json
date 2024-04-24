@@ -1,0 +1,72 @@
+{
+  "$schema": "https://schemas.wp.org/trunk/block.json",
+  "name": "storyful/content-banner",
+  "version": "0.1.0",
+  "title": "Content Banner Block",
+  "category": "storyful",
+  "icon": "align-wide",
+  "description": "This Block is for Content Banner section of the storyful pages.",
+  "keywords": [
+    "Content",
+    "Banner",
+    "Block"
+  ],
+  "supports": {
+    "html": false
+  },
+  "textdomain": "storyful",
+  "attributes": {
+    "bgColor": {
+      "type": "string",
+      "default": ""
+    },
+    "textAlignment": {
+      "type": "string",
+      "default": "center"
+    },
+    "title": {
+      "type": "string",
+      "default": ""
+    },
+    "buttonText": {
+      "type": "string",
+      "default": ""
+    },
+    "buttonVisiblity": {
+      "type": "boolean",
+      "default": true
+    },
+    "titleColor": {
+      "type": "string",
+      "default": ""
+    },
+    "showBgOverlay": {
+      "type": "boolean",
+      "default": false
+    },
+    "bgOverlayColor": {
+      "type": "string",
+      "default": ""
+    },
+    "bgOverlayOpacity": {
+      "type": "number",
+      "default": 0.2
+    },
+    "bgImage": {
+      "type": "object",
+      "default": {
+        "id": "",
+        "url": "",
+        "alt": "",
+        "width": "",
+        "height": "",
+        "mediaMime": "",
+        "mediaType": ""
+      }
+    }
+  },
+  "editorScript": "file:./index.js",
+  "viewScript": "file:./view.js",
+  "editorStyle": "file:./index.css",
+  "style": "file:./style-index.css"
+}

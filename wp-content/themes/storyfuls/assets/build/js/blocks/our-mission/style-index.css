@@ -1,0 +1,55 @@
+/*!*************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[3].use[1]!./node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[3].use[2]!./node_modules/sass-loader/dist/cjs.js??ruleSet[1].rules[3].use[3]!./src/js/blocks/our-mission/style.scss ***!
+  \*************************************************************************************************************************************************************************************************************************************************************/
+.wp-block-storyful-our-mission .our-mission {
+  padding-top: 132px;
+  padding-bottom: 132px;
+}
+.wp-block-storyful-our-mission .our-mission .container {
+  max-width: 1210px;
+  margin-right: auto;
+  margin-left: auto;
+  padding-left: 15px;
+  padding-right: 15px;
+  display: flex;
+  gap: 80px;
+}
+.wp-block-storyful-our-mission .our-mission .container .our-mission__title {
+  flex: 0 0 38%;
+}
+.wp-block-storyful-our-mission .our-mission .container .our-mission__title h2 {
+  font-size: 75px;
+  font-weight: 700;
+  line-height: 82px;
+  letter-spacing: -0.01em;
+  font-family: arial, helvetica, sans-serif;
+}
+.wp-block-storyful-our-mission .our-mission .container .our-mission__title h2 mark {
+  -webkit-text-stroke: 1px #11152c;
+  caret-color: #11152c;
+}
+.wp-block-storyful-our-mission .our-mission .container .our-mission__description {
+  flex: 1 1;
+  position: relative;
+  border-top: 1px solid rgba(17, 21, 44, 0.5);
+  padding-top: 30px;
+  margin-top: 10px;
+}
+.wp-block-storyful-our-mission .our-mission .container .our-mission__description p {
+  font-size: 20px;
+  line-height: 28px;
+  font-family: arial, helvetica, sans-serif;
+}
+.wp-block-storyful-our-mission .our-mission .container .our-mission__description:before {
+  content: "";
+  width: 43px;
+  height: 10px;
+  display: block;
+  position: absolute;
+  top: -11px;
+  left: 0;
+  background-color: #ff4c15;
+  transition: all 0.3s ease-in-out;
+}
+
+/*# sourceMappingURL=style-index.css.map*/

@@ -1,0 +1,221 @@
+@import '../../../sass/mixins/all';
+
+.hero-carousel {
+    position: relative;
+
+    .carousel-container {
+        margin: 0 auto;
+        max-width: 80%;
+    }
+
+    .hero-slide-img {
+        display: flex;
+        align-items: center;
+        img {
+            width: 500px;
+            margin: 0 auto;
+            height: auto !important;
+        }
+    }
+
+    .hero-slide-info{
+        padding: 50px 0;
+        align-self: center;
+    }
+
+    .hero-carousel-slide-button{
+        margin-bottom: 10px;
+        a {
+            padding: 10px 20px;
+            text-transform: uppercase;
+            border: 1px solid #000;
+            font-weight: 500;
+            line-height: 1;
+            letter-spacing: 0.5px;
+            font-size: 18px;
+            &:hover{
+                background: #009cde;
+                color: #fff !important;
+            }
+        }
+    }
+    .slick-arrow {
+        top: calc(100% - 40px);
+        width: auto;
+        height: auto;
+        z-index: 1;
+
+        &.slick-next {
+            right: calc(50% - 130px);
+        }
+
+        &.slick-prev {
+            left: calc(50% - 130px);
+
+        }
+
+        &.slick-next::before {
+            content: '\2192';
+            display: inline-block;
+            color: #009cde;
+            font-size: 50px;
+            font-family: system-ui;
+        }
+
+        &.slick-prev:before {
+            content: '\2190';
+            display: inline-block;
+            color: #009cde;
+            font-size: 50px;
+            font-family: system-ui;
+        }
+
+        &:hover {
+            background: transparent;
+
+            &.slick-prev:before,
+            &.slick-next:before {
+                color: #000;
+            }
+
+            &:focus {
+                background: transparent;
+
+                &.slick-prev:before,
+                &.slick-next:before {
+                    color: #000;
+                }
+            }
+        }
+
+        &:focus {
+
+            &.slick-prev:before,
+            &.slick-next:before {
+                color: #000;
+            }
+        }
+    }
+
+    .hero-carousel-main {
+        width: 100%;
+        max-width: 100%;
+        position: relative;
+        margin: 0;
+
+        .hero-slide-item {
+            position: relative;
+        }
+
+        .slick-dots {
+            padding: 0;
+            list-style-type: none;
+            display: flex;
+            justify-content: center;
+            bottom: 30px;
+            left: 0;
+            width: 100%;
+
+            li {
+                position: relative;
+                display: inline-block;
+                width: 20px;
+                height: 20px;
+                margin: 0 5px;
+                padding: 0;
+                cursor: pointer;
+
+                button {
+                    font-size: 0;
+                    width: 20px;
+                    height: 20px;
+                    padding: 0;
+                    margin-right: 7px;
+                    margin-left: 7px;
+                    background-color: transparent;
+                    border: 1px solid #000;
+                    border-radius: 50%;
+                }
+            }
+        }
+
+        .slick-dots li.slick-active button {
+            background-color: #009cde;
+            border: 1px solid #009cde;
+        }
+    }
+
+    .hero-carousel-body {
+        width: 100%;
+        max-width: 100%;
+        position: relative;
+    }
+
+    .hero-slide-inner {
+        display: flex;
+        align-items: stretch;
+        min-height: 650px;
+        justify-content: center;
+
+        &>div {
+            flex: 1;
+        }
+
+        @media screen and (max-width:992px) {
+            flex-wrap: wrap;
+            flex-direction: column-reverse;
+
+            &>div {
+                flex: 100%;
+            }
+        }
+    }
+
+
+    .slider-bg {
+        position: absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        width: 100%;
+        height: 100%;
+
+        .slider-bg-overlay {
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            width: 100%;
+            height: 100%;
+        }
+
+        video,
+        img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            object-position: center;
+        }
+    }
+
+    .hero-carousel-slide-title {
+        font-size: 55px;
+        margin: 0 0 25px;
+        line-height: 1;
+    }
+
+    .hero-carousel-slide-desc {
+        font-size: 24px;
+        line-height: 140%;
+        font-weight: 400;
+        margin-bottom: 30px !important;
+    }
+
+    .hero-carousel-slide-button {
+        a {
+            color: inherit;
+        }
+    }
+}

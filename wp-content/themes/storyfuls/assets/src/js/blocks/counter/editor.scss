@@ -1,0 +1,38 @@
+.conter-onelayout {
+    &__title-section {
+        width: 30%;
+        max-width: 100%;
+
+        h2 {
+            line-height: 40px;
+            font-size: 50px;
+        }
+    }
+
+    &__counter-section {
+        width: 100%;
+        max-width: 100%;
+    }
+
+    &__counter-boxes {
+        margin: 0;
+    }
+
+    &__counter-box {
+        margin: 50px 0 0 0;
+    }
+
+    &__counter-description {
+        margin: 20px 0 0 0;
+    }
+
+    &__counter-title span {
+        font-size: 25px !important;
+        margin: 0 3px;
+        line-height: 25px !important;
+
+        span {
+            font-size: 18px;
+        }
+    }
+}

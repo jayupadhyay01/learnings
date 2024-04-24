@@ -1,0 +1,1 @@
+{"version":3,"file":"js/blocks/timeline/index.css","mappings":";;;AAEQ;EACI;AADZ,C","sources":["webpack://storyful/./src/js/blocks/timeline/editor.scss"],"sourcesContent":[".wp-block-storyful-timeline {\n    .year-nav__item{\n        .timeline-year{\n            display: block !important;\n        }\n    }\n}"],"names":[],"sourceRoot":""}

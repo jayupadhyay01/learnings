@@ -1,0 +1,62 @@
+/*!*********************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[3].use[1]!./node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[3].use[2]!./node_modules/sass-loader/dist/cjs.js??ruleSet[1].rules[3].use[3]!./src/js/blocks/counter/style.scss ***!
+  \*********************************************************************************************************************************************************************************************************************************************************/
+/* New Updated */
+.conter-main {
+  padding: 100px;
+}
+.conter-main .conter-main-inner .conter-onelayout__inner-section .conter-onelayout__wrap {
+  display: flex;
+  align-items: center;
+  gap: 50px;
+  width: 100%;
+  margin-bottom: 100px;
+}
+.conter-main .conter-main-inner .conter-onelayout__inner-section .conter-onelayout__wrap .conter-onelayout__title-section {
+  width: 50%;
+}
+.conter-main .conter-main-inner .conter-onelayout__inner-section .conter-onelayout__wrap .conter-onelayout__title-section h2 {
+  margin: 0;
+  font-family: "PlayfairDisplay-Medium";
+  font-size: 52px;
+  line-height: 68px;
+}
+.conter-main .conter-main-inner .conter-onelayout__inner-section .conter-onelayout__wrap .conter-onelayout__description-section {
+  width: 50%;
+}
+.conter-main .conter-main-inner .conter-onelayout__inner-section .conter-onelayout__wrap .conter-onelayout__description-section p {
+  margin: 0 !important;
+}
+.conter-main .conter-main-inner .conter-onelayout__inner-section .conter-onelayout__wrap .conter-onelayout__description-section p {
+  font-family: arial, helvetica, sans-serif;
+  line-height: 28px;
+  margin-bottom: 40px;
+  font-size: 20px;
+}
+.conter-main .conter-main-inner .conter-onelayout__inner-section .conter-onelayout__counter-section .conter-onelayout__counter-boxes {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: flex-start;
+  border: 1px solid #000;
+  padding: 10px;
+}
+.conter-main .conter-main-inner .conter-onelayout__inner-section .conter-onelayout__counter-section .conter-onelayout__counter-boxes .conter-onelayout__counter-box {
+  width: calc(33.33% - 14px);
+  text-align: center;
+}
+.conter-main .conter-main-inner .conter-onelayout__inner-section .conter-onelayout__counter-section .conter-onelayout__counter-boxes .conter-onelayout__counter-box .conter-onelayout__counter-title {
+  margin-bottom: 20px;
+}
+.conter-main .conter-main-inner .conter-onelayout__inner-section .conter-onelayout__counter-section .conter-onelayout__counter-boxes .conter-onelayout__counter-box .conter-onelayout__counter-title span {
+  font-size: 60px;
+  line-height: 75px;
+  font-weight: 700;
+  font-family: arial, helvetica, sans-serif;
+  margin: 0;
+}
+.conter-main .conter-main-inner .conter-onelayout__inner-section .conter-onelayout__counter-section .conter-onelayout__counter-boxes .conter-onelayout__counter-box .conter-onelayout__counter-description {
+  margin: 0;
+}
+
+/*# sourceMappingURL=style-index.css.map*/

@@ -1,0 +1,23 @@
+* {box-sizing: border-box;}
+.wp-block-anitian-games-prize {
+    .add-item-wrap .add-new-item {
+        background-color: #fce867 !important;
+        color: #000 !important;
+    }
+    .show-items-hover-wrap{
+        width: calc(33.33% - 10px);
+        &:first-child{
+            width: 100%;
+            text-align: center;
+            margin-bottom: 20px;
+            .games-prize-card-item {
+                width: 650px;
+                margin: 0 auto;
+                max-width: 100%;
+            }
+        }
+    }
+    .games-prize-card-wrap{
+        width: 100% !important;
+    }
+}

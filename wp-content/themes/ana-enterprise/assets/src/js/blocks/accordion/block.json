@@ -1,0 +1,116 @@
+{
+  "$schema": "https://schemas.wp.org/trunk/block.json",
+  "name": "ana-enterprise/accordion",
+  "version": "0.1.0",
+  "title": "Accordion Block",
+  "category": "ana-enterprise",
+  "icon": "excerpt-view",
+  "description": "This block is for Accordion block for ANA Enterprise.",
+  "keywords": ["accordion", "Block"],
+  "supports": {
+    "html": false
+  },
+  "textdomain": "ana-enterprise",
+  "attributes": {
+    "textAlignment": {
+      "type": "string",
+      "default": ""
+    },
+    "heading": {
+      "type": "string",
+      "default": ""
+    },
+    "headingColor": {
+      "type": "string",
+      "default": ""
+    },
+    "showHeading": {
+      "type": "boolean",
+      "default": true
+    },
+    "showAccordion": {
+      "type": "boolean",
+      "default": true
+    },
+    "showSlider": {
+      "type": "boolean",
+      "default": true
+    },
+    "accordionTitle": {
+      "type": "string",
+      "default": ""
+    },
+    "accordionTitleColor": {
+      "type": "string",
+      "default": ""
+    },
+    "accordionDescription": {
+      "type": "string",
+      "default": ""
+    },
+    "accordionDesColor": {
+      "type": "string",
+      "default": ""
+    },
+    "testimonialTitleColor": {
+      "type": "string",
+      "default": ""
+    },
+    "testimonialDescColor": {
+      "type": "string",
+      "default": ""
+    },
+    "bgColor": {
+      "type": "string",
+      "default": ""
+    },
+		"autoplay": {
+			"type": "boolean",
+      "default": false
+		},
+		"arrows": {
+			"type": "boolean",
+      "default": true
+		},
+		"dots": {
+			"type": "boolean",
+      "default": false
+		},
+    "slideInfinite": {
+			"type": "boolean",
+      "default": false
+		},
+		"layoutOption": {
+			"type": "string",
+			"default": "layout1"
+		},
+    "bgImage": {
+      "type": "object",
+      "default": {
+          "id": "",
+          "url": "",
+          "alt": "",
+          "width": "",
+          "height": "",
+          "mediaMime": "",
+          "mediaType": ""
+      }
+    },
+		"repeatItems": {
+      "type": "array",
+      "default": [
+        {
+          "title": "",
+          "description": "",
+          "slideImageID": "",
+          "slideImageURL": "",
+          "slideImageAlt": ""
+        }
+      ]
+    }
+  },
+  "editorScript": "file:./index.js",
+  "viewScript": "file:./view.js",
+  "editorStyle": "file:./index.css",
+  "style": "file:./style-index.css"
+}

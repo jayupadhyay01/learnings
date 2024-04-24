@@ -1,0 +1,88 @@
+{
+  "$schema": "https://schemas.wp.org/trunk/block.json",
+  "name": "storyful/counter",
+  "version": "0.1.0",
+  "title": "Counter Block",
+  "category": "storyful",
+  "icon": "plus-alt2",
+  "description": "This block is for Counter section of storyful pages.",
+  "keywords": ["counter", "Block"],
+  "supports": {
+    "html": false
+  },
+  "textdomain": "storyful",
+	"attributes": {
+		"blockID": {
+			"type": "string",
+			"default": ""
+		},
+		"heading": {
+			"type": "string",
+			"default": ""
+		},
+		"description": {
+			"type": "string",
+			"default": ""
+		},
+		"listItems": {
+			"type": "array",
+			"default": []
+		},
+		"headingColor": {
+			"type": "string",
+			"default": "#2C3546"
+		},
+		"subHeadingColor": {
+			"type": "string",
+			"default": "#2C3546"
+		},
+		"titleColor": {
+			"type": "string",
+			"default": "#2C3546"
+		},
+		"descColor": {
+			"type": "string",
+			"default": "#2C3546"
+		},
+		"textAlign": {
+			"type": "string",
+			"default": "center"
+		},
+		"showTitle": {
+			"type": "boolean",
+			"default": true
+		},
+		"showDesc": {
+			"type": "boolean",
+			"default": true
+		},
+    	"BgColor": {
+			"type": "string",
+			"default": ""
+		},
+		"VerticalAlign": {
+			"type": "string",
+			"default": "flex-start"
+		},
+		"headingAlign": {
+			"type": "string",
+			"default": "center"
+		},
+        "bgImage": {
+            "type": "object",
+            "default": {
+                "id": "",
+                "url": "",
+                "alt": "",
+                "width": "",
+                "height": "",
+                "mediaMime": "",
+                "mediaType": ""
+            }
+        }
+  },
+	"editorScript": "file:./index.js",
+	"viewScript": [ "file:./view.js" ],
+	"editorStyle": "file:./index.css",
+	"style": "file:./style-index.css"
+}

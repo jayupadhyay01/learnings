@@ -1,0 +1,7 @@
+<?xml version="1.0"?>
+<ruleset>
+    <arg name="extensions" value="php"/>
+    <exclude-pattern>vendor/</exclude-pattern>
+	<exclude-pattern>assets/build/assets.php</exclude-pattern>
+	<rule ref="WordPress"/>
+</ruleset>

@@ -1,0 +1,71 @@
+{
+  "$schema": "https://schemas.wp.org/trunk/block.json",
+  "name": "anitian/certified-partners",
+  "version": "0.1.0",
+  "title": "Certified Partners Block",
+  "category": "anitian",
+  "icon": "nametag",
+  "description": "This block is for Certified Partners of anitian pages.",
+  "keywords": ["certified","partners", "Block"],
+  "supports": {
+    "html": false
+  },
+  "textdomain": "anitian",
+  "attributes": {
+    "textAlignment": {
+      "type": "string",
+      "default": "Left"
+    },
+    "Heading": {
+      "type": "string",
+      "default": ""
+    },
+    "SubHeading": {
+      "type": "string",
+      "default": ""
+    },
+    "HeadingColor": {
+      "type": "string",
+      "default": ""
+    },
+    "SubHeadingColor": {
+      "type": "string",
+      "default": ""
+    },
+    "titleColor": {
+      "type": "string",
+      "default": ""
+    },
+    "buttonColor": {
+      "type": "string",
+      "default": ""
+    },
+    "titleVisiblity": {
+      "type": "boolean",
+      "default": true
+    },
+    "buttonVisiblity": {
+      "type": "boolean",
+      "default": true
+    },
+    "headingVisiblity": {
+      "type": "boolean",
+      "default": true
+    },
+    "subHeadingVisiblity": {
+      "type": "boolean",
+      "default": true
+    },
+    "bgColor": {
+      "type": "string",
+      "default": ""
+    },
+    "listItems": {
+      "type": "array",
+      "default": []
+    }
+  },
+  "editorScript": "file:./index.js",
+  "editorStyle": "file:./index.css",
+  "style": "file:./style-index.css"
+}

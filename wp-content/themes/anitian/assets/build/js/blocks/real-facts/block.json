@@ -1,0 +1,142 @@
+{
+  "$schema": "https://schemas.wp.org/trunk/block.json",
+  "name": "anitian/real-facts",
+  "version": "0.1.0",
+  "title": "Real Facts Block",
+  "category": "anitian",
+  "icon": "table-col-after",
+  "description": "This block is for Real Facts Block of the Anitian Real Fact pages.",
+  "keywords": [
+    "real",
+    "facts",
+    "Block"
+  ],
+  "supports": {
+    "html": false
+  },
+  "textdomain": "anitian",
+  "attributes": {
+    "textAlignment": {
+      "type": "string",
+      "default": "center"
+    },
+    "title": {
+      "type": "string",
+      "default": ""
+    },
+    "headingColor": {
+      "type": "string",
+      "default": ""
+    },
+    "titleColor": {
+      "type": "string",
+      "default": ""
+    },
+    "mainDescColor": {
+      "type": "string",
+      "default": ""
+    },
+    "mainDescVisiblity": {
+      "type": "boolean",
+      "default": true
+    },
+    "titleVisiblity": {
+      "type": "boolean",
+      "default": true
+    },
+    "headingVisiblity": {
+      "type": "boolean",
+      "default": true
+    },
+    "description": {
+      "type": "string",
+      "default": ""
+    },
+    "descriptionColor": {
+      "type": "string",
+      "default": ""
+    },
+    "descriptionVisiblity": {
+      "type": "boolean",
+      "default": true
+    },
+    "slideTitleColor": {
+      "type": "string",
+      "default": ""
+    },
+    "slideDescColor": {
+      "type": "string",
+      "default": ""
+    },
+    "mainSliderColor": {
+      "type": "string",
+      "default": "#ffffff"
+    },
+    "boxTitleColor": {
+      "type": "string",
+      "default": ""
+    },
+    "boxDescColor": {
+      "type": "string",
+      "default": ""
+    },
+    "btnVisiblity": {
+      "type": "boolean",
+      "default": true
+    },
+    "btnText": {
+      "type": "string",
+      "default": "Click To See More"
+    },
+    "btnBgColor": {
+      "type": "string",
+      "default": "#f75227"
+    },
+    "btnTxtColor": {
+      "type": "string",
+      "default": "#fff"
+    },
+    "bgImage": {
+      "type": "object",
+      "default": {
+        "id": "",
+        "url": "",
+        "alt": "",
+        "width": "",
+        "height": "",
+        "mediaMime": "",
+        "mediaType": ""
+      }
+    },
+    "autoplay": {
+      "type": "boolean",
+      "default": false
+    },
+    "arrows": {
+      "type": "boolean",
+      "default": true
+    },
+    "dots": {
+      "type": "boolean",
+      "default": true
+    },
+    "infinite": {
+      "type": "boolean",
+      "default": false
+    },
+    "repeatItems": {
+      "type": "array",
+      "default": []
+    },
+    "sliderItems": {
+      "type": "array",
+      "default": []
+    }
+  },
+  "editorScript": "file:./index.js",
+  "viewScript": [
+    "file:./view.js"
+  ],
+  "editorStyle": "file:./index.css",
+  "style": "file:./style-index.css"
+}

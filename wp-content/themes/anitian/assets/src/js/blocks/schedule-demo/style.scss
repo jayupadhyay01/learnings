@@ -1,0 +1,64 @@
+@import "../../../sass/mixins/all";
+
+.wp-block-anitian-schedule-demo {
+    .schedule-demo__background-image {
+        background-color: #2ea3f2;
+        padding: 100px 0px;
+        position: relative;
+        background-position: center;
+        background-size: cover !important;
+
+        .schedule-demo__content-inner-main {
+            .title-text {
+                font-weight: 600;
+                line-height: 1.1em;
+                color: #fff;
+                margin: 0 0 20px;
+                font-size: 60px;
+                font-family: "Poppins",sans-serif;
+            }
+
+            .description-text {
+                font-size: 18px;
+                line-height: 1.4em;
+                margin-bottom: 1em;
+                font-family: "Poppins",sans-serif;
+                font-weight: 500;
+            }
+
+            .btn-wrap {
+                margin: 30px 0 0;
+
+                .btn {
+                    .btn-main {
+                        font-size: 16px;
+                        min-width: 100px;
+                        text-align: center;
+                        display: inline-block;
+                        font-weight: 600;
+                        border: 2px solid rgba(0, 0, 0, 0);
+                        cursor: pointer;
+                        letter-spacing: .16px;
+                        word-break: break-word;
+                        text-decoration: none;
+                        position: relative;
+                        padding: 8px 20px;
+                        margin: 0;
+                        line-height: 1.4;
+                        border-radius: 50px;
+                        transition: 150ms ease-out;
+                        &:hover{
+                            border-color: #1870b8;
+                            background-color: #fff !important;
+                            color: #f75227 !important;
+                        }
+                        a {
+                            color: inherit;
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+}

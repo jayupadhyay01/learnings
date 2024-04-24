@@ -1,0 +1,50 @@
+/**
+ * Admin CSS
+ */
+
+/**
+ * Post Listing css
+ */
+ .jay-gb-post-listing-wrap{padding: 10px;}
+ .jay-gb-post-listing-wrap .add-step { margin-top: 10px; text-align: center; border: 1px solid #0F8B8D; padding: 10px !important;  }
+ .jay-gb-post-listing-wrap .jay-gb-post-static-listing .step .jy-post-container {  padding: 15px; border-radius: 10px;}
+ .jay-gb-post-listing-wrap .jay-gb-post-static-listing { background-color: #fff; }
+ .jay-gb-post-listing-wrap .jay-gb-post-static-listing.post-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(32%, 3fr)); grid-gap: 1%;}
+ .jay-gb-post-listing-wrap .jay-gb-post-static-listing.post-grid .step { margin: 5px; border-radius: 5px;}
+ .jay-gb-post-listing-wrap .jay-gb-post-static-listing.post-grid .post-image img { width: 100%; border-radius:5px ;}
+ .jay-gb-post-listing-wrap .jay-gb-post-static-listing.post-grid .step h4{margin: 30px 0 15px 0;}
+ .jay-gb-post-listing-wrap .jay-gb-post-static-listing.post-grid .post-image .media-button button { width: 100%; margin: 5px 0 0 0; } 
+ .jay-gb-post-listing-wrap .md-post-listing-main h3{margin: 0;padding: 0 0 10px 10px;font-size: 30px; font-weight: 400;}
+ .jay-gb-post-listing-wrap .md-post-listing-inner { display: flex; }
+ .jay-gb-post-listing-wrap .md-post-listing-inner button { flex-grow: 1; width: 50%; margin: 0 10px; padding: 10px; background-color: transparent; border-radius: 4px; color: #0F8B8D; border: 2px solid #0F8B8D; font: normal 18px Helvetica Neue; cursor: pointer; }
+ .jay-gb-post-listing-wrap .md-post-listing-inner button:hover { background-color: #0F8B8D; color: #fff; }
+ .jay-gb-post-listing-wrap .jay-gb-post-static-listing .step { border: 1px solid #0F8B8D; list-style: none; counter-increment: inst; position: relative; margin-bottom: 10px; border-radius: 5px; }
+ .jay-gb-post-listing-wrap .jay-gb-post-static-listing .post-title h4 { margin: 30px 0 15px 0; padding: 10px; border-radius: 4px; border: 1px solid rgb(0,0,0, 0.1); }
+ .jay-gb-post-listing-wrap .jay-gb-post-static-listing .post-image img { display: flex; flex-direction: column; margin: 10px 0; width: 100%;border-radius: 5px; }
+ .jay-gb-post-listing-wrap .jay-gb-post-static-listing .post-image .media-button { margin-top: 5px; }
+ .jay-gb-post-listing-wrap .jay-gb-post-static-listing .post-image .media-button .remove-image { margin-left: 5px; }
+ .jay-gb-post-listing-wrap .jay-gb-post-static-listing .remove-post { display: block; position: absolute; top: 15px; right: 15px; cursor: pointer; background-color: #000; color: #fff; }
+ .jay-gb-post-listing-wrap .jay-gb-post-static-listing .remove-post > span { display: flex; }
+ .jay-gb-post-listing-wrap .jay-gb-post-static-listing .content-steps { display: block; min-height: 50px; padding: 15px 0; margin: 0; }
+ .jay-gb-post-listing-wrap .jay-gb-post-static-listing .content-steps p{ border-radius: 4px; border: 1px solid rgb(0,0,0, 0.1); padding: 10px;margin: 0; }
+ .jay-gb-post-listing-wrap .jay-gb-post-static-listing .step .step-url a{ color: #fff; text-decoration: none; border: solid 1px #0F8B8D; padding: 5px 10px; border-radius: 3px; background-color: #0F8B8D; }
+ .jay-gb-post-listing-wrap .jay-gb-post-static-listing .step .step-url h4 { background-color: #fff; border: solid 1px red; color: blue; width: 97%; opacity: 0.8; font-weight: 400; border-radius: 5px; font-size: 24px; padding: 5px 10px; text-align: left; }
+.jay-gb-post-listing-wrap .jay-gb-dynamic-post-listing .container .post-lists a:hover{text-decoration: underline; color: #0F8B8D; background-color: #fff;}
+.jay-gb-post-listing-wrap .jay-gb-dynamic-post-listing.post-list .container { width: 100%; display: block; }
+.jay-gb-post-listing-wrap .jay-gb-dynamic-post-listing.post-list .container .post-lists img { width: 100%; border-radius: 5px; height: 280px; }
+.jay-gb-post-listing-wrap .jay-gb-dynamic-post-listing.post-list .blog .container .post-lists h3{ margin: 0;padding: 10px 0; }
+.jay-gb-post-listing-wrap .jay-gb-dynamic-post-listing.post-grid .blog .container { display: grid; grid-template-columns: repeat(auto-fill, minmax(32%, 3fr)); grid-gap: 1%; }
+.jay-gb-post-listing-wrap .jay-gb-dynamic-post-listing.post-list .blog .container .post-lists{border: 1px solid rgb(0,0,0, 0.1); padding: 15px; text-align: left;  border-radius: 5px;}
+.jay-gb-post-listing-wrap .jay-gb-dynamic-post-listing.post-grid .blog .container .post-lists {  padding: 10px; border: 1px solid rgb(0,0,0, 0.1); text-align: left;  border-radius: 5px; }
+.jay-gb-post-listing-wrap .jay-gb-dynamic-post-listing.post-grid .blog .container .post-lists h3 { margin: 0; font-size: 25px; margin-bottom: 10px; }
+.jay-gb-post-listing-wrap .jay-gb-dynamic-post-listing.post-grid .blog .container .post-lists img { width: 100%; border-radius: 5px; }
+.jay-gb-post-listing-wrap .jay-gb-dynamic-post-listing.post-grid .blog .container .post-lists p { font-size: 18px; margin: 0; }
+.jay-gb-post-listing-wrap .jay-gb-dynamic-post-listing{ border: 1px solid rgb(0,0,0, 0.1); padding: 10px; border-radius: 5px; }
+.jay-gb-post-listing-wrap .jay-gb-dynamic-post-listing .container .post-lists .post-content-list {padding-bottom: 15px;}
+.jay-gb-post-listing-wrap .jay-gb-dynamic-post-listing .container .post-lists .read-more-dynamic a{ color: #fff; text-decoration: none; border: solid 1px #0F8B8D; padding: 5px 10px; border-radius: 3px; background-color: #0F8B8D; }
+.jay-gb-post-listing-wrap .jay-gb-dynamic-post-listing .post-loader,.block-settings .post-loader { height: 0; width: 0; padding: 15px; border: 6px solid #0F8B8D; border-right-color: #888; border-radius: 22px; -webkit-animation: rotate 1s infinite linear; position: absolute; left: 50%; top: 50%; }
+ /**
+ * Block Settings css
+ */
+ .block-settings { border: 1px solid rgb(0,0,0, 0.1); padding: 15px; border-radius: 5px; }
+  

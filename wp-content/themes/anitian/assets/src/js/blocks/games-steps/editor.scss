@@ -1,0 +1,18 @@
+* {box-sizing: border-box;}
+.wp-block-anitian-games-steps {
+    .add-item-wrap .add-new-item {
+        background-color: #fce867 !important;
+        color: #000 !important;
+    }
+    .show-items-hover-wrap{
+        width: calc(33.33% - 10px);
+    }
+    .games-steps-card-item{
+        width: 100% !important;
+    }
+    .active-card-edit {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+}
