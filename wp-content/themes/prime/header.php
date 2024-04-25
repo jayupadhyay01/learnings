@@ -6,6 +6,16 @@
  */
 
 ?>
+<?php
+
+// Check if theme options are set
+$theme_options = get_option('theme_options');
+if ($theme_options) {
+	$site_logo = isset($theme_options['site_logo']) ? $theme_options['site_logo'] : '';
+	$site_title = isset($theme_options['site_title']) ? $theme_options['site_title'] : get_bloginfo('name');
+}
+
+?>
 <!doctype html>
 <html <?php language_attributes(); ?>>
 <head>
@@ -28,23 +38,63 @@ if ( function_exists( 'wp_body_open' ) ) {
 	<header id="masthead" class="md-prime-header site-header u-bg-white">
 		<div class="container">
 			<div class="u-flex-columns u-align-items-center u-justify-content-space-between">
-				<div class="u-flex-column u-flex-basis-3 u-flex-basis-6@mobile-max">
+				<div class="u-flex-column u-flex-basis-30 u-flex-basis-60@max-767">
 					<div class="site-branding u-padding-t10 u-padding-b10">
 						<?php
 						the_custom_logo();
 						if ( is_front_page() && is_home() ) :
 							?>
-							<h1 class="site-title"><a class="u-primary-text-color" href="<?php echo esc_url( home_url( '/' ) ); ?>" rel="home"><?php bloginfo( 'name' ); ?></a></h1>
+								<h1 class="site-title">
+									<?php
+									// Check if the Custom Theme Options plugin is activated
+									if (get_option('theme_options')) {
+										// Check if theme options are set
+										$theme_options = get_option('theme_options');
+										if ($theme_options && isset($theme_options['site_logo']) && !empty($theme_options['site_logo'])) {
+											?>
+											<a class="u-primary-text-color" href="<?php echo esc_url(home_url('/')); ?>" rel="home">
+												<img src="<?php echo esc_url($theme_options['site_logo']); ?>" alt="<?php bloginfo('name'); ?>">
+											</a>
+											<?php
+										} else {
+											?><a class="u-primary-text-color" href="<?php echo esc_url(home_url('/')); ?>" rel="home"><?php echo esc_html($theme_options['site_title']); ?></a><?php
+										}
+									} else {
+										?><a class="u-primary-text-color" href="<?php echo esc_url(home_url('/')); ?>" rel="home"><?php bloginfo('name'); ?></a><?php
+									}
+									?>
+								</h1>
 							<?php
-						else :
+							else :
 							?>
-							<p class="site-title"><a class="u-primary-text-color" href="<?php echo esc_url( home_url( '/' ) ); ?>" rel="home"><?php bloginfo( 'name' ); ?></a></p>
+								<p class="site-title">
+									<?php
+									// Check if the Custom Theme Options
+									if (get_option('theme_options')) {
+										// Check if theme options are set
+										$theme_options = get_option('theme_options');
+										if ($theme_options && isset($theme_options['site_logo']) && !empty($theme_options['site_logo'])) {
+											?>
+											<a class="u-primary-text-color" href="<?php echo esc_url(home_url('/')); ?>" rel="home">
+												<img src="<?php echo esc_url($theme_options['site_logo']); ?>" alt="<?php bloginfo('name'); ?>">
+											</a>
+											<?php
+										} else {
+											?><a class="u-primary-text-color" href="<?php echo esc_url(home_url('/')); ?>" rel="home"><?php echo esc_html($theme_options['site_title']); ?></a><?php
+										}
+									} else {
+										?><a class="u-primary-text-color" href="<?php echo esc_url(home_url('/')); ?>" rel="home"><?php bloginfo('name'); ?></a><?php
+									}
+									?>
+								</p>
 							<?php
-						endif;
+							endif;
+							
+						
 						?>
 					</div><!-- .site-branding -->
 				</div>
-				<div class="u-flex-column u-flex-basis-7 u-flex-basis-4@mobile-max">
+				<div class="u-flex-column u-flex-basis-70 u-flex-basis-40@max-767">
 					<nav id="site-navigation" class="main-navigation">
 						<button class="menu-toggle " aria-label="Menu" aria-controls="primary-menu" aria-expanded="false"><svg fill="#000000" xmlns="http://www.w3.org/2000/svg"  viewBox="0 0 30 30" width="30px" height="30px"><path d="M 3 7 A 1.0001 1.0001 0 1 0 3 9 L 27 9 A 1.0001 1.0001 0 1 0 27 7 L 3 7 z M 3 14 A 1.0001 1.0001 0 1 0 3 16 L 27 16 A 1.0001 1.0001 0 1 0 27 14 L 3 14 z M 3 21 A 1.0001 1.0001 0 1 0 3 23 L 27 23 A 1.0001 1.0001 0 1 0 27 21 L 3 21 z"/></svg></button>
 						<div class="md-prime-menu">
@@ -62,3 +112,12 @@ if ( function_exists( 'wp_body_open' ) ) {
 			</div>
 		</div>
 	</header><!-- #masthead -->
+<style>
+<?php
+$theme_options = get_option('theme_options');
+// Output custom CSS
+if (isset($theme_options['custom_css'])) {
+	echo wp_kses_post($theme_options['custom_css']);
+}
+?>
+</style>
